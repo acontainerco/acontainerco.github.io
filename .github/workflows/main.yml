@@ -10,3 +10,18 @@ jobs:
         uses: burgess01/11ty-action@v0.1.6-alpha
         with:
           directory: src
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1.0.4
+        with:
+          name: site
+          path: ./src/_site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: publish
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

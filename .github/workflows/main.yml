@@ -1,26 +1,32 @@
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
-  publish:
+  # Build job
+  build:
     runs-on: ubuntu-latest
-    name: Publish site
     steps:
-      - name: 11ty
-        id: eleventy
-        uses: burgess01/11ty-action@v0.1.6-alpha
-        with:
-          directory: src
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Build with 11ty
+        run: |
+          cd src
+          npm install
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
-          name: site
-          path: ./src/_site
+          name: src
+          path: ./src/dist
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: publish
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

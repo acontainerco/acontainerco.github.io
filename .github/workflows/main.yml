@@ -13,14 +13,12 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build with 11ty
         run: |
-          cd src
           npm install
           npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
-          name: src
-          path: ./src/dist
+          path: ./dist
   deploy:
     environment:
       name: github-pages

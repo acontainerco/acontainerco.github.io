@@ -1,4 +1,5 @@
 {
   "name": "container",
-  "language": "en"
+  "language": "en",
+  "logo": "/img/logo.png"
 }

@@ -3,5 +3,76 @@ layout: layouts/base.njk
 title: language in novel forms
 ---
 {%- for project in collections.projects -%}
-  <li><a href = "projects/{{ project.data.slug }}/">{{ project.data.title }}</a></li>
+  {%- if "latest" in project.data.tags -%}
+    <div id = "details" class = "featured">
+      <h2> {{ project.data.title }} </h2>
+      <h3> {{ project.data.author }} </h3>
+      <p> {{ project.data.summary }} </p>
+      <p> {{ project.data.production_details }} </p>
+      <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
+    </div>
+    <div id = "masonry">
+        {%- for image in project.data.images -%}
+          <div>
+            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
+              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
+            </a>
+          </div>
+        {%- endfor -%}
+    </div>
+  {%- endif -%}
 {%- endfor -%}
+
+<h2 id = "project-section">Projects</h2>
+{%- for project in collections.projects -%}
+  {%- if not "latest" in project.data.tags -%}
+    <a href = "projects/{{ project.data.slug }}/">{{ project.data.title }}</a>
+  {%- endif -%}
+{%- endfor -%}
+
+<h2 id = "look-books-section"></h2>
+{%- for project in collections.projects -%}
+  {%- if "look-book" in project.data.tags -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<h2 id = "about-section">About</h2>
+<p>Container is a project dedicated to publishing language in novel forms.
+Often projects take the shape of things that are not what is normally
+classified as "book-like." Sometimes objects look like traditional books.
+It depends.</p>
+
+<p>Container's original run was from 2017 - 2019 under direction of 
+Douglas Luman and Jenni B. Baker. This incarnation of the press emarked
+on a long rest after Jenni's passing in late 2020 due to complications
+from glioblastoma, a rare form of brain cancer.</p>
+
+<p>In 2023, Doug woke Container up again.</p>
+<h3>Collection details</h3>
+<p>Container’s text object and artist's books can be found in the collections of
+  the Arab American National Museum, Brown University, Cleveland Institute of Art, 
+  Duke University, Maine College of Art (MECA), Ohio University, 
+  the Poetry Center at the University of Arizona, the Poetry Foundation Library, 
+  Rhode Island School of Design (RISD), Ringling College of Art and Design, School of the Art Institute of Chicago (SAIC), 
+  St. Lawrence University, SUNY Buffalo, UCLA, Swarthmore College, 
+  University of Maryland Baltimore County and University of Minnesota Minneapolis, among others. Container thanks 
+  these institutions for their care and curation of our work.</p>
+
+<h3>Masthead</h3>
+  <h4>Jenni B. Baker</h4>
+  <img src = "/img/people/jenni.jpg" style="display: inline;">
+  <p>Poet and artist. She created poetry and text objects from David Foster Wallace's <em>Infinite Jest</em>, 
+  the <em>Boy Scouts of America Handbook</em>, <em>Grimm's Household Tales</em>, <em>Washington Post</em> articles, 
+  <em>This American Life</em> transcripts, standardized tests, sign language dictionaries, NASA mission voice transcriptions, 
+  dream interpretation books, Pac-Man guidebooks, science experiment manuals, video game walkthroughs, chess manuals, 
+  <em>Paris Review</em> interviews, internet searches and more.</p>
+  <p>Find out more about her and her work <a href = "http://jennibbaker.com" target = "_blank">at her site</a>.
+  </p>
+  <h4>Douglas Luman</h4>
+  <img src = "/img/people/doug.png" style="display: inline; width: 150px;">
+  <p>Multi-disciplinary artist and digital human based in Pittsburgh, Pennsylvania. They received their MFA 
+  from George Mason University. They are the researcher at <a href = "https://appliedpoetics.org">appliedpoetics.org</a>, 
+  former art director at <a href = "https://stillhousepress.org">Stillhouse Press</a> and Assistant Professor of 
+  Computer Science at Allegheny College.</p>
+  <p>Doug is the author of two books: <a href = "http://www.insidethecastle.org/the-f-text/" target = "_blank"><em>The F Text</em></a> (Inside the Castle, 2017), 
+    and <a href = "https://sublunaryeditions.com/products/rationalism-douglas-luman" target = "_blank">Rationalism</a> (Sublunary Editions, 2021).</p>

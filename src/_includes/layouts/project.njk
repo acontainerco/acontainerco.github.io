@@ -1,0 +1,29 @@
+{%- include "partials/head.njk" -%}
+  {%- include "partials/menu.njk" -%}
+  <div id = "content">
+    <div id = "details" class = "featured">
+      <h2> {{ title }} </h2>
+      <h3> {{ author }} </h3>
+      <p> ${{ price }} </p>
+      <div id = "shipping">
+        <ul>
+          <li> Shipping (US): ${{ shipping_us }} </li>
+          <li> Shipping (International): ${{ shipping_intl }} </li>
+        </ul>
+      </div>
+      <h4>About</h4>
+      <p style = "margin-bottom: 1vw;"> {{ summary }} </p>
+      <p> {{ production_details }} </p>
+    </div>
+    <div id = "masonry">
+        {%- for image in images -%}
+          <div>
+            <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
+              <img src = "/img/projects/{{slug}}/{{image.name}}" alt = "{{image.alt}}">
+            </a>
+          </div>
+        {%- endfor -%}
+    </div>
+  {{ content | safe }}
+  </div>
+{%- include "partials/footer.njk" -%}

@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ site.language }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>{{ title }} | {{ site.name }}</title>
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-    <link rel="stylesheet" href="https://use.typekit.net/wlr2pya.css">
-  </head>
-  <body>
-  <div id="about">
-    <div id = "menu">
-      <ul>
-        <li>FOOD SAFE</li>
-        <li>FOOD SAFE</li>
-        <li><img src="/img/logo.png" class = "logo" alt="Container logo as unfolded quarter-folded map" /></li>
-        <li>FOOD SAFE</li>
-        <li>FOOD SAFE</li>
-    </div>
-  </div>
+{%- include "partials/head.njk" -%}
+  {%- include "partials/menu.njk" -%}
   <div id = "content">
   {{ content | safe }}
   </div>
-  <div id = "footer">
-  </div>
-  <script src="{{ 'js/scripts.js' | url }}"></script>
-  </body>
-</html>
+{%- include "partials/footer.njk" -%}

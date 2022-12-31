@@ -3,31 +3,60 @@ title: Holdings
 author: Colette LaBouff
 slug: holdings
 description: Holdings
-price: $
+price: 325.00
+shipping_us: 15.00
+shipping_intl: 30.00
+summary: Holdings features pieces written during the author’s six-months working as a part-time reference librarian at a public library in Roswell, New Mexico.
+production_details:  Produced in a limited edition of 30 copies as a case-bound accordion book with an accompanying slipcase.
+images: [
+    {"name": "labouff_holdings_2.jpg", "alt": "2"},
+    {"name": "labouff_holdings_4.jpg", "alt": "2"},
+    {"name": "labouff_holdings_5.jpg", "alt": "2"},
+    {"name": "labouff_holdings_6.jpg", "alt": "2"},
+    {"name": "labouff_holdings_7.jpg", "alt": "2"},
+    {"name": "labouff_holdings_9.jpg", "alt": "2"},
+]
+tags: latest
 ---
 
-<div>
-<h2> {{ title }}</h2>
-<h3> {{ author }} </h3>
-<p>{{ price }}</p>
-</div>
+## Artist's statement
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur. Tristique magna sit amet purus gravida quis blandit turpis. Ultrices sagittis orci a scelerisque. Justo nec ultrices dui sapien eget mi proin. Sed id semper risus in hendrerit gravida rutrum quisque. Integer vitae justo eget magna fermentum. Et egestas quis ipsum suspendisse ultrices. Eu scelerisque felis imperdiet proin fermentum leo vel. Posuere lorem ipsum dolor sit amet. A pellentesque sit amet porttitor eget dolor morbi non. Leo duis ut diam quam nulla. Placerat duis ultricies lacus sed turpis tincidunt id. Viverra maecenas accumsan lacus vel facilisis volutpat est. Vitae tortor condimentum lacinia quis vel eros donec. Massa massa ultricies mi quis hendrerit dolor. A diam sollicitudin tempor id eu nisl. Lorem mollis aliquam ut porttitor leo a. Arcu risus quis varius quam quisque.
+I’d been working for six months as a part-time reference librarian at the public library in Roswell, New Mexico, when my second marriage fell apart at the end of 2017.
 
-Senectus et netus et malesuada fames ac. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Enim diam vulputate ut pharetra sit amet aliquam id. Phasellus egestas tellus rutrum tellus pellentesque eu. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Fusce ut placerat orci nulla pellentesque dignissim. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Porttitor leo a diam sollicitudin tempor id. Eget duis at tellus at urna condimentum. Fermentum posuere urna nec tincidunt praesent. Scelerisque varius morbi enim nunc faucibus. Urna id volutpat lacus laoreet non curabitur. Quis ipsum suspendisse ultrices gravida dictum fusce. Eu lobortis elementum nibh tellus molestie. Molestie nunc non blandit massa.
+I called my first husband, a good friend, to see if he had any vacant apartments. He showed me a studio; I spotted two scorpions, curled up at the baseboard at the entrance to the house. Scorpions! I pointed. He laughed, said they’re dead. He kicked the wall and the pair unfurled and ran outside.
 
-Montes nascetur ridiculus mus mauris vitae ultricies leo. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Fames ac turpis egestas sed tempus urna et pharetra. Tincidunt eget nullam non nisi. Fusce id velit ut tortor. Faucibus purus in massa tempor nec feugiat. Quisque sagittis purus sit amet. Tristique magna sit amet purus gravida quis blandit turpis. Sit amet porttitor eget dolor morbi. Nec dui nunc mattis enim ut.
+Completely broke and in debt, I’d been searching for meaningful and sustaining full time work for two years. At home, things unraveled. My evenings were spent arguing. I was in a car crash. I was audited for a long ago tax year. The AC broke, my small dog puked repeatedly under my bed where it was hard to reach. Increasingly, my husband and I aligned ourselves on opposite sides of politics, the news, and, finally, every room.
 
-Erat imperdiet sed euismod nisi porta. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Nulla pharetra diam sit amet nisl suscipit adipiscing. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Non arcu risus quis varius quam. Arcu cursus vitae congue mauris. Volutpat diam ut venenatis tellus. Ultrices sagittis orci a scelerisque purus. Mi bibendum neque egestas congue quisque. Mi quis hendrerit dolor magna. Nunc aliquet bibendum enim facilisis gravida neque.
+I moved into the scorpion house the second week of December.
 
-Consectetur a erat nam at lectus urna. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Elementum nibh tellus molestie nunc non blandit massa enim. Arcu cursus euismod quis viverra nibh cras pulvinar. Faucibus in ornare quam viverra. Pellentesque nec nam aliquam sem et tortor consequat id. Accumsan tortor posuere ac ut consequat. Nec tincidunt praesent semper feugiat. Mattis enim ut tellus elementum sagittis vitae et. Vitae nunc sed velit dignissim sodales ut eu sem. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Leo duis ut diam quam nulla porttitor massa id. Eu scelerisque felis imperdiet proin.
+In the morning, I went to the library where people asked for help, something I thought about all the time: asking for help. I had to ask for housing, to continue to ask for a job, to ask for money. I often would think: Am I the only person who can help you right now?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur. Tristique magna sit amet purus gravida quis blandit turpis. Ultrices sagittis orci a scelerisque. Justo nec ultrices dui sapien eget mi proin. Sed id semper risus in hendrerit gravida rutrum quisque. Integer vitae justo eget magna fermentum. Et egestas quis ipsum suspendisse ultrices. Eu scelerisque felis imperdiet proin fermentum leo vel. Posuere lorem ipsum dolor sit amet. A pellentesque sit amet porttitor eget dolor morbi non. Leo duis ut diam quam nulla. Placerat duis ultricies lacus sed turpis tincidunt id. Viverra maecenas accumsan lacus vel facilisis volutpat est. Vitae tortor condimentum lacinia quis vel eros donec. Massa massa ultricies mi quis hendrerit dolor. A diam sollicitudin tempor id eu nisl. Lorem mollis aliquam ut porttitor leo a. Arcu risus quis varius quam quisque.
+At home I searched for jobs, and then I returned to the library to answer everyone’s questions. The crush of requests delivered me from myself, but also became a deep realization of how much need is public.
 
-Senectus et netus et malesuada fames ac. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Enim diam vulputate ut pharetra sit amet aliquam id. Phasellus egestas tellus rutrum tellus pellentesque eu. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Fusce ut placerat orci nulla pellentesque dignissim. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Porttitor leo a diam sollicitudin tempor id. Eget duis at tellus at urna condimentum. Fermentum posuere urna nec tincidunt praesent. Scelerisque varius morbi enim nunc faucibus. Urna id volutpat lacus laoreet non curabitur. Quis ipsum suspendisse ultrices gravida dictum fusce. Eu lobortis elementum nibh tellus molestie. Molestie nunc non blandit massa.
+My patience with strangers lengthened. I was buoyed by their determination in asking. The pieces in Holdings began with my writing down patrons’ questions and phrases; I wrote these on small pieces of paper usually reserved for author names and call numbers. On my fifteen-minute breaks, I walked as far away from the library as possible and took pictures: images of my town filled with inhabitants wanting things to be different.
 
-Montes nascetur ridiculus mus mauris vitae ultricies leo. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Fames ac turpis egestas sed tempus urna et pharetra. Tincidunt eget nullam non nisi. Fusce id velit ut tortor. Faucibus purus in massa tempor nec feugiat. Quisque sagittis purus sit amet. Tristique magna sit amet purus gravida quis blandit turpis. Sit amet porttitor eget dolor morbi. Nec dui nunc mattis enim ut.
+In the scorpion house, there were scorpions.
 
-Erat imperdiet sed euismod nisi porta. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Nulla pharetra diam sit amet nisl suscipit adipiscing. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Non arcu risus quis varius quam. Arcu cursus vitae congue mauris. Volutpat diam ut venenatis tellus. Ultrices sagittis orci a scelerisque purus. Mi bibendum neque egestas congue quisque. Mi quis hendrerit dolor magna. Nunc aliquet bibendum enim facilisis gravida neque.
+No stranger at the library had to know my situation. No one had to know I was suddenly living, untethered, in a small town and unsure where I’d land. But I had to know their situations, carried in through the lobby doors, carried in with portfolios and outdated resumes, carried in with an extra person they brought for support when they came for legal forms, carried in with their out-of-their mind drug haze and toddler.
 
-Consectetur a erat nam at lectus urna. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Elementum nibh tellus molestie nunc non blandit massa enim. Arcu cursus euismod quis viverra nibh cras pulvinar. Faucibus in ornare quam viverra. Pellentesque nec nam aliquam sem et tortor consequat id. Accumsan tortor posuere ac ut consequat. Nec tincidunt praesent semper feugiat. Mattis enim ut tellus elementum sagittis vitae et. Vitae nunc sed velit dignissim sodales ut eu sem. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Leo duis ut diam quam nulla porttitor massa id. Eu scelerisque felis imperdiet proin.
+In the scorpion house, there were scorpions.
+
+I slept with a flashlight in my hand. To be less afraid, I read about them. I learned that, when there’s no food, some scorpions are able to slow their metabolism dramatically and survive through a season on a single insect a year. I started to admire them, their endurance in the face of scarcity, their tails up despite the lack in winter, the way they ran right toward me.
+
+## About the author
+
+Colette LaBouff writes essays and poems. Her writing has recently appeared in _At Length_ and _The Tenderness Project_. In 2016, she was a contributor and curator for _Documentum_ and its second issue focusing on Instagram, Pictures and Words. She is the author of one book of prose poems, _Mean_, published by University of Chicago Press in 2008.
+
+Originally from California, she earned an MFA in poetry and Ph.D. in English at University of California, Irvine. She curates the poetry and image feature at _Zocalo Public Square_ and she is the Executive Director of the Taos Center for the Arts in Taos, New Mexico.
+
+## About the object
+
+Colette LaBouff’s _Holdings_ is produced as a case-bound accordion book with an accompanying slipcase, in an edition of 30 copies. The final object measures roughly 7.5 feet when fully expanded.
+
+Presented in the form of individual library cards, LaBouff’s narrative mixes prose pieces with photography taken by the author as part of a self-directed project during her time working at the library serving as the setting for this collection.
+
+Paper used to construct _Holdings_ is sourced from recycled or sustainably-made, acid-free products milled by Neenah Paper (Alpharetta, GA) and Canson (Annonay, France). The binding's end paper is a fair-trade paper handcrafted in Bangladesh from jute fiber and distributed by De Milo Design Studio (Pasadena, CA). All adhesives are acid-free and pH netural. This project uses Canon CLI-42 ink printed on a Canon Pixma PRO-100 printer, and Speedball water-soluble screen printing ink.
+
+Editions were cut, bound, printed, and assembled at a variety of locations in Baltimore, MD, including the [Open Works](https://www.openworksbmore.org/) makerspace.
+
+Special thanks to the University of Maryland Baltimore County Albert O. Kuhn Library and Gallery for allowing us to take photos in their collections.

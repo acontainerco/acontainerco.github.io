@@ -1,5 +1,10 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addNunjucksShortcode("productImage", (type, product, url, alt) => {
-        return "<img src = '/img/{{type}}/{{product}}/{{url}}' alt = '{{alt}}'></img>";
+    eleventyConfig.addNunjucksGlobal("randomHash", () => {
+        let hash = [...Array(5)];
+        return hash.map( 
+            () => {
+                return Math.floor(Math.random() * 16).toString(16);
+            }
+        ).join('');
     });
 }

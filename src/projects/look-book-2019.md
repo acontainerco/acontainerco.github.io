@@ -1,7 +1,7 @@
 ---
 title: Look Books, Series 2
 author: Colette LaBouff
-slug: Look-Book-2019
+slug: look-book-2019
 description: Look Books, Series 2
 price: sold out
 shipping_us: 

@@ -1,7 +1,20 @@
 ---
 title: Saw Palmettos
+author: Charles Theonia
 slug: saw-palmettos
-description: Saw Palmettos
+price:
+sold_out: true
+shipping_us: 
+shipping_intl: 
+summary: Saw Palmettos is a series of short poems about hormones, community, and the brain-time continuum.
+production_details:  Produced in a closed edition of 25 copies as a wooden display stand holding 30 tincture bottles.
+images: [
+    {"name": "theonia_saw_palmettos_1.png", "alt": "2"},
+    {"name": "theonia_saw_palmettos_2.png", "alt": "2"},
+    {"name": "theonia_saw_palmettos_3.png", "alt": "2"},
+    {"name": "theonia_saw_palmettos_4.png", "alt": "2"},
+    {"name": "theonia_saw_palmettos_5.png", "alt": "2"},
+]
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 

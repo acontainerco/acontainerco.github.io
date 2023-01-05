@@ -37,6 +37,10 @@ h2:first-child::after {
   content: "";
 }
 
+h3, h4, h5, h6 {
+  margin: 0;
+}
+
 p {
   margin: 0;
   line-height: 5vh;
@@ -211,6 +215,10 @@ ul {
 .featured a:hover{
   background: #E4DCCB !important;
   color: #222 !important;
+}
+
+.project {
+  grid-column-start: 1;
 }
 
 .button {

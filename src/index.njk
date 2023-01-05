@@ -25,23 +25,6 @@ title: language in novel forms
   {%- endif -%}
 {%- endfor -%}
 
-<h2 id = "project-section">Projects</h2>
-{%- for project in collections.projects -%}
-  {%- if not "latest" in project.data.tags -%}
-    {%- if not "lookbook" in project.data.tags -%}
-      <div id = "masonry">
-        {%- for image in project.data.images -%}
-          <div>
-            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
-              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
-            </a>
-          </div>
-        {%- endfor -%}
-      </div>
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
-
 <h2 id = "look-books-section">Look-Books</h2>
 {%- for project in collections.projects -%}
   {%- if "lookbook" in project.data.tags -%}
@@ -66,21 +49,45 @@ title: language in novel forms
   {%- endif -%}
 {%- endfor -%}
 
+<h2 id = "project-section">Projects</h2>
+{%- for project in collections.projects -%}
+  {%- if not "latest" in project.data.tags -%}
+    {%- if not "lookbook" in project.data.tags -%}
+      <div id = "details" class = "project featured">
+        <h2> {{ project.data.title }} </h2>
+        <h3> {{ project.data.author }} </h3>
+        <p> {{ project.data.summary }} </p>
+        <p> {{ project.data.production_details }} </p>
+        <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
+      </div>
+      <div id = "masonry">
+        {%- for image in project.data.images -%}
+          <div>
+            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
+              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
+            </a>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
 <h2 id = "about-section">About</h2>
 <p>Container is a project dedicated to publishing language in novel forms.
 Often projects take the shape of things that are not what is normally
-classified as "book-like." Sometimes objects look like traditional books.
+classified as "book-like." Rarely, our objects look like traditional books.
 It depends.</p>
 
 <p>Container's original run was from 2017 - 2019 under direction of 
-Douglas Luman and Jenni B. Baker. This incarnation of the press emarked
-on a long rest after Jenni's passing in late 2020 due to complications
+Douglas Luman and Jenni B. Baker. This incarnation of the press took a
+long rest after Jenni's passing in late 2020 due to complications
 from glioblastoma, a rare form of brain cancer.</p>
 
-<p>In 2023, Container woke up again to continue the work.</p>
+<p>In 2023, Container woke up.</p>
 
 <h3>Collection details</h3>
-<p>Container’s text object and artist's books can be found in the collections of
+<p>Container's text objects and artist's books can be found in the collections of
   the Arab American National Museum, Brown University, Cleveland Institute of Art, 
   Duke University, Maine College of Art (MECA), Ohio University, 
   the Poetry Center at the University of Arizona, the Poetry Foundation Library, 

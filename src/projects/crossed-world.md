@@ -1,7 +1,13 @@
 ---
 title: In the Crossed World of Animals
+author: Terri Witek
 slug: crossed-world
-description: In the Crossed World of Animals
+description: Crossed World
+price: 
+shipping_us: 
+shipping_intl: 
+summary: Stichy-witchy
+production_details:  Produced in a limited edition of 30 copies as a case-bound accordion book with an accompanying slipcase.
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 

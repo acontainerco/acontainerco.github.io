@@ -216,3 +216,7 @@ ul {
 .button {
   margin-top: 2vw;
 }
+
+.flexmasonry-break {
+  padding: 0 !important;
+}

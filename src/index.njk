@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: language in novel forms
 ---
 {%- for project in collections.projects -%}
+  {%- if not "lookbook" in project.data.tags -%}
   {%- if "latest" in project.data.tags -%}
     <div id = "details" class = "featured">
       <h2> {{ project.data.title }} </h2>
@@ -21,18 +22,47 @@ title: language in novel forms
         {%- endfor -%}
     </div>
   {%- endif -%}
+  {%- endif -%}
 {%- endfor -%}
 
 <h2 id = "project-section">Projects</h2>
 {%- for project in collections.projects -%}
   {%- if not "latest" in project.data.tags -%}
-    <a href = "projects/{{ project.data.slug }}/">{{ project.data.title }}</a>
+    {%- if not "lookbook" in project.data.tags -%}
+      <div id = "masonry">
+        {%- for image in project.data.images -%}
+          <div>
+            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
+              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
+            </a>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
-<h2 id = "look-books-section"></h2>
+<h2 id = "look-books-section">Look-Books</h2>
 {%- for project in collections.projects -%}
-  {%- if "look-book" in project.data.tags -%}
+  {%- if "lookbook" in project.data.tags -%}
+    {%- if "latest" in project.data.tags -%}
+      <div id = "masonry" style = "grid-column-start: 1;">
+        {%- for image in project.data.images -%}
+          <div>
+            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
+              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
+            </a>
+          </div>
+        {%- endfor -%}
+      </div>
+      <div id = "details" class = "featured">
+        <h2> {{ project.data.title }} </h2>
+        <h3> {{ project.data.author }} </h3>
+        <p> {{ project.data.summary }} </p>
+        <p> {{ project.data.production_details }} </p>
+        <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
+      </div>
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
@@ -47,7 +77,8 @@ Douglas Luman and Jenni B. Baker. This incarnation of the press emarked
 on a long rest after Jenni's passing in late 2020 due to complications
 from glioblastoma, a rare form of brain cancer.</p>
 
-<p>In 2023, Doug woke Container up again.</p>
+<p>In 2023, Container woke up again to continue the work.</p>
+
 <h3>Collection details</h3>
 <p>Container’s text object and artist's books can be found in the collections of
   the Arab American National Museum, Brown University, Cleveland Institute of Art, 

@@ -19,22 +19,15 @@ html{
 h1, h2, h3, h4, h5, h6 {
   grid-column-start: 1;
   margin: 1vw 0 1vw 0;
+  column-span: all;
 }
 
-h2 {
+section h2:first-child {
   border-top: solid 2px #222;
 }
 
-h2:first-child {
+#details h2 {
   border-top: none;
-}
-
-h2::after{
-  content: "⟶";
-}
-
-h2:first-child::after {
-  content: "";
 }
 
 h3, h4, h5, h6 {
@@ -61,6 +54,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+section:last-of-type {
+  margin-bottom: 5vh;
+}
+
 a,
 a:visited,
 a[href] {
@@ -75,6 +72,7 @@ a[href] {
   font-family: input-mono, monospace;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 5vh;
 }
 
 ul {
@@ -109,7 +107,6 @@ ul {
 #details h2 {
   font-size: 2em;
 }
-}
 
 #shipping {
   margin-left: 1vw;
@@ -125,36 +122,22 @@ ul {
   font-size: 1.5vw;
 }
 
-#menu a {
+#menu a, #footer a {
   color: #E4DCCB;
   text-decoration: none;
 }
 
-#menu a:hover, #content a {
+#menu a:hover, .content a, #footer a:hover {
   color: #EA7A57;
   text-decoration: none;
 }
 
-#content a:hover {
+.content a:hover {
   color: #A6c4bc;
 }
 
-#content{
-  padding: 5vw;
-  color: #222;
-  display: grid;
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-  grid-auto-flow: row;
-  grid-template-rows: min-content;
-  gap: 1vw;
-}
-
-#masonry {
-  /*display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1%;
-  grid-auto-flow: dense;
-  */
+section p:first-of-type{
+  grid-column-start: 1;
 }
 
 #masonry > div {
@@ -166,13 +149,51 @@ ul {
   width:100%;
 }
 
+#institutions-list li:first-of-type {
+  margin-top: 0;
+  margin-bottom: 1.25vh;
+}
+
+#institutions-list li {
+  margin: 1.25vh 0vh;
+}
+
+#masthead img {
+  grid-column-start: 1;
+}
+
+#masthead p {
+  grid-column-start: unset;
+}
+
 #footer {
   background: #222;
   color: #E4DCCB;
-  height: 8vw;
+  height: 15vh;
   position: relative;
   bottom: 0;
   width: 100%;
+  padding: 3vh 5vw;
+  font-family: input-mono, monospace;
+  font-size: .75rem;
+}
+
+#footer-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#footer #social, #footer #social li {
+  display: inline;
+  padding: 0 1vw;
+  align-self: center;
+}
+
+#footer #social img {
+  width: 2vh;
+  margin-right: 1vw;
 }
 
 .subtitle {
@@ -227,4 +248,18 @@ ul {
 
 .flexmasonry-break {
   padding: 0 !important;
+}
+
+#masonry {
+  align-self: center;
+}
+
+.content{
+  padding: 1vh 5vw;
+  color: #222;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-auto-flow: row;
+  grid-template-rows: min-content;
+  gap: 2vw;
 }

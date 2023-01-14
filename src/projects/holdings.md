@@ -33,7 +33,7 @@ In the morning, I went to the library where people asked for help, something I t
 
 At home I searched for jobs, and then I returned to the library to answer everyone’s questions. The crush of requests delivered me from myself, but also became a deep realization of how much need is public.
 
-My patience with strangers lengthened. I was buoyed by their determination in asking. The pieces in Holdings began with my writing down patrons’ questions and phrases; I wrote these on small pieces of paper usually reserved for author names and call numbers. On my fifteen-minute breaks, I walked as far away from the library as possible and took pictures: images of my town filled with inhabitants wanting things to be different.
+My patience with strangers lengthened. I was buoyed by their determination in asking. The pieces in _Holdings_ began with my writing down patrons’ questions and phrases; I wrote these on small pieces of paper usually reserved for author names and call numbers. On my fifteen-minute breaks, I walked as far away from the library as possible and took pictures: images of my town filled with inhabitants wanting things to be different.
 
 In the scorpion house, there were scorpions.
 

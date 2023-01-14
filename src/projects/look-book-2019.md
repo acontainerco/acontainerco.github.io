@@ -1,13 +1,14 @@
 ---
 title: Look Books, Series 2
-author: Colette LaBouff
+author: Kristen Miller, C. Kubasta and Mollie Oblinger, Chaun Webster, Bryan Borland and Seth Pennington, Christian Bök 
 slug: look-book-2019
 description: Look Books, Series 2
-price: sold out
+price:
+sold_out: true
 shipping_us: 
 shipping_intl: 
-summary: Sumry
-production_details:  Sumry
+summary: The Look Books subscription series places old experiences in a new context, presenting five hybrid literary and visual texts that can be read by inserting them into the viewer and advancing the frame forward.
+production_details:  Over the course of the year, subscribers will receive one viewer and five reels, mailed out bimonthly.
 images: [
     {"name": "kristen_miller_1.jpg", "alt": "2"},
     {"name": "c_kubasta_1.jpg", "alt": "2"},
@@ -18,44 +19,40 @@ images: [
 tags: ["lookbook", "latest"]
 ---
 
-## Artist's statement
+## Work included
 
-I’d been working for six months as a part-time reference librarian at the public library in Roswell, New Mexico, when my second marriage fell apart at the end of 2017.
+The 2019 series includes work from five artists or pairs of collaborators.
 
-I called my first husband, a good friend, to see if he had any vacant apartments. He showed me a studio; I spotted two scorpions, curled up at the baseboard at the entrance to the house. Scorpions! I pointed. He laughed, said they’re dead. He kicked the wall and the pair unfurled and ran outside.
+### Causes of Death
 
-Completely broke and in debt, I’d been searching for meaningful and sustaining full time work for two years. At home, things unraveled. My evenings were spent arguing. I was in a car crash. I was audited for a long ago tax year. The AC broke, my small dog puked repeatedly under my bed where it was hard to reach. Increasingly, my husband and I aligned ourselves on opposite sides of politics, the news, and, finally, every room.
+#### Kristen Miller
 
-I moved into the scorpion house the second week of December.
+Seven curious and fantastical causes of death surface in a field of bright shards—like peering through a kaleidoscope into a world where, at any moment, one might die of wonder. Causes of Death is an erasure of Guy Trebay’s “Dreaming of Bill Cunningham at the Men’s Wear Shows in Paris,” which appeared in the New York Times on June 28, 2016.
 
-In the morning, I went to the library where people asked for help, something I thought about all the time: asking for help. I had to ask for housing, to continue to ask for a job, to ask for money. I often would think: Am I the only person who can help you right now?
 
-At home I searched for jobs, and then I returned to the library to answer everyone’s questions. The crush of requests delivered me from myself, but also became a deep realization of how much need is public.
+### I've Been Thinking About Survival
 
-My patience with strangers lengthened. I was buoyed by their determination in asking. The pieces in Holdings began with my writing down patrons’ questions and phrases; I wrote these on small pieces of paper usually reserved for author names and call numbers. On my fifteen-minute breaks, I walked as far away from the library as possible and took pictures: images of my town filled with inhabitants wanting things to be different.
+#### C. Kubasta and Mollie Oblinger
 
-In the scorpion house, there were scorpions.
+I’ve Been Thinking About Survival layers Mollie Oblinger’s renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta’s words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.
 
-No stranger at the library had to know my situation. No one had to know I was suddenly living, untethered, in a small town and unsure where I’d land. But I had to know their situations, carried in through the lobby doors, carried in with portfolios and outdated resumes, carried in with an extra person they brought for support when they came for legal forms, carried in with their out-of-their mind drug haze and toddler.
 
-In the scorpion house, there were scorpions.
+### You are Now Carrying Contraband
 
-I slept with a flashlight in my hand. To be less afraid, I read about them. I learned that, when there’s no food, some scorpions are able to slow their metabolism dramatically and survive through a season on a single insect a year. I started to admire them, their endurance in the face of scarcity, their tails up despite the lack in winter, the way they ran right toward me.
+#### Chaun Webster
 
-## About the author
+Using several source texts you are now carrying contraband is a sonic and visual exploration which places David Walker’s Appeal alongside Amiri Baraka’s Somebody Blew Up America. Walker would be murdered soon after the release of his Appeal. Baraka, who served as the New Jersey Poet Laureate, would be asked to resign from his post after writing Somebody Blew Up America following the September 11 attacks on the World Trade Center. After refusing to do so the governor took the case to the United States Supreme Court, removing the position from the state. In situating these two texts and responses to them you are now carrying contraband examines censorship, surveillance, state sanctioned violence, and the appropriations and subversive uses black subjects have had of language—a technology often deployed against them.
 
-Colette LaBouff writes essays and poems. Her writing has recently appeared in _At Length_ and _The Tenderness Project_. In 2016, she was a contributor and curator for _Documentum_ and its second issue focusing on Instagram, Pictures and Words. She is the author of one book of prose poems, _Mean_, published by University of Chicago Press in 2008.
 
-Originally from California, she earned an MFA in poetry and Ph.D. in English at University of California, Irvine. She curates the poetry and image feature at _Zocalo Public Square_ and she is the Executive Director of the Taos Center for the Arts in Taos, New Mexico.
+### Lineage
 
-## About the object
+#### Bryan Borland and Seth Pennington
 
-Colette LaBouff’s _Holdings_ is produced as a case-bound accordion book with an accompanying slipcase, in an edition of 30 copies. The final object measures roughly 7.5 feet when fully expanded.
+LINEAGE is comprised of a poem written by Bryan Borland and a found image, a collage, and a series of self-portraits by Seth Pennington, some of which are digitally double-exposed over daguerreotypes housed in the Library of Congress’ collection. This project explores the connective tissue of our very being, how every act continues in its momentum in present day.
 
-Presented in the form of individual library cards, LaBouff’s narrative mixes prose pieces with photography taken by the author as part of a self-directed project during her time working at the library serving as the setting for this collection.
 
-Paper used to construct _Holdings_ is sourced from recycled or sustainably-made, acid-free products milled by Neenah Paper (Alpharetta, GA) and Canson (Annonay, France). The binding's end paper is a fair-trade paper handcrafted in Bangladesh from jute fiber and distributed by De Milo Design Studio (Pasadena, CA). All adhesives are acid-free and pH netural. This project uses Canon CLI-42 ink printed on a Canon Pixma PRO-100 printer, and Speedball water-soluble screen printing ink.
+### The Road Not Taken
 
-Editions were cut, bound, printed, and assembled at a variety of locations in Baltimore, MD, including the [Open Works](https://www.openworksbmore.org/) makerspace.
+#### Christian Bök 
 
-Special thanks to the University of Maryland Baltimore County Albert O. Kuhn Library and Gallery for allowing us to take photos in their collections.
+The Road Not Taken refers, of course, to the poem by Robert Frost, and my submission responds to the path of the poet — “the one less travelled.” Poetry is, in fact, the name of a town in Texas (and no other community in the world bears such a moniker). Maston Ussery, a merchant from 1865, has bestowed this name upon the town, because, for him, the region in springtime calls to mind a poem. I have marked this locale on Google Maps, capturing this site for a slide that precedes six other images, each of which represents a section from Poetry Rd. — a causeway, situated near Poetry, Texas. I have divided up the road into six equidistant coordinates, framing six straight, unmarked sections of the road on Google Maps, after which I erase any text, so as to produce an abstract painting — a kind of visual poetry that documents a path along which a poet might make a figural journey. I have included coordinates so that, after viewing the painting in the viewfinder, a reader might consult Google Maps in order to see this “road” of poetry in real life.

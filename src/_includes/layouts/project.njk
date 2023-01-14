@@ -1,13 +1,14 @@
 {%- include "partials/head.njk" -%}
   {%- include "partials/menu.njk" -%}
-  <div id = "content">
+  <section>
+  <div class = "content">
     <div id = "details" class = "featured">
       <h2> {{ title }} </h2>
       <h3> {{ author }} </h3>
       {%- if sold_out -%}
         <p>Sold out</p>
       {%- else -%}
-        <p> ${{ price }} </p>
+        <p> ${{ price }}</p>
         <div id = "shipping">
           <ul>
             <li> Shipping (US): ${{ shipping_us }} </li>
@@ -28,6 +29,11 @@
           </div>
         {%- endfor -%}
     </div>
+   </div>
+  </section>
+  <section>
+    <div class = "content">
   {{ content | safe }}
   </div>
+  </section>
 {%- include "partials/footer.njk" -%}

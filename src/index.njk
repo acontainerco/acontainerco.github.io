@@ -2,6 +2,8 @@
 layout: layouts/base.njk
 title: language in novel forms
 ---
+<section>
+<div class = "content">
 {%- for project in collections.projects -%}
   {%- if not "lookbook" in project.data.tags -%}
   {%- if "latest" in project.data.tags -%}
@@ -24,7 +26,11 @@ title: language in novel forms
   {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
+</div>
+</section>
 
+<section>
+<div class = "content">
 <h2 id = "look-books-section">Look-Books</h2>
 {%- for project in collections.projects -%}
   {%- if "lookbook" in project.data.tags -%}
@@ -48,7 +54,11 @@ title: language in novel forms
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
+</div>
+</section>
 
+<section>
+<div class = "content">
 <h2 id = "project-section">Projects</h2>
 {%- for project in collections.projects -%}
   {%- if not "latest" in project.data.tags -%}
@@ -72,7 +82,10 @@ title: language in novel forms
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
-
+</div>
+</section>
+<section>
+<div class = "content">
 <h2 id = "about-section">About</h2>
 <p>Container is a project dedicated to publishing language in novel forms.
 Often projects take the shape of things that are not what is normally
@@ -80,22 +93,35 @@ classified as "book-like." Rarely, our objects look like traditional books.
 It depends.</p>
 
 <p>Container's original run was from 2017 - 2019 under direction of 
-Douglas Luman and Jenni B. Baker. This incarnation of the press took a
+Douglas Luman and Jenni B. Baker. This period of the press took a
 long rest after Jenni's passing in late 2020 due to complications
 from glioblastoma, a rare form of brain cancer.</p>
 
 <p>In 2023, Container woke up.</p>
-
+</div>
+<div class = "content">
 <h3>Collection details</h3>
-<p>Container's text objects and artist's books can be found in the collections of
-  the Arab American National Museum, Brown University, Cleveland Institute of Art, 
-  Duke University, Maine College of Art (MECA), Ohio University, 
-  the Poetry Center at the University of Arizona, the Poetry Foundation Library, 
-  Rhode Island School of Design (RISD), Ringling College of Art and Design, School of the Art Institute of Chicago (SAIC), 
-  St. Lawrence University, SUNY Buffalo, UCLA, Swarthmore College, 
-  University of Maryland Baltimore County and University of Minnesota Minneapolis, among others. Container thanks 
-  these institutions for their care and curation of our work.</p>
-
+<p style = "column-span: all;">Container's text objects and artist's books can be found in the collections of many institutions. 
+  We thank these institutions for their care and curation of our work. These include:
+  <ul id = "institutions-list" style = "column-span: all;">
+    <li>The Arab American National Museum</li>
+    <li>Brown University</li>
+    <li>Cleveland Institute of Art</li>
+    <li>Duke University
+    <li>Maine College of Art (MECA)
+    <li>Ohio University, 
+    <li>The Poetry Center at the University of Arizona
+    <li>The Poetry Foundation Library, 
+    <li>Rhode Island School of Design (RISD)
+    <li>Ringling College of Art and Design
+    <li>School of the Art Institute of Chicago (SAIC)
+    <li>St. Lawrence University, SUNY Buffalo, UCLA, Swarthmore College
+    <li>University of Maryland Baltimore County<li> 
+    <li>University of Minnesota Minneapolis</li>
+  </ul>
+</div>
+<aside id = "masthead">
+<div class = "content">
 <h3>Masthead</h3>
   <h4>Jenni B. Baker</h4>
   <img src = "/img/people/jenni.jpg" style="display: inline;">
@@ -103,14 +129,25 @@ from glioblastoma, a rare form of brain cancer.</p>
   the <em>Boy Scouts of America Handbook</em>, <em>Grimm's Household Tales</em>, <em>Washington Post</em> articles, 
   <em>This American Life</em> transcripts, standardized tests, sign language dictionaries, NASA mission voice transcriptions, 
   dream interpretation books, Pac-Man guidebooks, science experiment manuals, video game walkthroughs, chess manuals, 
-  <em>Paris Review</em> interviews, internet searches and more.</p>
-  <p>Find out more about her and her work <a href = "http://jennibbaker.com" target = "_blank">at her site</a>.
+  <em>Paris Review</em> interviews, internet searches and more. Find out more about her and her work <a href = "http://jennibbaker.com" target = "_blank">at her site</a>.
   </p>
+  </div>
+  <div class = "content">
   <h4>Douglas Luman</h4>
   <img src = "/img/people/doug.png" style="display: inline; width: 150px;">
   <p>Multi-disciplinary artist and digital human based in Pittsburgh, Pennsylvania. They received their MFA 
-  from George Mason University. They are the researcher at <a href = "https://appliedpoetics.org">appliedpoetics.org</a>, 
-  former art director at <a href = "https://stillhousepress.org">Stillhouse Press</a> and Assistant Professor of 
-  Computer Science at Allegheny College.</p>
-  <p>Doug is the author of two books: <a href = "http://www.insidethecastle.org/the-f-text/" target = "_blank"><em>The F Text</em></a> (Inside the Castle, 2017), 
-    and <a href = "https://sublunaryeditions.com/products/rationalism-douglas-luman" target = "_blank">Rationalism</a> (Sublunary Editions, 2021).</p>
+  from George Mason University. They are the researcher at <a href = "https://appliedpoetics.org" target = "_blank">appliedpoetics.org</a>, 
+  former art director at <a href = "https://stillhousepress.org" target = "_blank">Stillhouse Press</a> and Assistant Professor of 
+  Computer Science at Allegheny College. Doug is the author of two books: <a href = "http://www.insidethecastle.org/the-f-text/" target = "_blank"><em>The F Text</em></a> (Inside the Castle, 2017), 
+    and <a href = "https://sublunaryeditions.com/products/rationalism-douglas-luman" target = "_blank"><em>Rationalism</em></a> (Sublunary Editions, 2021).</p>
+</div>
+</aside>
+</section>
+<section>
+  <div class = "content">
+    <h2 id = "submit-section">Submit</h2>
+    <p>Container is currently not open for submissions. We aim to reopen to new bookwork proposals in May 2023. We will make this announcement
+      via our Facebook, Twitter, and Instagram accounts. See below for links to these.</p>
+    </p>
+  </div>
+</section>

@@ -141,6 +141,10 @@ section p:first-of-type{
   grid-column-start: 1;
 }
 
+h2 + p {
+  grid-column-start: 1;
+}
+
 #masonry > div {
   padding: 1%;
 }

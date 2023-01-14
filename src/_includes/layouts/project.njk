@@ -19,6 +19,9 @@
       <h4>About</h4>
       <p style = "margin-bottom: 1vw;"> {{ summary }} </p>
       <p> {{ production_details }} </p>
+      {%- if not sold_out -%}
+        <p class = "button"><a href = "{{ shop }}" target = "_blank">Purchase ⟶</a></p>
+      {%- endif -%}
     </div>
     <div id = "masonry">
         {%- for image in images -%}

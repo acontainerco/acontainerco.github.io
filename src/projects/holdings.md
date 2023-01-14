@@ -17,6 +17,7 @@ images: [
     {"name": "labouff_holdings_9.jpg", "alt": "2"},
 ]
 tags: latest
+shop: https://shop.acontainer.co/product/holdings-colette-labouff
 ---
 
 ## Artist's statement

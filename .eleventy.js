@@ -9,11 +9,5 @@ module.exports = function(eleventyConfig) {
             }
         ).join('');
     });
-
-    /**
-     * Add Collections
-     *
-     * @link https://www.11ty.io/docs/collections
-     */
-    eleventyConfig.addCollection("tagList", tagList);
+    
 }

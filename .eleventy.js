@@ -1,3 +1,5 @@
+const tagList = require("./utils/collections/tagList.js");
+
 module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksGlobal("randomHash", () => {
         let hash = [...Array(5)];
@@ -7,4 +9,11 @@ module.exports = function(eleventyConfig) {
             }
         ).join('');
     });
+
+    /**
+     * Add Collections
+     *
+     * @link https://www.11ty.io/docs/collections
+     */
+    eleventyConfig.addCollection("tagList", tagList);
 }

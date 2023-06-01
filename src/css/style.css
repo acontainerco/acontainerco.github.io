@@ -268,3 +268,7 @@ h2 + p {
   grid-template-rows: min-content;
   gap: 2vw;
 }
+
+.series-link {
+  color: #222 !important;
+}

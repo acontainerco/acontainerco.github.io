@@ -1,0 +1,40 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+layout: layouts/base.njk
+eleventyComputed:
+  title:  "Series: {{ tag }}"
+permalink: /series/{{ tag }}/
+---
+{% assign count = 0 %}
+{%- for project in collections[tag] -%}
+<div class = "content">
+  <div id = "details" class = "project featured">
+    <h2> {{ project.data.title }} </h2>
+    <h3> {{ project.data.author }} </h3>
+    <p> {{ project.data.summary }} </p>
+    <p> {{ project.data.production_details }} </p>
+    <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
+  </div>
+  <div id = "masonry">
+    {%- for image in project.data.images -%}
+      <div>
+        <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
+          <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+  {{ count | plus: 1}}
+posts: {{ count }}
+</div>
+{%- endfor -%}

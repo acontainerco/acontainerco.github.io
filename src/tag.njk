@@ -15,6 +15,7 @@ eleventyComputed:
   title:  "Series: {{ tag }}"
 permalink: /series/{{ tag }}/
 ---
+<section>
 {% set count = 0 %}
 {%- for project in collections[tag] -%}
 {% set count = count + 1 %}
@@ -37,3 +38,4 @@ permalink: /series/{{ tag }}/
   </div>
 </div>
 {%- endfor -%}
+</section>

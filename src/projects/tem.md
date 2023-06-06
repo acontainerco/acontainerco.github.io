@@ -15,6 +15,7 @@ images: [
     {"name": "khadraoui_tem_4.png", "alt": "2"},
     {"name": "khadraoui_tem_5.png", "alt": "2"},
 ]
+tags: "objects"
 ---
 
 ## Artist's Statement

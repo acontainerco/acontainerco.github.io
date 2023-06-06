@@ -16,6 +16,7 @@ images: [
     {"name": "missing-lamp-pillow.png", "alt": "2"},
     {"name": "siege-then-sing-pillow.png", "alt": "2"},
 ]
+tags: "objects"
 shop: https://shop.acontainer.co/products
 ---
 

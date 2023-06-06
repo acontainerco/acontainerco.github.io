@@ -16,7 +16,7 @@ images: [
     {"name": "labouff_holdings_7.jpg", "alt": "2"},
     {"name": "labouff_holdings_9.jpg", "alt": "2"},
 ]
-tags: latest
+tags: ["latest", "objects"]
 shop: https://shop.acontainer.co/product/holdings-colette-labouff
 ---
 

@@ -7,7 +7,7 @@
   background: #EA7A57;
 }
 
-#details::selection {
+.featured::selection {
   color: #222;
   background: #E4DCCB;
 }
@@ -272,3 +272,60 @@ h2 + p {
 .series-link {
   color: #222 !important;
 }
+
+
+@media (max-width: 991.98px) {
+
+  body {
+    font-size: 1rem;
+  }
+
+  .content{
+    grid-template: 1fr / 1fr;
+  }
+
+  p {
+    line-height: 4vh;
+  }
+
+  #footer #social li {
+    display: block;
+  }
+
+  #menu {
+    width: 100vw;
+  }
+
+  #about {
+    height: 25vw;
+  }
+
+  #about .logo {
+    width: 100%;
+    transform: translateY(-45%);
+  }
+
+  .left1, .left2, .right1, .right2 {
+  }
+
+  .mid {
+    float: left;
+    width: 25%;
+    font-size: 0;
+  }
+
+  #about ul li {
+    display: inline-block;
+    font-size: 3vw;
+    margin-right: 2vw;
+  }
+
+  .button {
+    margin-top: 3vh;
+  }
+
+  .featured a {
+    padding: 3vw;
+  }
+  
+ }

@@ -15,7 +15,7 @@ images: [
     {"name": "theonia_saw_palmettos_4.png", "alt": "2"},
     {"name": "theonia_saw_palmettos_5.png", "alt": "2"},
 ]
-shop: 
+tags: "objects"
 ---
 
 ## Artist's Statement

@@ -1,7 +1,8 @@
 ---
 title: E, UIO, A
 author: Dave Drayton
-slug: euoia
+slug: euioa
+sold_out: true
 description: E, UIO, A
 price: 325.00
 shipping_us: 15.00
@@ -9,6 +10,12 @@ shipping_intl: 30.00
 summary: When the envelopes started arriving, she was quite sure they were love letters. The envelopes, always a tasteful beige with just enough bronze to suggest jewelry or affection.
 production_details:  Produced in a limited edition of 25 copies as a photography keepsake box featuring letters and other epistolary ephemera.
 images: [
+    {"name": "drayton_euioa_1.jpg", "alt": "2"},
+    {"name": "drayton_euioa_2.jpg", "alt": "2"},
+    {"name": "drayton_euioa_3.jpg", "alt": "2"},
+    {"name": "drayton_euioa_4.jpg", "alt": "2"},
+    {"name": "drayton_euioa_5.jpg", "alt": "2"},
+    {"name": "drayton_euioa_6.jpg", "alt": "2"},
 ]
 tags: ["objects"]
 ---
@@ -23,7 +30,7 @@ When she was younger, she was as good as blind without her glasses.
 
 There was a Snellen chart joke — you know the ones:
 
-<p align = "center">A
+<p align = "center">A<br/>
 BCD<br/>
 EFGHI<Br/>
 UJKLMNO<Br/>
@@ -46,7 +53,7 @@ The second and third pieces of paper contained a list of general facts about a c
 
 ## About the author
 
-Dave Drayton was an amateur banjo player, founding member of the Atterton Academy, Kanganoulipian, and the author of P(oe)Ms (Rabbit), Haiturograms (Stale Objects dePress) and Poetic Pentagons (Spacecraft Press).
+Dave Drayton was an amateur banjo player, founding member of the Atterton Academy, Kanganoulipian, and the author of _P(oe)Ms_ (Rabbit), _Haiturograms_ (Stale Objects dePress) and _Poetic Pentagons_ (Spacecraft Press).
 
 He works as an educator at the University of Technology Sydney and Western Sydney University.
 

@@ -26,9 +26,7 @@ When the envelopes started arriving, she was quite sure they were love letters. 
 
 They never bore her name, at least, not her full name. Each envelope appeared by methods baffling and clandestine, mysterious or metaphysical, marked with a single E, handwritten in black ink that looked wet, but was dry to touch.
 
-When she was younger, she was as good as blind without her glasses.
-
-There was a Snellen chart joke — you know the ones:
+When she was younger, she was as good as blind without her glasses. There was a Snellen chart joke — you know the ones:
 
 <p align = "center">A<br/>
 BCD<br/>

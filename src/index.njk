@@ -32,6 +32,10 @@ title: language in novel forms
 <section>
 <div class = "content">
 <h2 id = "look-books-section"><a href = "/series/lookbook" class = "series-link">Look-Books</a></h2>
+<p class = "series-description">
+Laced with the "are we there yet?" vacation nostalgia of the 1980s and '90s, the Look Book series invites artists
+to submit work that functions best in the classic view reel format. Each year, we solicit up to six (6) participants 
+to contribute to a year-long subscription series that delivers a new reel to your mailbox every two (2) months.</p>
 {%- for project in collections.projects -%}
   {%- if "lookbook" in project.data.tags -%}
     {%- if "latest" in project.data.tags -%}
@@ -60,6 +64,9 @@ title: language in novel forms
 <section>
 <div class = "content">
 <h2 id = "project-section"><a href = "/series/objects" class = "series-link">Objects</a></h2>
+<p class = "series-description">Objects are our closed-edition large projects. We accept submissions and, on occasion, solicit artists to
+to produce these works through a highly collaborative process, including editorial and conceptual work around submitted text
+and form(s).</a>
 {%- for project in collections.projects -%}
   {%- if not "latest" in project.data.tags -%}
     {%- if not "lookbook" in project.data.tags -%}
@@ -82,6 +89,14 @@ title: language in novel forms
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
+</div>
+</section>
+<section>
+<div class = "content">
+<h2 id = "multitudes-section"><a href = "/series/multitudes" class = "series-link">Multitudes</a></h2>
+<p class = "series-description">Faced with a challenge to make a bookwork from such materials as a rolodex or vintage lunch box, artists engaged in the
+Multitudes series approach well-known objects and forms with unique and (un)characteristic approaches. These works transform mundane objects into text-based
+experiences and engagements that defy, reconfigure, or emerge into what they appear to be.</p>
 </div>
 </section>
 <section>

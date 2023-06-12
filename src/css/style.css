@@ -273,6 +273,16 @@ h2 + p {
   color: #222 !important;
 }
 
+.series-description {
+  grid-column: 1 / span 2;
+}
+
+.series-description:first-letter{
+  float: left;
+  font-size: 9vw;
+  line-height: 7vw;
+}
+
 
 @media (max-width: 991.98px) {
 

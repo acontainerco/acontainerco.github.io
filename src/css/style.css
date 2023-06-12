@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-column-start: 1;
   margin: 1vw 0 1vw 0;
   column-span: all;
+  grid-column: 1 / span 2;
 }
 
 section h2:first-child {
@@ -281,6 +282,8 @@ h2 + p {
   float: left;
   font-size: 9vw;
   line-height: 7vw;
+  font-style: italic;
+  margin-right: 1vw;
 }
 
 

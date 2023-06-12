@@ -294,11 +294,12 @@ h2 + p {
   }
 
   .content{
-    grid-template: 1fr / 1fr;
+    display: block;
   }
 
   p {
     line-height: 4vh;
+    margin: 1vh 1vh;
   }
 
   #footer #social li {
@@ -337,8 +338,15 @@ h2 + p {
     margin-top: 3vh;
   }
 
+  .lightbox-image {
+    width: 100vw;
+   }
+
   .featured a {
     padding: 3vw;
   }
-  
+
+  .series-description {
+     grid-column: none;
+  }  
  }

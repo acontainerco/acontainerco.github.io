@@ -61,11 +61,7 @@ _E,UIO,A_ is published as a box of letters and ephemera. Each box contains:
 
 * 30 envelopes, each containing one letter, one gemstone card and one flower card.
 * One satin scarf (designs vary per box)
-* Assorted ephemera, including:
-  * Brooches
-  * Pressed Flowers
-  * Photographs
-  * Wine corks
+* Assorted ephemera (brooches, pressed Flowers, photographs, wine corks)
 
 _E,UIO,A_ is produced in a limited edition run of 25 copies.
 

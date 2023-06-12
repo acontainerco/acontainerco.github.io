@@ -276,14 +276,17 @@ h2 + p {
 
 .series-description {
   grid-column: 1 / span 2;
+  width: 75vw;
+  margin: 0 auto;
 }
 
 .series-description:first-letter{
   float: left;
   font-size: 9vw;
   line-height: 7vw;
-  font-style: italic;
   margin-right: 1vw;
+  padding-bottom: 1vw;
+  border-bottom: 5vh solid #222;
 }
 
 

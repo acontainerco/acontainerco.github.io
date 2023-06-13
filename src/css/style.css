@@ -82,6 +82,14 @@ ul {
   padding: 0;
 }
 
+ul ul {
+    margin-left: 2.5vw;
+}
+
+li {
+line-height: 5vh;
+}
+
 #menu ul {
   text-align: center;
 }
@@ -142,6 +150,16 @@ section p:first-of-type{
   grid-column-start: 1;
 }
 
+section li {
+  line-height: 5vh;
+}
+
+section li::before {
+  content: '◉';
+  font-size: .75em;
+  margin-right: 1vw;
+}
+
 h2 + p {
   grid-column-start: 1;
 }
@@ -155,13 +173,14 @@ h2 + p {
   width:100%;
 }
 
-#institutions-list li:first-of-type {
-  margin-top: 0;
-  margin-bottom: 1.25vh;
+#institutions-list {
+    grid-column: 1 / span 2;
 }
 
 #institutions-list li {
-  margin: 1.25vh 0vh;
+    width: 50%;
+    display: inline;
+    float: left;
 }
 
 #masthead img {

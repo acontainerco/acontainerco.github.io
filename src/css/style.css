@@ -48,7 +48,7 @@ body {
   font-style: normal;
   font-size: 1.25rem;
 	margin: 0;
-
+  overflow-x: hidden;
 }
 
 code {
@@ -294,8 +294,16 @@ h2 + p, h3 + p, h4 + p {
   grid-template-columns: auto auto;
 }
 
+.contributors:not(:last-child){
+  margin-bottom: 5vh;
+}
+
 .contributors img {
   max-width: 100%;
+}
+
+.contributors p:not(:last-child) {
+  margin-bottom: 5vh;
 }
 
 .series-link {

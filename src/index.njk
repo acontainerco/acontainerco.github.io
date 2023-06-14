@@ -42,11 +42,7 @@ and form(s).</a>
 {% set count = count + 1 %}
   {%- if not "latest" in project.data.tags -%}
     {%- if not "lookbook" in project.data.tags -%}
-      {%- if count % 2 == 0 -%}
-        {% include "./_includes/partials/project_right_aligned.njk" %}
-      {%- else -%}
-        {% include "./_includes/partials/project_left_aligned.njk" %}
-      {%- endif -%}
+      {% include "./_includes/partials/project_2up.njk" %}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
@@ -100,7 +96,7 @@ from glioblastoma, a rare form of brain cancer.</p>
     <li>University of Minnesota Minneapolis</li>
   </ul>
 </div>
-<aside id = "masthead">
+<aside id = "masthead" style = "display: block;">
 <div class = "content">
 <h3>Masthead</h3>
   <h4>Jenni B. Baker</h4>

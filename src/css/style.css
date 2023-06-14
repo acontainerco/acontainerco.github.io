@@ -160,7 +160,7 @@ section li::before {
   margin-right: 1vw;
 }
 
-h2 + p {
+h2 + p, h3 + p, h4 + p {
   grid-column-start: 1;
 }
 
@@ -175,6 +175,7 @@ h2 + p {
 
 #institutions-list {
     grid-column: 1 / span 2;
+    overflow-y: auto;
 }
 
 #institutions-list li {
@@ -194,7 +195,7 @@ h2 + p {
 #footer {
   background: #222;
   color: #E4DCCB;
-  height: 15vh;
+  min-height: 15vh;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -289,6 +290,14 @@ h2 + p {
   gap: 2vw;
 }
 
+.contributors {
+  grid-template-columns: auto auto;
+}
+
+.contributors img {
+  max-width: 100%;
+}
+
 .series-link {
   color: #222 !important;
 }
@@ -317,9 +326,17 @@ h2 + p {
     display: block;
   }
 
+  .project-2-up {
+    margin-bottom: 5vh;
+  }
+
   p {
     line-height: 4vh;
     margin: 1vh 1vh;
+  }
+
+  #footer-content {
+    width: 100%;
   }
 
   #footer #social li {
@@ -336,11 +353,15 @@ h2 + p {
 
   #about .logo {
     width: 100%;
-    transform: translateY(-45%);
+    transform: translateY(30%);
+  }
+
+  #institutions-list li {
+    width: 100%;
+    display: inline;
   }
 
   .mid {
-    float: left;
     width: 25%;
     font-size: 0;
   }
@@ -366,4 +387,9 @@ h2 + p {
   .series-description {
      grid-column: none;
   }  
+
+  .left1, .left2, .right1, .right2 {
+    display: none !important;
+  }
+
  }

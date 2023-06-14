@@ -1,5 +1,6 @@
 ---
 title: Look Books, Series 2
+layout: layouts/project_multiple.njk
 author: Kristen Miller, C. Kubasta and Mollie Oblinger, Chaun Webster, Bryan Borland and Seth Pennington, Christian Bök 
 slug: look-book-2019
 description: Look Books, Series 2
@@ -16,6 +17,8 @@ images: [
     {"name": "borland_lineage_1.jpg", "alt": "2"},
     {"name": "bok_poetry_1.jpg", "alt": "2"},
 ]
+edition: 2019
+project: _look_books
 tags: ["lookbook", "latest"]
 ---
 

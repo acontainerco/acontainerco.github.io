@@ -1,4 +1,7 @@
 const tagList = require("./utils/collections/tagList.js");
+const markdown = require("markdown-it")(({
+    html: true
+  }))
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksGlobal("randomHash", () => {
@@ -9,5 +12,7 @@ module.exports = function(eleventyConfig) {
             }
         ).join('');
     });
-    
+    eleventyConfig.addFilter('markdown', value => {
+        return markdown.render(value);
+    })
 }

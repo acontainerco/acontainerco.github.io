@@ -339,9 +339,6 @@ h2 + p {
     transform: translateY(-45%);
   }
 
-  .left1, .left2, .right1, .right2 {
-  }
-
   .mid {
     float: left;
     width: 25%;

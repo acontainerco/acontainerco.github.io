@@ -7,22 +7,7 @@ title: language in novel forms
 {%- for project in collections.projects -%}
   {%- if not "lookbook" in project.data.tags -%}
   {%- if "latest" in project.data.tags -%}
-    <div id = "details" class = "featured">
-      <h2> {{ project.data.title }} </h2>
-      <h3> {{ project.data.author }} </h3>
-      <p> {{ project.data.summary }} </p>
-      <p> {{ project.data.production_details }} </p>
-      <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
-    </div>
-    <div id = "masonry">
-        {%- for image in project.data.images -%}
-          <div>
-            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
-              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
-            </a>
-          </div>
-        {%- endfor -%}
-    </div>
+    {% include "./_includes/partials/project_left_aligned.njk" %}
   {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
@@ -39,22 +24,7 @@ to contribute to a year-long subscription series that delivers a new reel to you
 {%- for project in collections.projects -%}
   {%- if "lookbook" in project.data.tags -%}
     {%- if "latest" in project.data.tags -%}
-      <div id = "masonry" style = "grid-column-start: 1;">
-        {%- for image in project.data.images -%}
-          <div>
-            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
-              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
-            </a>
-          </div>
-        {%- endfor -%}
-      </div>
-      <div id = "details" class = "featured">
-        <h2> {{ project.data.title }} </h2>
-        <h3> {{ project.data.author }} </h3>
-        <p> {{ project.data.summary }} </p>
-        <p> {{ project.data.production_details }} </p>
-        <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
-      </div>
+      {% include "./_includes/partials/project_right_aligned.njk" %}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
@@ -67,25 +37,16 @@ to contribute to a year-long subscription series that delivers a new reel to you
 <p class = "series-description">Objects are our closed-edition large projects. We accept submissions and, on occasion, solicit artists to
 to produce these works through a highly collaborative process, including editorial and conceptual work around submitted text
 and form(s).</a>
+{% set count = 0 %}
 {%- for project in collections.projects -%}
+{% set count = count + 1 %}
   {%- if not "latest" in project.data.tags -%}
     {%- if not "lookbook" in project.data.tags -%}
-      <div id = "details" class = "project featured">
-        <h2> {{ project.data.title }} </h2>
-        <h3> {{ project.data.author }} </h3>
-        <p> {{ project.data.summary }} </p>
-        <p> {{ project.data.production_details }} </p>
-        <p class = "button"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
-      </div>
-      <div id = "masonry">
-        {%- for image in project.data.images -%}
-          <div>
-            <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
-              <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
-            </a>
-          </div>
-        {%- endfor -%}
-      </div>
+      {%- if count % 2 == 0 -%}
+        {% include "./_includes/partials/project_right_aligned.njk" %}
+      {%- else -%}
+        {% include "./_includes/partials/project_left_aligned.njk" %}
+      {%- endif -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}

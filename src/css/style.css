@@ -240,6 +240,12 @@ h2 + p, h3 + p, h4 + p {
   max-height: 90vh !important;
 }
 
+.section-feature {
+    max-width: 100%;
+    grid-column: 1 / span 2;
+    margin: 0 auto;
+}
+
 .featured {
   background: #EA7A57;
   color: #fff;

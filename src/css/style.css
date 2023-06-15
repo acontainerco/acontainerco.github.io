@@ -307,6 +307,10 @@ h2 + p, h3 + p, h4 + p {
   max-width: 100%;
 }
 
+.contributors h3 {
+    border-top: 2% solid #222;
+}
+
 .contributors p:not(:last-child) {
   margin-bottom: 5vh;
 }
@@ -314,6 +318,7 @@ h2 + p, h3 + p, h4 + p {
 .contributor {
     max-width: 100%;
     display: inline-block;
+    border-top: #EA7A57 2px solid;
 }
 
 .contributor:not(:last-child) {

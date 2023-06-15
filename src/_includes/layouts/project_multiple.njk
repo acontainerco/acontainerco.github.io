@@ -55,7 +55,9 @@
                         <p>
                             {{ participant.description | markdown | safe }}
                         </p>
-                        <img src = "{{ participant.photo }}">
+                        {% for photo in participant.photo %}
+                            <img src = "{{ photo }}">
+                        {% endfor %}
                         <div class = "contributor-bios">
                             {{ participant.bio | markdown | safe }}
                         </div>

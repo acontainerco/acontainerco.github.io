@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 1 / span 2;
 }
 
+section {
+  padding: 1vh 5vw;
+}
+
 section h2:first-child {
   border-top: solid 2px #222;
 }
@@ -281,7 +285,6 @@ h2 + p, h3 + p, h4 + p {
 }
 
 .content{
-  padding: 1vh 5vw;
   color: #222;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
@@ -291,7 +294,9 @@ h2 + p, h3 + p, h4 + p {
 }
 
 .contributors {
-  grid-template-columns: auto auto;
+    /*grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));*/
+    columns: 2;
+    display: block;
 }
 
 .contributors:not(:last-child){
@@ -304,6 +309,15 @@ h2 + p, h3 + p, h4 + p {
 
 .contributors p:not(:last-child) {
   margin-bottom: 5vh;
+}
+
+.contributor {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.contributor:not(:last-child) {
+    margin-bottom: 5vh;
 }
 
 .series-link {
@@ -367,6 +381,10 @@ h2 + p, h3 + p, h4 + p {
   #institutions-list li {
     width: 100%;
     display: inline;
+  }
+
+  .contributors {
+    columns: 1;
   }
 
   .mid {

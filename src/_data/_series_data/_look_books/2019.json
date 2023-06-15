@@ -1,31 +1,58 @@
 {
-    "collaborators": [
-        {
-            "title": "Causes of Death",
-            "artist": "Kristen Miller",
-            "description": "Seven curious and fantastical causes of death surface in a field of bright shards—like peering through a kaleidoscope into a world where, at any moment, one might die of wonder. Causes of Death is an erasure of Guy Trebay’s “Dreaming of Bill Cunningham at the Men’s Wear Shows in Paris,” which appeared in the New York Times on June 28, 2016.",
-            "picture": "/img/projects/look-book-2019/kristen_miller_1.jpg",
-            "bio": "Kristen Renee Miller is a poet, editor, and translator based in Louisville, KY. Her work has appeared in _Poetry_, _The Kenyon Review_, _Guernica_, _The Offing_, _Best New Poets_, and elsewhere. She is the translator of _Spawn_, a poetry collection by Ilnu Nation poet Marie-Andrée Gill, forthcoming in 2019. Kristen is the managing editor at Sarabande Books and directs Sarabande Writing Labs, a program that hosts creative writing workshops in partnership with social-service nonprofits.",
-            "photo": "/img/people/kristen_miller.jpg",
-            "credit": ""
-        },
-        {
-            "title": "I've Been Thinking about Survival",
-            "artist": "C. Kubasta & Mollie Oblinger",
-            "description": "I’ve Been Thinking About Survival layers Mollie Oblinger’s renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta’s words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
-            "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
-            "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger’s recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
-            "photo": "/img/people/kubasta_oblinger.jpg",
-            "credit": ""
-        },
-        {
-            "title": "I've Been Thinking about Survival",
-            "artist": "C. Kubasta & Mollie Oblinger",
-            "description": "I’ve Been Thinking About Survival layers Mollie Oblinger’s renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta’s words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
-            "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
-            "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger’s recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
-            "photo": "/img/people/kubasta_oblinger.jpg",
-            "credit": ""
-        }
-    ]   
+  "collaborators": [
+    {
+      "title": "Causes of Death",
+      "artist": "Kristen Miller",
+      "description": "Seven curious and fantastical causes of death surface in a field of bright shards—like peering through a kaleidoscope into a world where, at any moment, one might die of wonder. Causes of Death is an erasure of Guy Trebay's “Dreaming of Bill Cunningham at the Men's Wear Shows in Paris,” which appeared in the New York Times on June 28, 2016.",
+      "picture": "/img/projects/look-book-2019/kristen_miller_1.jpg",
+      "bio": "Kristen Renee Miller is a poet, editor, and translator based in Louisville, KY. Her work has appeared in _Poetry_, _The Kenyon Review_, _Guernica_, _The Offing_, _Best New Poets_, and elsewhere. She is the translator of _Spawn_, a poetry collection by Ilnu Nation poet Marie-Andrée Gill, forthcoming in 2019. Kristen is the managing editor at Sarabande Books and directs Sarabande Writing Labs, a program that hosts creative writing workshops in partnership with social-service nonprofits.",
+      "photo": "/img/people/kristen_miller.jpg",
+      "credit": ""
+    },
+    {
+      "title": "I've Been Thinking about Survival",
+      "artist": "C. Kubasta & Mollie Oblinger",
+      "description": "I've Been Thinking About Survival layers Mollie Oblinger's renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta's words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
+      "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
+      "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger's recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
+      "photo": "/img/people/kubasta_oblinger.jpg",
+      "credit": ""
+    },
+    {
+      "title": "I've Been Thinking about Survival",
+      "artist": "C. Kubasta & Mollie Oblinger",
+      "description": "I've Been Thinking About Survival layers Mollie Oblinger's renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta's words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
+      "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
+      "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger's recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
+      "photo": "/img/people/kubasta_oblinger.jpg",
+      "credit": ""
+    },
+    {
+      "title": "I've Been Thinking about Survival",
+      "artist": "C. Kubasta & Mollie Oblinger",
+      "description": "I've Been Thinking About Survival layers Mollie Oblinger's renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta's words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
+      "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
+      "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger's recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
+      "photo": "/img/people/kubasta_oblinger.jpg",
+      "credit": ""
+    },
+    {
+      "title": "I've Been Thinking about Survival",
+      "artist": "C. Kubasta & Mollie Oblinger",
+      "description": "I've Been Thinking About Survival layers Mollie Oblinger's renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta's words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
+      "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
+      "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger's recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
+      "photo": "/img/people/kubasta_oblinger.jpg",
+      "credit": ""
+    },
+    {
+      "title": "I've Been Thinking about Survival",
+      "artist": "C. Kubasta & Mollie Oblinger",
+      "description": "I've Been Thinking About Survival layers Mollie Oblinger's renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta's words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
+      "picture": "/img/projects/look-book-2019/c_kubasta_2.jpg",
+      "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger's recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
+      "photo": "/img/people/kubasta_oblinger.jpg",
+      "credit": ""
+    }
+  ]
 }

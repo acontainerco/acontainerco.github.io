@@ -1,4 +1,4 @@
-* {
+w* {
 	box-sizing: border-box;
 }
 
@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 1 / span 2;
 }
 
+h3 {
+    margin-top: 5vh;
+}
+
 section {
   padding: 1vh 5vw;
 }
@@ -35,7 +39,7 @@ section h2:first-child {
   border-top: none;
 }
 
-h3, h4, h5, h6 {
+h4, h5, h6 {
   margin: 0;
 }
 
@@ -141,12 +145,12 @@ line-height: 5vh;
   text-decoration: none;
 }
 
-#menu a:hover, .content a, #footer a:hover {
+#menu a:hover, .content a, .see-more a, #footer a:hover {
   color: #EA7A57;
   text-decoration: none;
 }
 
-.content a:hover {
+.content a:hover , .see-more a:hover{
   color: #A6c4bc;
 }
 
@@ -255,7 +259,7 @@ h2 + p, h3 + p, h4 + p {
   margin-bottom: 1vw;
 }
 
-.featured a {
+.featured a , .see-more a{
   background: #222;
   color: #fff;
   font-size: 1.5em;
@@ -297,17 +301,6 @@ h2 + p, h3 + p, h4 + p {
   grid-auto-flow: row;
   grid-template-rows: min-content;
   gap: 2vw;
-}
-
-.columnar {
-    display: block;
-    columns: 2;
-    break-inside: avoid-column;
-}
-
-.columnar p:not(:last-child) {
-    margin-bottom: 5vh;
-    break-inside: avoid-column;
 }
 
 .contributors {
@@ -359,6 +352,10 @@ h2 + p, h3 + p, h4 + p {
   margin-right: 1vw;
 }
 
+.see-more {
+    text-align: center;
+    margin: 5h 0 2.5vh 0;
+}
 
 @media (max-width: 991.98px) {
 

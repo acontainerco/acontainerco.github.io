@@ -34,7 +34,11 @@
         {%- for image in images -%}
           <div>
             <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
-              <img src = "/img/projects/{{slug}}/{{image.name}}" alt = "{{image.alt}}">
+                {% image
+                    "projects/" + slug,
+                    image.name,
+                    image.alt
+                %}
             </a>
           </div>
         {%- endfor -%}
@@ -51,12 +55,20 @@
                     <div class = "contributor">
                         <h3>{{ participant.title }}</h3>
                         <h4>{{ participant.artist }}</h4>
-                            <img src = "{{ participant.picture }}">
+                            {% image
+                                "projects/" + slug,
+                                participant.picture,
+                                "2"
+                            %}                            
                         <p>
                             {{ participant.description | markdown | safe }}
                         </p>
                         {% for photo in participant.photo %}
-                            <img src = "{{ photo }}">
+                            {% image
+                                "people",
+                                photo,
+                                participant.artist
+                            %}  
                         {% endfor %}
                         <div class = "contributor-bios">
                             {{ participant.bio | markdown | safe }}

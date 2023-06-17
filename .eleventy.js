@@ -23,21 +23,32 @@ module.exports = function(eleventyConfig) {
         return markdown.render(value);
     });
 
-    eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt) => {
+    eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt, size) => {
 
         let filepath = `./src/img/${imgDir}/${src}`;
 
         Image(filepath, {
             urlPath: "/img/",
             outputDir: `./dist/img/`,
-            widths: [300, 600, 900],
-            formats: ["jpeg", "webp"]
+            formats: ["jpeg", "webp"],
+            widths: [300, 600, 900]
         });
 
-        let meta = Image.statsSync(filepath);
-        let data = meta.jpeg[meta.jpeg.length -1];
+        attrs = {
+            alt,
+            sizes: [300, 600, 900],
+            loading: "lazy",
+            decoding: "async"
+        };
 
-        return `<img src = "${data.url}" alt = "${alt}" loading = "lazy" decoding = "async">`;
+        let meta = Image.statsSync(filepath, {widths: [300, 600, 900]});
+
+        if(!size) size = meta.jpeg.length - 1;
+        else meta = meta.jpeg.filter(img => img.width == size);
+
+        let data = meta.jpeg[size];
+
+        return `<img src = "${data.url}" alt = "${alt}">`;
     });
 
 }

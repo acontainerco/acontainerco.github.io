@@ -1,5 +1,5 @@
-const { eleventyImagePlugin } = require("@11ty/eleventy-img");
-const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
+//const { eleventyImagePlugin } = require("@11ty/eleventy-img");
+//const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
 
 const Image = require("@11ty/eleventy-img");
 
@@ -9,23 +9,6 @@ const markdown = require("markdown-it")(({
   }))
 
 module.exports = function(eleventyConfig) {
-
-    eleventyConfig.addPlugin(eleventyWebcPlugin, {
-        components: [
-            "npm:@11ty/eleventy-img/*.webc"
-        ]
-    });
-
-    eleventyConfig.addPlugin(eleventyImagePlugin, {
-		formats: ["auto"],
-        widths: ["auto"],
-		urlPath: "./img/",
-        outputDir: "./dist/img/",
-		defaultAttributes: {
-			loading: "lazy",
-			decoding: "async"
-		}
-	});
 
     eleventyConfig.addNunjucksGlobal("randomHash", () => {
         let hash = [...Array(5)];
@@ -38,6 +21,23 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter('markdown', value => {
         return markdown.render(value);
+    });
+
+    eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt) => {
+
+        let filepath = `./src/img/${imgDir}/${src}`;
+
+        Image(filepath, {
+            urlPath: "/img/",
+            outputDir: `./dist/img/`,
+            widths: [300, 600, 900],
+            formats: ["jpeg", "webp"]
+        });
+
+        let meta = Image.statsSync(filepath);
+        let data = meta.jpeg[meta.jpeg.length -1];
+
+        return `<img src = "${data.url}" alt = "${alt}" loading = "lazy" decoding = "async">`;
     });
 
 }

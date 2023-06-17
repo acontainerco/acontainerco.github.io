@@ -5,7 +5,7 @@ title: language in novel forms
 <section>
 <div class = "content">
 {%- for project in collections.projects -%}
-  {%- if not "lookbook" in project.data.tags -%}
+  {%- if not "Look Book" in project.data.tags -%}
   {%- if "latest" in project.data.tags -%}
     {% include "./_includes/partials/project_left_aligned.njk" %}
   {%- endif -%}
@@ -23,14 +23,15 @@ Laced with the "are we there yet?" vacation nostalgia of the 1980s and '90s, the
 to submit work that functions best in the classic view reel format. Each year, we solicit up to six (6) participants 
 to contribute to a year-long subscription series that delivers a new reel to your mailbox every two (2) months.</p>
 {%- for project in collections.projects -%}
-  {%- if "lookbook" in project.data.tags -%}
+  {%- if "Look Book" in project.data.tags -%}
     {%- if "latest" in project.data.tags -%}
       {% include "./_includes/partials/project_right_aligned.njk" %}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 </div>
-<div class = "see-more"><p class = "button"><a href = "/series/lookbook">See other editions &raquo;</a></p></div>
+<div class = "see-more"><p class = "button"><a href = "/series/lookbook">See other editions ⟶</a></p></div>
+
 </section>
 
 <section>
@@ -49,6 +50,7 @@ and form(s). We traditionally produce editions of 25 to 30 copies.</p>
   {%- endif -%}
 {%- endfor -%}
 </div>
+<div class = "see-more"><p class = "button"><a href = "/series/objects">See other projects ⟶</a></p></div>
 </section>
 
 <section>

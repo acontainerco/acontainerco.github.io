@@ -141,7 +141,7 @@ line-height: 5vh;
   text-decoration: none;
 }
 
-#menu a:hover, .content a, #footer a:hover {
+#menu a:hover, .content a, #footer a:hover, .see-more a {
   color: #EA7A57;
   text-decoration: none;
 }
@@ -255,7 +255,7 @@ h2 + p, h3 + p, h4 + p {
   margin-bottom: 1vw;
 }
 
-.featured a {
+.featured a, .see-more a {
   background: #222;
   color: #fff;
   font-size: 1.5em;
@@ -265,13 +265,21 @@ h2 + p, h3 + p, h4 + p {
   padding: 1vw;
 }
 
+.see-more {
+    text-align: center;
+}
+
 .featured a {
   color: #fff !important;
 }
 
-.featured a:hover{
+.featured a:hover, .see-more a:hover{
   background: #E4DCCB !important;
   color: #222 !important;
+}
+
+.see-more a:hover {
+    background: #EA7A57 !important;
 }
 
 .project {

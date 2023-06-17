@@ -19,7 +19,7 @@ images: [
 ]
 edition: 2019
 project: _look_books
-tags: ["lookbook", "latest"]
+tags: ["Look Book", "latest"]
 ---
 
 ## Work included

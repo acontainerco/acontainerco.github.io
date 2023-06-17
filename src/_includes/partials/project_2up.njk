@@ -3,7 +3,7 @@
         {%- for image in project.data.images -%}
             <div>
             <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">
-                <img src = "/img/projects/{{project.data.slug}}/{{image.name}}" alt = "{{image.alt}}">
+                <img webc:is="eleventy-image" src = "/img/projects/{{project.data.slug}}/{{image.name}}", alt = "Product photo">
             </a>
             </div>
         {%- endfor -%}

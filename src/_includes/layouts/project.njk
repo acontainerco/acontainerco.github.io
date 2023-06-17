@@ -34,7 +34,11 @@
         {%- for image in images -%}
           <div>
             <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
-              <img src = "/img/projects/{{slug}}/{{image.name}}" alt = "{{image.alt}}">
+                {% image
+                    "projects/" + project.data.slug,
+                    image.name,
+                    "Product photo"
+                %}
             </a>
           </div>
         {%- endfor -%}

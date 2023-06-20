@@ -7,7 +7,9 @@ title: language in novel forms
 {%- for project in collections.projects -%}
   {%- if not "Look Book" in project.data.tags -%}
   {%- if "latest" in project.data.tags -%}
+    {%- if "objects" in project.data.tags -%}
     {% include "./_includes/partials/project_left_aligned.njk" %}
+  {%- endif -%}
   {%- endif -%}
   {%- endif -%}
 {%- endfor -%}

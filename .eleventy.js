@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt, size) => {
 
         let filepath = `./src/img/${imgDir}/${src}`;
-
+        console.log(`${imgDir}, ${src}, ${alt}`);
         Image(filepath, {
             urlPath: "/img/",
             outputDir: `./dist/img/`,

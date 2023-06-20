@@ -65,8 +65,7 @@
                                 {{ participant.description | markdown | safe }}
                             </p>
                             {% for artist in participant.bios %}
-                                <h5>{{ artist.photo.person }}</h5>
-                                {% image
+                                <h5>{{ artist.photo.person }}</h5>                                {% image
                                     "people",
                                     artist.photo.image,
                                     artist.photo.person

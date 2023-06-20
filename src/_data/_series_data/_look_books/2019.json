@@ -1,52 +1,93 @@
 {
+  "edition": 2019,
   "collaborators": [
     {
       "title": "Causes of Death",
       "artist": "Kristen Miller",
       "description": "Seven curious and fantastical causes of death surface in a field of bright shards—like peering through a kaleidoscope into a world where, at any moment, one might die of wonder. Causes of Death is an erasure of Guy Trebay's “Dreaming of Bill Cunningham at the Men's Wear Shows in Paris,” which appeared in the New York Times on June 28, 2016.",
       "picture": "kristen_miller_1.jpg",
-      "bio": "Kristen Renee Miller is a poet, editor, and translator based in Louisville, KY. Her work has appeared in _Poetry_, _The Kenyon Review_, _Guernica_, _The Offing_, _Best New Poets_, and elsewhere. She is the translator of _Spawn_, a poetry collection by Ilnu Nation poet Marie-Andrée Gill, forthcoming in 2019. Kristen is the managing editor at Sarabande Books and directs Sarabande Writing Labs, a program that hosts creative writing workshops in partnership with social-service nonprofits.",
-      "photo": ["kristen_miller.jpg"],
-      "credit": ""
+      "bios": [
+        {
+          "photo": {
+            "person": "Kristen Miller",
+            "image": "kristen_miller.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
     },
     {
       "title": "I've Been Thinking about Survival",
       "artist": "C. Kubasta & Mollie Oblinger",
       "description": "I've Been Thinking About Survival layers Mollie Oblinger's renderings of the Great Lakes watershed & her drawings of creatures, with C. Kubasta's words. Both artist & poet were inspired by the doings of their science colleagues & students, when they found themselves inhabiting the space of another discipline – watching others peer into microscopes, graph daphnia responses to environment, differentiate behaviors & bodies in experimental conditions.",
       "picture": ["c_kubasta_2.jpg"],
-      "bio": "C. Kubasta writes poetry, prose & hybrid forms. Her favorite rejection (so far) noted that one editor loved her work, and the other hated it. She is the author of two poetry chapbooks: _A Lovely Box_, which won the 2014 Wisconsin Fellowship of Poets Chapbook Prize, and &s; and the full-length collections, _All Beautiful & Useless_ (BlazeVOX) and _Of Covenants_ (Whitepoint Press), and the novella _Girling_ (Brain Mill Press). Her novel This Business of the Flesh is newly out from Apprentice House. She teaches literature, writing & cultural studies at Marian University, where she is active with the Wisconsin Fellowship of Poets, and works with Brain Mill Press. Find her at <a href = 'http://ckubasta.com/' target = '_new'>ckubasta.com</a>. Follow her @CKubastathePoet.<p>Oblinger's recent exhibitions include solo shows at Miami University in Ohio, MacRostie Art Center in Minnesota, and the Thelma Sadoff Center for the Arts in Fond du Lac, WI. She was an artist in residence at Playa in Oregon, the Alpena Wildlife Sanctuary in Michigan, and in New Mexico at the Roswell Artist in Residence. Oblinger received an MFA in Studio Art from the University of California, Davis and a BFA in Sculpture from Syracuse University. She is currently an Associate Professor and Chair of the Department of Art and Art History at Ripon College in Wisconsin.",
-      "photo": ["kubasta_oblinger.jpg"],
-      "credit": ""
+      "bios": [
+        {
+          "photo": {
+            "person": "C. Kubasta",
+            "image": "kubasta_oblinger.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
     },
     {
       "title": "You Are Now Carrying Contraband",
       "artist": "Chaun Webster",
       "description": "Using several source texts you are now carrying contraband is a sonic and visual exploration which places David Walker’s Appeal alongside Amiri Baraka’s Somebody Blew Up America. Walker would be murdered soon after the release of his Appeal. Baraka, who served as the New Jersey Poet Laureate, would be asked to resign from his post after writing Somebody Blew Up America following the September 11 attacks on the World Trade Center. After refusing to do so the governor took the case to the United States Supreme Court, removing the position from the state. In situating these two texts and responses to them you are now carrying contraband examines censorship, surveillance, state sanctioned violence, and the appropriations and subversive uses black subjects have had of language—a technology often deployed against them.",
       "picture": "chaun_webster_2.png",
-      "bio": "Chaun Webster is poet and sound artist whose work uses a materialist temporality through a textual critic of linearity, while also interrogating memory, the afterlives of slavery, and black spatiality.  Webster‘s debut book, GeNtry!fication: or the scene of the crime, was published by Noemi Press April 2018.",
-      "photo": ["chaun_webster.jpg"],
-      "credit": ""
+      "bios": [
+        {
+          "photo": {
+            "person": "Chaun Webster",
+            "image": "chaun_webster.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
     },
     {
       "title": "LINEAGE",
       "artist": "Bryan Borland & Seth Pennington",
       "description": "LINEAGE is comprised of a poem written by Bryan Borland and a found image, a collage, and a series of self-portraits by Seth Pennington, some of which are digitally double-exposed over daguerreotypes housed in the Library of Congress’ collection. This project explores the connective tissue of our very being, how every act continues in its momentum in present day.",
       "picture": "borland_pennington_2.jpg",
-      "bio": "Bryan Borland is founding publisher of Sibling Rivalry Press. He is author of _DIG_ (Stillhouse Press), which was a finalist for the Lambda Literary Award in Gay Poetry and a Stonewall Honor Book in Literature as selected by the American Library Association. He is a Lambda Fellow in Poetry and a recipient of the Judith A. Markowitz Emerging Writer Award.<p>Seth Pennington is Editor-in-Chief at Sibling Rivalry Press and is author of _Tertulia_. He was editor of the journal _Assaracus_ and has been honored as co-editor of _Joy Exhaustible_ by the American Library Association and by the Rare Books and Special Collections Division of the Library of Congress for his editorial, layout, and design work.",
-      "photo": [
-        "bryan_borland.jpg",
-        "seth_pennington.jpg"
-      ],
-      "credit": ""
+      "bios": [
+        {
+          "photo": {
+            "person": "Bryan Borland",
+            "image": "bryan_borland.jpg",
+            "credit": ""
+          },
+          "text": ""
+        },
+        {
+          "photo": {
+            "person": "Seth Pennington",
+            "image": "seth_pennington.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
     },
     {
       "title": "The Road Not Taken",
       "artist": "Christian Bök",
       "description": "The Road Not Taken refers, of course, to the poem by Robert Frost, and my submission responds to the path of the poet — “the one less travelled.” Poetry is, in fact, the name of a town in Texas (and no other community in the world bears such a moniker). Maston Ussery, a merchant from 1865, has bestowed this name upon the town, because, for him, the region in springtime calls to mind a poem. I have marked this locale on Google Maps, capturing this site for a slide that precedes six other images, each of which represents a section from Poetry Rd. — a causeway, situated near Poetry, Texas. I have divided up the road into six equidistant coordinates, framing six straight, unmarked sections of the road on Google Maps, after which I erase any text, so as to produce an abstract painting — a kind of visual poetry that documents a path along which a poet might make a figural journey. I have included coordinates so that, after viewing the painting in the viewfinder, a reader might consult Google Maps in order to see this “road” of poetry in real life.",
       "picture": "bok_poetry_1.jpg",
-      "bio": "Christian Bök is the author of _Eunoia_ (2001), a bestselling work of experimental literature, which has gone on to win the Griffin Prize for Poetic Excellence. Bök is currently working on The Xenotext — a project that requires him to encipher a poem into the genome of a bacterium capable of surviving in any inhospitable environment. Bök is a Fellow in the Royal Society of Canada, and he teaches at Charles Darwin University.<p>Bibliography:\n* _Eunoia_ (Coach House Books, 2001)\n* _Crystallography_ (Coach House Books, 2003)\n* _The Xenotext – Book 1_ (Coach House Books, 2015)",
-      "photo": ["christian_bok.jpg"],
-      "credit": ""
+      "bios": [
+        {
+          "photo": {
+            "person": "Christian Bök",
+            "image": "christian_bok.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
     }
   ]
 }

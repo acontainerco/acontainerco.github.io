@@ -44,7 +44,7 @@ and form(s). We traditionally produce editions of 25 to 30 copies.</p>
 {%- for project in collections.projects -%}
 {% set count = count + 1 %}
   {%- if not "latest" in project.data.tags -%}
-    {%- if not "lookbook" in project.data.tags -%}
+    {%- if "objects" in project.data.tags -%}
       {% include "./_includes/partials/project_2up.njk" %}
     {%- endif -%}
   {%- endif -%}
@@ -59,7 +59,17 @@ and form(s). We traditionally produce editions of 25 to 30 copies.</p>
 <p class = "series-description">Faced with a challenge to make a bookwork from such materials as a rolodex or vintage lunch box, artists engaged in the
 Multitudes series take-on well-known objects and forms with unique and (un)characteristic approaches. These works transform mundane objects into text-based
 experiences and engagements that defy, reconfigure, or emerge into what they appear to be.</p>
+{% set count = 0 %}
+{%- for project in collections.projects -%}
+{% set count = count + 1 %}
+  {%- if "latest" in project.data.tags -%}
+    {%- if "Multitudes" in project.data.tags -%}
+      {% include "./_includes/partials/project_left_aligned.njk" %}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
 </div>
+<div class = "see-more"><p class = "button"><a href = "/series/Multitudes">See other projects ⟶</a></p></div>
 </section>
 <section>
 <div class = "content columnar">
@@ -76,7 +86,7 @@ from glioblastoma, a rare form of brain cancer.</p>
 
 <p>In 2023, Container woke up.</p>
 </div>
-<div class = "content columnar">
+<div class = "content" style = "grid-column: 1 / span 2">
 <h3>Collection details</h3>
 <p style = "grid-column: 1 / span 2">Container's text objects and artist's books can be found in the collections of many institutions. 
   We thank them for their care and curation of our work. These include:

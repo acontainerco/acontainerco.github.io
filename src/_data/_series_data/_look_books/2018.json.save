@@ -1,0 +1,103 @@
+{
+  "edition": 2018,
+  "collaborators": [
+    {
+      "title": "Deland",
+      "artist": "Teresa Carmody and Madison Creech",
+      "description": "Because you may never come to DeLand, we bring DeLand to you. This is a place as circular as this View Master reel. Everything spreads all the time, inside and out. The woman who passes by your house every day at noon might actually be a ghost. The ghost in the cemetery may be still alive. Bright colors, many greens, the world is not as it seems.</p><p>Madison Creech works with fiber arts and Teresa Carmody works with sentences. For this project, we conferred about the ever-present death and growth of Central Florida, before walking our separate ways around DeLand to make seven images (Creech) and seven sentences (Carmody). Later, we paired the images with the text, almost exactly in the order that we presented them to each other.</p><p>DeLand. Something somewhere is not quite right, but that’s all right.</p>",
+      "picture": "carmody_creech_1.jpg",
+      "bios": [
+        {
+          "photo": {
+            "person": "Teresa Carmody",
+            "image": "teresa_carmody.jpg",
+            "credit": ""
+          },
+          "text": "Teresa Carmody's books include _Maison Femme: a fiction_ (text-image collaboration with Vanessa Place) and _Requiem_ (short stories). She’s the author of several chapbooks, most recently _Hide and See_ published by No Press. Other short work has appeared or is forthcoming in _The Collagist_, _Two Serious Ladies_, _St. Petersburg Review_, _Diagram_, _Faultline_, _Entropy_, and more. Carmody is co-founding editor of Les Figues Press, an imprint of LARB Books in Los Angeles, and director of Stetson University’s MFA of the Americas."
+        },
+        {
+          "photo": {
+            "person": "Madison Creech",
+            "image": "madison_creech.jpg",
+            "credit": ""
+          },
+          "text": "Madison Creech is the Brown Visiting Teacher-Scholar Fellow at Stetson University in DeLand, Florida. She holds an MFA in fibers from Arizona State University and a BFA and BS in textile, merchandising, and fashion design from the University of Nebraska-Lincoln. She has served as faculty associate at Arizona State University, instructing surface design, and has held residencies at Houston Center for Contemporary Craft and Techshop, in Chandler, Arizona. Her work has been widely exhibited across the country, including 31st Annual Materials Hard and Soft at Denton Arts, This Must Be the Place at the Robert Hillestad Textile Gallery and Future Fabrication: SDA International Exhibition In Print. She has been the recipient of a number of distinguished awards, including the Juror’s Award from the Surface Design Association’s Explorations exhibition, the Rudy Turk Award for History in American Craft from ASU, and the Mary Beason Bishop and Francis Sumner Merit Scholarship from the Haystack Mountain School of Crafts. For more information about Madison Creech, please visit, [http://www.creechers.com/](http://www.creechers.com/)."
+        }
+      ]
+    },
+    {
+      "title": "Kursiv",
+      "artist": "Derek Beaulieu",
+      "description": "",
+      "picture": [
+        "beaulieu_1.jpg"
+      ],
+      "bios": [
+        {
+          "photo": {
+            "person": "Derek Beaulieu",
+            "image": "derek_beaulieu.jpg",
+            "credit": ""
+          },
+          "text": "Derek Beaulieu is the author / editor of 20 collections of poetry, prose and criticism including two volumes of his selected work _Please No More Poetry: the poetry of derek beaulieu_ (2013) and _Konzeptuelle Arbeiten_ (2017). His most recent volume of fiction, _a, A Novel_ was published by Paris’s Jean Boîte Editions. Beaulieu has exhibited his visual work across Canada, the United States and Europe and has won multiple awards for his teaching and dedication to students. Derek Beaulieu was the 2014–2016 Poet Laureate of Calgary, Canada."
+        }
+      ]
+    },
+    {
+      "title": "Soft White Feel Flower Run",
+      "artist": "Sawako Nakayasu and Naomi Kawanishi Reis",
+      "description": "",
+      "picture": "nakayasu_reis_1.jpg",
+      "bios": [
+        {
+          "photo": {
+            "person": "Sawako Nakayasu",
+            "image": "sawako_nakayasu.jpg",
+            "credit": ""
+          },
+          "text": "Sawako Nakayasu is an artist working with language, performance, and translation – separately and in various combinations. She has lived mostly in the US and Japan, briefly in France and China, and translates from Japanese. Two of her less conventional books include _Mouth: Eats Color – Sagawa Chika Translations_, _Anti-translations_, & _Originals_, a multilingual work of both original and translated poetry, and _Costume en Face_ – a handwritten notebook of Tatsumi Hijikata’s dance notations. She is co-editor, with Lisa Samuels, of _A Transpacific Poetics_ a gathering of poetry and poetics engaging transpacific imaginaries. She teaches at Brown University. Website: [http://www.sawakonakayasu.net](http://www.sawakonakayasu.net/)."
+        },
+        {
+          "photo": {
+            "person": "Naomi Kawanishi Reis",
+            "image": "naomi_reis.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
+    },
+    {
+      "title": "We Are Young Lightning",
+      "artist": "Greg Santos",
+      "description": "",
+      "picture": "santos_1.jpg",
+      "bios": [
+        {
+          "photo": {
+            "person": "Greg Santos",
+            "image": "greg_santos.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
+    },
+    {
+      "title": "That Loud-Assed Colored Silence: Turntablism",
+      "artist": "Douglas Kearney",
+      "description": "",
+      "picture": "kearney_1.jpg",
+      "bios": [
+        {
+          "photo": {
+            "person": "Douglas Kearney",
+            "image": "douglas_kearney.jpg",
+            "credit": ""
+          },
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

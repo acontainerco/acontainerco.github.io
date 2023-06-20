@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+    break-inside: avoid-column;
 }
 
 ::selection {
@@ -18,7 +19,7 @@ html{
 
 h1, h2, h3, h4, h5, h6 {
   grid-column-start: 1;
-  margin: 1vw 0 1vw 0;
+  /*margin: 1vw 0 1vw 0;*/
   column-span: all;
   grid-column: 1 / span 2;
   text-transform: capitalize;
@@ -37,7 +38,7 @@ section h2:first-child {
 }
 
 h3, h4, h5, h6 {
-  margin: 0;
+  margin: 1vh 0 1vh 0;
 }
 
 p {
@@ -347,6 +348,10 @@ h2 + p, h3 + p, h4 + p {
     border-top: #EA7A57 2px solid;
 }
 
+.contributor h4 {
+    border-top: #a6c4bc 2px solid;
+}
+
 .contributor:not(:last-child) {
     margin-bottom: 5vh;
 }
@@ -447,6 +452,14 @@ h2 + p, h3 + p, h4 + p {
 
   .left1, .left2, .right1, .right2 {
     display: none !important;
+  }
+  
+  .columnar {
+    columns: 1;
+  }
+
+  .see-more a {
+    padding: 3vw;
   }
 
  }

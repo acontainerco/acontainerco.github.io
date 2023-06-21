@@ -29,7 +29,7 @@ section {
   padding: 1vh 5vw;
 }
 
-section h2:first-child {
+section h2:first-of-type {
   border-top: solid 2px #222;
 }
 
@@ -364,6 +364,7 @@ h2 + p, h3 + p, h4 + p {
   grid-column: 1 / span 2;
   width: 75vw;
   margin: 0 auto;
+  margin-bottom: 1vh;
 }
 
 .series-description:first-letter{
@@ -373,6 +374,11 @@ h2 + p, h3 + p, h4 + p {
   margin-right: 1vw;
 }
 
+.press-description {
+    margin-top: 1vh;
+    padding: 1vh 0 1vh 0;
+    margin
+}
 
 @media (max-width: 991.98px) {
 

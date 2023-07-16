@@ -444,6 +444,11 @@ h2 + p, h3 + p, h4 + p {
     margin-top: 3vh;
   }
 
+  .learn {
+    margin-top: 5vh;
+    text-align: center;
+  }
+
   .lightbox-image {
     width: 100vw;
    }

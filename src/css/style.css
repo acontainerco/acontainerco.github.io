@@ -341,14 +341,9 @@ h4+p {
 }
 
 .contributors {
-<<<<<<< HEAD
-    /*grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));*/
-    display: block;
-=======
   /*grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));*/
   columns: 2;
   display: block;
->>>>>>> cf2b41a09823bbffb934234f0a61c90af1730815
 }
 
 .contributors:not(:last-child) {
@@ -368,16 +363,9 @@ h4+p {
 }
 
 .contributor {
-<<<<<<< HEAD
-    max-width: 100%;
-    display: grid;
-    gap: 2vw;
-    border-top: #EA7A57 2px solid;
-=======
   max-width: 100%;
   display: inline-block;
   border-top: #EA7A57 2px solid;
->>>>>>> cf2b41a09823bbffb934234f0a61c90af1730815
 }
 
 .contributor h4 {

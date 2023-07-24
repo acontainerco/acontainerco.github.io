@@ -30,6 +30,14 @@ h6 {
   text-transform: capitalize;
 }
 
+section:nth-of-type(odd) h2 {
+  border-bottom: solid 2px #EA7A57;
+}
+
+section:nth-of-type(even) h2 {
+  border-bottom: #A6C4BC 2px solid;
+}
+
 section {
   padding: 1vh 5vw;
   max-width: 75%;
@@ -404,7 +412,7 @@ h4+p {
 .press-description {
   margin-top: 1vh;
   padding: 1vh 0 1vh 0;
-  margin
+  margin-bottom: -2em;
 }
 
 @media (max-width: 991.98px) {

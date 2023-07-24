@@ -54,27 +54,31 @@
                     {% if data.edition == edition %}
                         {% for participant in data.collaborators %}
                         <div class = "contributor">
+                            <div class = "contribution-title">
                             <h3>{{ participant.title }}</h3>
                             <h4>{{ participant.artist }}</h4>
+                            </div>
+                            <div class = "contribution-data">
                                 {% image
                                     "projects/" + slug,
                                     participant.picture,
                                     "2"
                                 %}                            
-                            <p>
-                                {{ participant.description | markdown | safe }}
-                            </p>
+                            {{ participant.description | markdown | safe }}
+                            </div>
+                            <div class = "contributor-data">
                             {% for artist in participant.bios %}
-                                <h5>{{ artist.photo.person }}</h5>
                                 {% image
                                     "people",
                                     artist.photo.image,
                                     artist.photo.person
-                                %}  
+                                %}
                             <div class = "contributor-bios">
+                                <h5>{{ artist.photo.person }}</h5>
                                 {{ artist.text | markdown | safe }}
                             </div>
                             {% endfor %}
+                            </div>
                         </div>
                         {% endfor %}
                     {% endif %}

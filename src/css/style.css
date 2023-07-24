@@ -322,7 +322,6 @@ h2 + p, h3 + p, h4 + p {
 
 .contributors {
     /*grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));*/
-    columns: 2;
     display: block;
 }
 
@@ -344,7 +343,8 @@ h2 + p, h3 + p, h4 + p {
 
 .contributor {
     max-width: 100%;
-    display: inline-block;
+    display: grid;
+    gap: 2vw;
     border-top: #EA7A57 2px solid;
 }
 
@@ -354,6 +354,16 @@ h2 + p, h3 + p, h4 + p {
 
 .contributor:not(:last-child) {
     margin-bottom: 5vh;
+}
+
+.contribution-title {
+    grid-column: 1 / span 2;
+}
+
+.contribution-data {
+}
+
+.contributor-data {
 }
 
 .series-link {

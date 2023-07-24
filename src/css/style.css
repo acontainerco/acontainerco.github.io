@@ -383,7 +383,7 @@ h4+p {
 }
 
 .contributor h4 {
-  border-top: #a6c4bc 2px solid;margin-bottom
+  border-top: #a6c4bc 2px solid;
 }
 
 .contributor:not(:last-child) {

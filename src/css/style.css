@@ -30,14 +30,6 @@ h6 {
   text-transform: capitalize;
 }
 
-section:nth-of-type(odd) h2 {
-  border-bottom: solid 2px #EA7A57;
-}
-
-section:nth-of-type(even) h2 {
-  border-bottom: #A6C4BC 2px solid;
-}
-
 section {
   padding: 1vh 5vw;
   max-width: 75%;
@@ -45,7 +37,18 @@ section {
 }
 
 section h2:first-of-type {
-  border-top: solid 2px #222;
+  border-top: solid 2px #EA7A57;
+  border-bottom: solid 2px #A6C4BC;
+}
+
+section h3:first-of-type {
+  border-top: dashed 2px #EA7A57;
+  border-bottom: dashed 2px #A6C4BC;
+}
+
+section h4:first-of-type {
+  border-top: dotted 2px #EA7A57;
+  border-bottom: dotted 2px #A6C4BC;
 }
 
 #details h2 {
@@ -63,6 +66,7 @@ p {
   margin: 0;
   line-height: 2em;
   max-width: 100%;
+  margin-bottom: 2em;
 }
 
 body {
@@ -140,6 +144,7 @@ li {
 
 #details h2 {
   font-size: 2em;
+  border-bottom: none !important;
 }
 
 #shipping {
@@ -207,6 +212,7 @@ h4+p {
 #institutions-list {
   grid-column: 1 / span 2;
   overflow-y: auto;
+  margin-bottom: 2em;
 }
 
 #institutions-list li {

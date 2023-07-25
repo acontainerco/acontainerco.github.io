@@ -32,7 +32,8 @@ h6 {
 
 section {
   padding: 1vh 5vw;
-  max-width: 75%;
+  /*max-width: 75%;*/
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -53,6 +54,10 @@ section h4:first-of-type {
 
 #details h2 {
   border-top: none;
+}
+
+#details p:last-of-type {
+  margin-top: 5vh;
 }
 
 h3,
@@ -406,9 +411,9 @@ h4+p {
 
 .series-description {
   grid-column: 1 / span 2;
-  width: 75vw;
   margin: 0 auto;
-  margin-bottom: 1vh;
+  margin-bottom: 2.5vh;
+  line-height: unset;
 }
 
 .series-description:first-line {
@@ -416,9 +421,9 @@ h4+p {
 }
 
 .press-description {
-  margin-top: 1vh;
+  margin-top: -2em;
   padding: 1vh 0 1vh 0;
-  margin-bottom: -2em;
+  margin-bottom: 1.5vh;
 }
 
 @media (max-width: 991.98px) {
@@ -520,5 +525,9 @@ h4+p {
   .see-more a {
     padding: 3vw;
   }
+
+  .press-description {
+     margin-bottom: 2.5vh;
+   }
 
 }

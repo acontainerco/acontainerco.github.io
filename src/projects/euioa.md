@@ -28,7 +28,7 @@ They never bore her name, at least, not her full name. Each envelope appeared by
 
 When she was younger, she was as good as blind without her glasses. There was a Snellen chart joke — you know the ones:
 
-<p align = "center">A<br/>
+<p style = "text-align: center !important;">A<br/>
 BCD<br/>
 EFGHI<Br/>
 UJKLMNO<Br/>

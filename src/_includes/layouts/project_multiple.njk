@@ -1,14 +1,7 @@
 {%- include "partials/head.njk" -%}
   {%- include "partials/menu.njk" -%}
-  <style>
-    section li { 
-    }
-    section li:first-of-type {
-      margin-top: 0;
-    }
-  </style>
   <section>
-  <div class = "content">
+  <div class = "content" style = "display: unset;">
     <div id = "details" class = "featured">
       <h2> {{ title }} </h2>
       <h3> {{ author }} </h3>
@@ -46,44 +39,40 @@
    </div>
   </section>
   <section>
-    <div class = "content contributors">
-        <h2>Collaborators</h2>
-        {% for entry, val in _series_data %}
-            {% if entry == project %}
-                {% for data in _series_data[entry] %}
-                    {% if data.edition == edition %}
-                        {% for participant in data.collaborators %}
-                        <div class = "contributor">
-                            <div class = "contribution-title">
-                            <h3>{{ participant.title }}</h3>
-                            <h4>{{ participant.artist }}</h4>
-                            </div>
-                            <div class = "contribution-data">
-                                {% image
-                                    "projects/" + slug,
-                                    participant.picture,
-                                    "2"
-                                %}                            
-                            {{ participant.description | markdown | safe }}
-                            </div>
-                            <div class = "contributor-data">
-                            {% for artist in participant.bios %}
-                                {% image
-                                    "people",
-                                    artist.photo.image,
-                                    artist.photo.person
-                                %}
-                            <div class = "contributor-bios">
-                                <h5>{{ artist.photo.person }}</h5>
-                                {{ artist.text | markdown | safe }}
-                            </div>
-                            {% endfor %}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    {% endif %}
+    <div class = "content" style = "display: unset;">
+        {% for entry, data in _series_data %}
+          {% if slug == data.series %}
+              <h2>{{ data.title }}</h2>
+              <div id = "masonry" style = "margin: 0 auto">
+                {% for image in data.images %}
+                  <div>
+                    <a href = "/img/projects/{{slug}}/{{image}}" data-lightbox="gallery">
+                        {% image
+                            "projects/" + slug,
+                            image,
+                            image.alt
+                        %}
+                    </a>
+                  </div>
                 {% endfor %}
-            {% endif %}
+              </div>
+              {{ data.description | markdown | safe }}
+            <h3>About the artist{% if isMultipleArtists(data.artists) %}s{% endif %}</h3>
+            <div {% if isMultipleArtists(data.artists) %}class = "content"{%endif%}>
+            {% for author in data.artists %}
+              <div class = "project-2-up">
+                <h4 style = "column-span: unset;">{{author}}</h4>
+                {% for bio in data.artist_bios %}
+                  {% for name, text in bio %}
+                    {% if name == author %} 
+                      {{ text | markdown | safe }}
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            {% endfor %}
+            </div>
+          {% endif %}
         {% endfor %}
     </div>
   </section>

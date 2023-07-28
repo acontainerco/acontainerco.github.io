@@ -1,12 +1,22 @@
 title: SOFT WHITE FEEL FLOWER RUN
-images: [
-  
-]
+artists:
+  - 
+    name: Sawako Nakayasu
+    image: sawako_nakayasu.jpg
+    bio: that
+  -
+    name: Naomi Kawanishi Reis
+    image: naomi_reis.jpg
+    bio: that
+images: 
+  - nakayasu_reis_1.jpg
+  - nakayasu_reis_2.jpg
+  - nakayasu_reis_3.jpg
+  - nakayasu_reis_4.jpg
+  - nakayasu_reis_5.jpg
+  - nakayasu_reis_6.jpg
+  - nakayasu_reis_7.jpg
 description: ""
-artists: [
-  Sawako Nakayasu,
-  Naomi Kawanishi Reis
-]
 artist_bios: [
 ]
 series: look-book-2018

@@ -15,7 +15,7 @@ images: [
     {"name": "beaulieu_1.jpg", "alt": "2"},
     {"name": "nakayasu_reis_1.jpg", "alt": "2"},
     {"name": "santos_1.jpg", "alt": "2"},
-    {"name": "kearney_1.jpg", "alt": "2"},
+    {"name": "kearney_4.jpg", "alt": "2"}
 ]
 edition: 2018
 project: _look_books

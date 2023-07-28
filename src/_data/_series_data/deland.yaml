@@ -1,21 +1,24 @@
 title: Deland
-images: [
-  "carmody_creech_1.jpg",
-  "carmody_creech_2.jpg",
-  "carmody_creech_3.jpg",
-  "carmody_creech_4.jpg",
-  "carmody_creech_5.jpg",
-  "carmody_creech_6.jpg",
-  "carmody_creech_7.jpg"
-]
+artists:
+  - 
+    name: Teresa Carmody
+    image: teresa_carmody.jpg
+    bio: that
+  - 
+    name: Madison Creech
+    image: madison_creech.jpg
+    bio: that
+images:
+  -  carmody_creech_1.jpg
+  -  carmody_creech_2.jpg
+  -  carmody_creech_3.jpg
+  -  carmody_creech_4.jpg
+  -  carmody_creech_5.jpg
+  -  carmody_creech_6.jpg
+  -  carmody_creech_7.jpg
 description: "Because you may never come to DeLand, we bring DeLand to you. This is a place as circular as this View Master reel. Everything spreads all the time, inside and out. The woman who passes by your house every day at noon might actually be a ghost. The ghost in the cemetery may be still alive. Bright colors, many greens, the world is not as it seems.
-
 Madison Creech works with fiber arts and Teresa Carmody works with sentences. For this project, we conferred about the ever-present death and growth of Central Florida, before walking our separate ways around DeLand to make seven images (Creech) and seven sentences (Carmody). Later, we paired the images with the text, almost exactly in the order that we .presented them to each other.
 DeLand. Something somewhere is not quite right, but that's all right."
-artists: [
-  Teresa Carmody,
-  Madison Creech
-]
 artist_bios: [
   {"Teresa Carmody": "Teresa Carmody's books include Maison Femme: a fiction (text-image collaboration with Vanessa Place) and Requiem (short stories). She’s the author of several chapbooks, most recently Hide and See published by No Press. Other short work has appeared or is forthcoming in The Collagist, Two Serious Ladies, St. Petersburg Review, Diagram, Faultline, Entropy, and more. Carmody is co-founding editor of Les Figues Press, an imprint of LARB Books in Los Angeles, and director of Stetson University’s MFA of the Americas."},
   {"Madison Creech": "Madison Creech is the Brown Visiting Teacher-Scholar Fellow at Stetson University in DeLand, Florida. She holds an MFA in fibers from Arizona State University and a BFA and BS in textile, merchandising, and fashion design from the University of Nebraska-Lincoln. She has served as faculty associate at Arizona State University, instructing surface design, and has held residencies at Houston Center for Contemporary Craft and Techshop, in Chandler, Arizona. Her work has been widely exhibited across the country, including 31st Annual Materials Hard and Soft at Denton Arts, This Must Be the Place at the Robert Hillestad Textile Gallery and Future Fabrication: SDA International Exhibition In Print. She has been the recipient of a number of distinguished awards, including the Juror’s Award from the Surface Design Association’s Explorations exhibition, the Rudy Turk Award for History in American Craft from ASU, and the Mary Beason Bishop and Francis Sumner Merit Scholarship from the Haystack Mountain School of Crafts. For more information about Madison Creech, please visit, [http://www.creechers.com/](http://www.creechers.com/)."}

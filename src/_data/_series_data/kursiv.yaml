@@ -1,16 +1,17 @@
 title: Kursiv
-artists: [
-  Derek Beaulieu
-]
-images: [
-  "beaulieu_1.jpg",
-  "beaulieu_2.jpg",
-  "beaulieu_3.jpg",
-  "beaulieu_4.jpg",
-  "beaulieu_5.jpg",
-  "beaulieu_6.jpg",
-  "beaulieu_7.jpg",
-]
+artists:
+  - 
+    name: Derek Beaulieu
+    image: derek_beaulieu.jpg
+    bio: that
+images:
+  -  beaulieu_1.jpg
+  -  beaulieu_2.jpg
+  -  beaulieu_3.jpg
+  -  beaulieu_4.jpg
+  -  beaulieu_5.jpg
+  -  beaulieu_6.jpg
+  -  beaulieu_7.jpg
 description: "Kursiv #1-7 exhaustively uses every letter from a single sheet of dry-transfer lettering to create a suite of fragile typographic snowflakes. Each image, suspended within glassine film as part of a View Master slide, suggests a logo for an impossible business – or an alien script – caught between one dead media and another."
 series: look-book-2018
 artist_bios: [

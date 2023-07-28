@@ -1,5 +1,10 @@
 {%- include "partials/head.njk" -%}
   {%- include "partials/menu.njk" -%}
+  <style>
+    .content img {
+      max-width: 100%;
+    }
+  </style>
   <section>
   <div class = "content" style = "display: unset;">
     <div id = "details" class = "featured">
@@ -59,18 +64,20 @@
                 </div>
                 </div>
               {{ data.description | markdown | safe }}
-            <h3>About the artist{% if isMultipleArtists(data.artists) %}s{% endif %}</h3>
+            {% set multiple = isMultipleArtists(data.artists) %}
+            <h3>About the artist{% if multiple %}s{% endif %}</h3>
             <div {% if isMultipleArtists(data.artists) %}class = "content"{%endif%}>
-            {% for author in data.artists %}
+            {% for artist in data.artists %}
               <div class = "project-2-up">
-                <h4 style = "column-span: unset;">{{author}}</h4>
-                {% for bio in data.artist_bios %}
-                  {% for name, text in bio %}
-                    {% if name == author %} 
-                      {{ text | markdown | safe }}
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
+                <h4 style = "column-span: unset;">{{ artist.name }}</h4>
+                {% if not multiple %}
+                  {% image
+                      "people",
+                      artist.image,
+                      image.alt
+                  %}
+                {% endif %}
+                <p>{{ artist.bio }}</p>
               </div>
             {% endfor %}
             </div>

@@ -426,6 +426,22 @@ h4+p {
   padding: 1vh 0 1vh 0;
 }
 
+.glide {
+  text-align:center;
+}
+
+.glide li:before {
+    content: '';
+}
+
+.glide li {
+    margin: 0 !important;
+}
+
+.glide__slides, .glide__slides img {
+  max-height: 30vh;    
+}
+
 @media (max-width: 991.98px) {
 
   body {

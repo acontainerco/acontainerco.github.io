@@ -11,6 +11,7 @@
     </div>
   </div>
   </div>
+  <script src="https://unpkg.com/@glidejs/glide@3.6.0/dist/glide.js"></script>
   <script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
   <script src="/js/lightbox/lightbox.min.js"></script>
   <script>
@@ -18,6 +19,20 @@
       responsive: false,
       numCols: 3
     });
+  let glider;
+  Array.from(document.getElementsByClassName('glide')).forEach(elem => {
+    glider = new Glide(elem, {
+        type: 'carousel',
+        startAt: 0,
+        perView: 4,
+        gap: "10px",
+        breakpoints: {
+            800: { perView: 3 },
+            600: { perView: 2 }
+        }
+    });
+    glider.mount();
+  });
   </script>
   </body>
 </html>

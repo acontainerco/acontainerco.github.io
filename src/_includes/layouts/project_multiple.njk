@@ -66,7 +66,7 @@
               {{ data.description | markdown | safe }}
             {% set multiple = isMultipleArtists(data.artists) %}
             <h3>About the artist{% if multiple %}s{% endif %}</h3>
-            <div {% if isMultipleArtists(data.artists) %}class = "content"{%endif%}>
+            <div {% if multiple %}class = "content"{%endif%}>
             {% for artist in data.artists %}
               <div class = "project-2-up">
                 <h4 style = "column-span: unset;">{{ artist.name }}</h4>
@@ -78,11 +78,11 @@
                       artist.image,
                       image.alt
                   %}
+                {{ artist.bio | markdown | safe }}
                 {% if not multiple %}
                   </div>
                 {% endif %}
-                {{ artist.bio | markdown | safe }}
-                {% if not mulitple  %} <div style = "clear: both"></div>{% endif %}
+                {% if not mulitple  %} <div style = "clear: both"></div> {% endif %}
               </div>
             {% endfor %}
             </div>

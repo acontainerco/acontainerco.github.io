@@ -405,9 +405,15 @@ h4+p {
 }
 
 .single-contributor {
-    float: left;
-    max-width: 25vw;
-    margin-right: 2vw;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+.single-contributor p {
+    grid-column-start: unset !important;
+    margin: 0 !important;
 }
 
 .series-link {
@@ -440,11 +446,14 @@ h4+p {
 }
 
 .glide li {
-    margin: 0 !important;
 }
 
 .glide__slides, .glide__slides img {
   max-height: 30vh;    
+}
+
+.content p {
+    margin: 5vh 0;
 }
 
 @media (max-width: 991.98px) {
@@ -554,16 +563,25 @@ h4+p {
 
    .series-description {
     margin-bottom: 2.5vh;
-    text-align: justify;
    }
 
    p {
-    text-align: justify;
+
    }
 
    .single-contributor {
       clear: both;
       max-width: 100%;
+      margin-right: both;
+      display: block;
    }
+
+   .glide li {
+      margin: 0 5vw;
+    }
+
+    .content p {
+      margin: 0 !important;
+    }
 
 }

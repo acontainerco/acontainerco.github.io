@@ -1,5 +1,5 @@
 ---
-title: Look Books, Series 1
+title: Look Book, Series 1
 layout: layouts/project_multiple.njk
 author: Teresa Carmody and Madison Creech, Derek Beaulieu, Sawako Nakayasu and Naomi Reis, Greg Santos, Douglas Kearney
 slug: look-book-2018

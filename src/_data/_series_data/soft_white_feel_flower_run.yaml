@@ -3,11 +3,11 @@ artists:
   - 
     name: Sawako Nakayasu
     image: sawako_nakayasu.jpg
-    bio: that
+    bio: "Sawako Nakayasu is an artist working with language, performance, and translation – separately and in various combinations. She has lived mostly in the US and Japan, briefly in France and China, and translates from Japanese. Two of her less conventional books include Mouth: Eats Color – Sagawa Chika Translations, Anti-translations, & Originals, a multilingual work of both original and translated poetry, and Costume en Face – a handwritten notebook of Tatsumi Hijikata’s dance notations. She is co-editor, with Lisa Samuels, of A Transpacific Poetics, a gathering of poetry and poetics engaging transpacific imaginaries. She teaches at Brown University. Website: [http://www.sawakonakayasu.net/](http://www.sawakonakayasu.net)."
   -
     name: Naomi Kawanishi Reis
     image: naomi_reis.jpg
-    bio: that
+    bio: "Naomi Reis is a visual artist who investigates idealized spaces—the utopian architecture of modernism, paradise gardens, geodesics—through mixed-media paintings and installations. Her work has been supported by numerous residencies including Yaddo, Wave Hill, Robert Blackburn Printmaking Workshop, and the Lower East Side Printshop. Solo exhibitions include Youkobo Art Space (Tokyo) and Mixed Greens gallery (New York, NY). She was a 2015 New York Foundation for the Arts Finalist in Painting. As a founding member of Tiger Strikes Asteroid NY and the art collective AN/OTHER NY, Reis also works on curatorial projects and related programming. Born in Shiga, Japan, she currently lives and works in Brooklyn, NY."
 images: 
   - nakayasu_reis_1.jpg
   - nakayasu_reis_2.jpg
@@ -16,7 +16,5 @@ images:
   - nakayasu_reis_5.jpg
   - nakayasu_reis_6.jpg
   - nakayasu_reis_7.jpg
-description: ""
-artist_bios: [
-]
+description: "In SOFT WHITE FEEL FLOWER RUN, some of the words from a poem by Sawako Nakayasu escaped and took up residence between the abstracted folds of Japanese paper in a collaged painting by Naomi Kawanishi Reis. The artists listened and took notes of the rendezvous."
 series: look-book-2018

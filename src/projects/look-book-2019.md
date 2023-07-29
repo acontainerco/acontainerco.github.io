@@ -1,5 +1,5 @@
 ---
-title: Look Books, Series 2
+title: Look Book, Series 2
 layout: layouts/project_multiple.njk
 author: Kristen Miller, C. Kubasta and Mollie Oblinger, Chaun Webster, Bryan Borland and Seth Pennington, Christian Bök 
 slug: look-book-2019

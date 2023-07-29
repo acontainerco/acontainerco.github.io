@@ -3,7 +3,7 @@ artists:
   - 
     name: Derek Beaulieu
     image: derek_beaulieu.jpg
-    bio: that
+    bio: "Derek Beaulieu is the author / editor of 20 collections of poetry, prose and criticism including two volumes of his selected work Please No More Poetry: the poetry of derek beaulieu (2013) and Konzeptuelle Arbeiten (2017). His most recent volume of fiction, a, A Novel was published by Paris’s Jean Boîte Editions. Beaulieu has exhibited his visual work across Canada, the United States and Europe and has won multiple awards for his teaching and dedication to students. Derek Beaulieu was the 2014–2016 Poet Laureate of Calgary, Canada."
 images:
   -  beaulieu_1.jpg
   -  beaulieu_2.jpg
@@ -14,6 +14,3 @@ images:
   -  beaulieu_7.jpg
 description: "Kursiv #1-7 exhaustively uses every letter from a single sheet of dry-transfer lettering to create a suite of fragile typographic snowflakes. Each image, suspended within glassine film as part of a View Master slide, suggests a logo for an impossible business – or an alien script – caught between one dead media and another."
 series: look-book-2018
-artist_bios: [
-  {"Derek Beaulieu": "Derek Beaulieu is the author / editor of 20 collections of poetry, prose and criticism including two volumes of his selected work Please No More Poetry: the poetry of derek beaulieu (2013) and Konzeptuelle Arbeiten (2017). His most recent volume of fiction, a, A Novel was published by Paris’s Jean Boîte Editions. Beaulieu has exhibited his visual work across Canada, the United States and Europe and has won multiple awards for his teaching and dedication to students. Derek Beaulieu was the 2014–2016 Poet Laureate of Calgary, Canada."}
-]

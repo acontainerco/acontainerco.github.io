@@ -71,7 +71,6 @@ p {
   margin: 0;
   line-height: 2em;
   max-width: 100%;
-  margin-bottom: 2em;
 }
 
 body {
@@ -405,6 +404,12 @@ h4+p {
 .contributor-data {
 }
 
+.single-contributor {
+    float: left;
+    max-width: 25vw;
+    margin-right: 2vw;
+}
+
 .series-link {
   color: #222 !important;
 }
@@ -554,6 +559,11 @@ h4+p {
 
    p {
     text-align: justify;
+   }
+
+   .single-contributor {
+      clear: both;
+      max-width: 100%;
    }
 
 }

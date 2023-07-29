@@ -71,13 +71,18 @@
               <div class = "project-2-up">
                 <h4 style = "column-span: unset;">{{ artist.name }}</h4>
                 {% if not multiple %}
+                  <div class = "single-contributor">
+                {% endif %}
                   {% image
                       "people",
                       artist.image,
                       image.alt
                   %}
+                {% if not multiple %}
+                  </div>
                 {% endif %}
-                <p>{{ artist.bio }}</p>
+                {{ artist.bio | markdown | safe }}
+                {% if not mulitple  %} <div style = "clear: both"></div>{% endif %}
               </div>
             {% endfor %}
             </div>

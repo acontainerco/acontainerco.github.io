@@ -78,7 +78,7 @@
                       artist.image,
                       image.alt
                   %}
-                {{ artist.bio | markdown | safe }}
+                <div>{{ artist.bio | markdown | safe }}</div>
                 {% if not multiple %}
                   </div>
                 {% endif %}

@@ -14,7 +14,7 @@ images: [
     {"name": "barbara_balfour_1.jpg", "alt" : "2"},
     {"name": "michael_leong_1.jpg", "alt": ""},
     {"name": "chase_berggrun_1.jpg", "alt": ""},
-    {"name": "m_nourbese_phillip_1.jpg", "alt": ""},
+    {"name": "m_nourbese_philip_1.jpg", "alt": ""},
     {"name": "evan_kleekamp_1.jpg", "alt": ""},
     {"name": "ryo_yamaguchi_1.jpg", "alt": ""},
     {"name": "collier_nogues_1.jpg", "alt": ""},

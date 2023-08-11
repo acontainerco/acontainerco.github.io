@@ -2,7 +2,9 @@ const yaml = require("js-yaml");
 const Image = require("@11ty/eleventy-img");
 const tagList = require("./utils/collections/tagList.js");
 const markdown = require("markdown-it")(({
-    html: true
+    html: true,
+    breaks: true,
+    linkify: true
   }))
 
 markdown.renderer.rules.image = (tokens, idx, options, env, self) => {
@@ -34,7 +36,7 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt, size) => {
-
+        if(!src) return "";
         let filepath = `./src/img/${imgDir}/${src}`;
         console.log(`${imgDir}, ${src}, ${alt}`);
         Image(filepath, {

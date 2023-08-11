@@ -27,7 +27,6 @@ h6 {
   /*margin: 1vw 0 1vw 0;*/
   column-span: all;
   grid-column: 1 / span 2;
-  text-transform: capitalize;
   margin-bottom: 1em;
 }
 
@@ -38,17 +37,17 @@ section {
   margin: 0 auto;
 }
 
-section h2 {
+section h2, .content h2{
   border-top: solid 2px #EA7A57;
   border-bottom: solid 2px #A6C4BC;
 }
 
-section h3:first-of-type {
+section h3:first-of-type, .content h3 {
   border-top: dashed 2px #EA7A57;
   border-bottom: dashed 2px #A6C4BC;
 }
 
-section h4:first-of-type {
+section h4:first-of-type, .content h4 {
   border-top: dotted 2px #EA7A57;
   border-bottom: dotted 2px #A6C4BC;
 }

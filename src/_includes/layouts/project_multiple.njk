@@ -47,7 +47,7 @@
     <div class = "content" style = "display: unset;">
         {% for entry, data in _series_data %}
           {% if slug == data.series %}
-              <h2>{{ data.title }}</h2>
+              <h2 id = "{{ createAnchorTag(data.title) }}">{{ data.title }}</h2>
                 <div class = "glide" style = "margin: 0 auto;">
                 <div class = "glide__track" data-glide-el="track">
                     <ul class = "glide__slides">

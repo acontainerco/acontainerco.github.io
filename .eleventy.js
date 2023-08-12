@@ -35,6 +35,10 @@ module.exports = function(eleventyConfig) {
         return markdown.render(value);
     });
 
+    eleventyConfig.addNunjucksGlobal("createAnchorTag", (title) => {
+        return title.replace(/ /g, "-").toLowerCase();
+    })
+
     eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt, size) => {
         if(!src) return "";
         let filepath = `./src/img/${imgDir}/${src}`;

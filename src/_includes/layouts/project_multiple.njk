@@ -71,7 +71,7 @@
               <div class = "project-2-up">
                 <h4 style = "column-span: unset;">{{ artist.name }}</h4>
                 {% if not multiple %}
-                  <div class = "single-contributor">
+                  <div class = "single-contributor" {% if not artist.image %} style = "display: block;" {% endif %}>
                 {% endif %}
                   {% image
                       "people",

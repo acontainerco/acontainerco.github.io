@@ -8,21 +8,8 @@
     }
   </style>
   <section>
-  <div class = "content" style = "display: unset;">
-    <div id = "product-masonry">
-        {%- for image in images -%}
-          <div>
-            <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
-                {% image
-                    "projects/" + slug,
-                    image.name,
-                    "Product photo"
-                %}
-            </a>
-          </div>
-        {%- endfor -%}
-    </div>
-        <div id = "details" class = "featured">
+  <div class = "content">
+    <div id = "details" class = "featured">
       <h2> {{ title }} </h2>
       <h3> {{ author }} </h3>
       {%- if sold_out -%}
@@ -36,11 +23,27 @@
           </ul>
         </div>
       {%- endif -%}
+      <h4>About</h4>
+      <p style = "margin-bottom: 1vw;"> {{ summary }} </p>
+      <p> {{ production_details }} </p>
       {%- if not sold_out -%}
         <p class = "button"><a href = "{{ shop }}" target = "_blank">Purchase ⟶</a></p>
       {%- endif -%}
     </div>
-  </div>
+    <div id = "masonry">
+        {%- for image in images -%}
+          <div>
+            <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
+                {% image
+                    "projects/" + slug,
+                    image.name,
+                    "Product photo"
+                %}
+            </a>
+          </div>
+        {%- endfor -%}
+    </div>
+   </div>
   </section>
   <section>
     <div class = "content" style = "display: block;">

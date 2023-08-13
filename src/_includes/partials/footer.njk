@@ -19,13 +19,17 @@
       responsive: false,
       numCols: 3
     });
+    FlexMasonry.init('#product-masonry', {
+      responsive: false,
+      numCols: 3
+    });
   let glider;
   Array.from(document.getElementsByClassName('glide')).forEach(elem => {
     glider = new Glide(elem, {
         type: 'carousel',
         startAt: 0,
         perView: 4,
-        gap: "2vw",
+        gap: "10%",
         breakpoints: {
             800: { perView: 3 },
             600: { perView: 2 },

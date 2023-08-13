@@ -28,19 +28,6 @@
         <p class = "button"><a href = "{{ shop }}" target = "_blank">Purchase ⟶</a></p>
       {%- endif -%}
     </div>
-    <div id = "masonry">
-        {%- for image in images -%}
-          <div>
-            <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
-                {% image
-                    "projects/" + slug,
-                    image.name,
-                    image.alt
-                %}
-            </a>
-          </div>
-        {%- endfor -%}
-    </div>
    </div>
   </section>
   <section>

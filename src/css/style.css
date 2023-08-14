@@ -205,11 +205,11 @@ h4+p {
   grid-column-start: 1;
 }
 
-#masonry>div, #product-masonry > div {
+.masonry>div, .product-masonry > div {
   padding: 1%;
 }
 
-#masonry img, #product-masonry img {
+.masonry img, .product-masonry img {
   object-fit: contain;
   width: 100%;
 }
@@ -335,7 +335,7 @@ h4+p {
   padding: 0 !important;
 }
 
-#masonry {
+.masonry {
   align-self: center;
 }
 

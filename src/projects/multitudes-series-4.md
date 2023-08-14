@@ -38,7 +38,7 @@ images: [
     {"name": "trefonides_besonson_1.jpg", "alt": ""},
     {"name": "kafka_1.jpg", "alt": ""},
     {"name": "moran_waring_1.jpg", "alt": ""},
-    {"name": "sterling_shapiro_5.jpg", "alt": ""}
+    {"name": "sterling_shapiro_1.jpg", "alt": ""}
 ]
 edition: 4
 project: _multitudes

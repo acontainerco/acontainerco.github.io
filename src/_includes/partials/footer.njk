@@ -15,14 +15,16 @@
   <script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
   <script src="/js/lightbox/lightbox.min.js"></script>
   <script>
-    FlexMasonry.init('#masonry', {
-      responsive: false,
-      numCols: 3
-    });
-    FlexMasonry.init('#product-masonry', {
-      responsive: false,
-      numCols: 3
-    });
+  let grids = Array.from(document.getElementsByClassName("masonry"));
+  FlexMasonry.init(grids, {
+    responsive: false,
+    numCols: 3
+  });
+  let products = Array.from(document.getElementsByClassName("product-masonry"));
+  FlexMasonry.init(products, {
+    responsive: false,
+    numCols: 3
+  });
   let glider;
   Array.from(document.getElementsByClassName('glide')).forEach(elem => {
     glider = new Glide(elem, {

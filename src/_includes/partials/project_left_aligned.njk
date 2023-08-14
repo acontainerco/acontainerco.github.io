@@ -4,7 +4,7 @@
     <p> {{ project.data.summary }} </p>
     <p class = "button learn"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
 </div>
-<div id = "masonry">
+<div class = "masonry">
     {%- for image in project.data.images -%}
         <div>
         <a href = "/img/projects/{{project.data.slug}}/{{image.name}}" data-lightbox="gallery">

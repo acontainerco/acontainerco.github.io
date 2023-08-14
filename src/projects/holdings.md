@@ -1,6 +1,12 @@
 ---
 title: Holdings
-author: Colette LaBouff
+artists: 
+    -
+        name: Colette LaBouff
+        photo: colette_labouff.jpg
+        bio: "Colette LaBouff writes essays and poems. Her writing has recently appeared in _At Length_ and _The Tenderness Project_. In 2016, she was a contributor and curator for _Documentum_ and its second issue focusing on Instagram, Pictures and Words. She is the author of one book of prose poems, _Mean_, published by University of Chicago Press in 2008.\n
+        \n
+        Originally from California, she earned an MFA in poetry and Ph.D. in English at University of California, Irvine. She curates the poetry and image feature at _Zocalo Public Square_ and she is the Executive Director of the Taos Center for the Arts in Taos, New Mexico."
 slug: holdings
 description: Holdings
 price: 325.00
@@ -43,12 +49,6 @@ No stranger at the library had to know my situation. No one had to know I was su
 In the scorpion house, there were scorpions.
 
 I slept with a flashlight in my hand. To be less afraid, I read about them. I learned that, when there’s no food, some scorpions are able to slow their metabolism dramatically and survive through a season on a single insect a year. I started to admire them, their endurance in the face of scarcity, their tails up despite the lack in winter, the way they ran right toward me.
-
-## About the author
-
-Colette LaBouff writes essays and poems. Her writing has recently appeared in _At Length_ and _The Tenderness Project_. In 2016, she was a contributor and curator for _Documentum_ and its second issue focusing on Instagram, Pictures and Words. She is the author of one book of prose poems, _Mean_, published by University of Chicago Press in 2008.
-
-Originally from California, she earned an MFA in poetry and Ph.D. in English at University of California, Irvine. She curates the poetry and image feature at _Zocalo Public Square_ and she is the Executive Director of the Taos Center for the Arts in Taos, New Mexico.
 
 ## About the object
 

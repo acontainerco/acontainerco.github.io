@@ -31,6 +31,13 @@ module.exports = function(eleventyConfig) {
         return false;
     });
 
+    eleventyConfig.addNunjucksGlobal("joinArtistNames", (artists) => {
+        names = artists.map(artist => {
+            return artist.name;
+        });
+        return names.join(", ");
+    });
+
     eleventyConfig.addFilter('markdown', value => {
         return markdown.render(value);
     });

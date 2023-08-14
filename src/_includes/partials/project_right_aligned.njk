@@ -13,7 +13,7 @@
 </div>
 <div id = "details" class = "featured">
 <h2> {{ project.data.title }} </h2>
-<h3> {{ project.data.author }} </h3>
+<h3> {{ joinArtistNames(project.data.artists) }} </h3>
 <p> {{ project.data.summary }} </p>
 <p class = "button learn"><a href = "/projects/{{ project.data.slug }}">Learn more ⟶</a></p>
 </div>

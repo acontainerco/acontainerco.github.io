@@ -1,6 +1,16 @@
 ---
 title: In the Crossed World of Animals
-author: Terri Witek
+artists: 
+    -
+        name: Terri Witek
+        photo: terri_witek.jpg
+        bio: "Terri Witek is the author of 6 books of poems, most recently _The Rape Kit_, winner of the 2017 Slope Editions Prize judged by Dawn Lundy Martin. Her poetry often traces the breakages between words and images and has been included in _American Poetry Review_, _Poetry_, _Slate_, _Poesia Visual_, _Versal_, and many other journals and anthologies.\n
+        \n
+        She has collaborated with Brazilian visual artist Cyriaco Lopes cyriacolopes.com since 2005–their works together include museum and gallery shows, performance and site-specific projects featured internationally in New York, Seoul, Miami, Lisbon, and Rio de Janeiro. Collaborations with digital artist Matt Roberts mattroberts.com use augmented reality technology for smartphones to poetically map cities and have been featured in Matanza (Colombia), Glasgow, Vancouver, Lisbon, Miami, Santa Fe and Orlando.\n
+        \n
+        Witek directs Stetson’s undergraduate creative program and with Lopes teaches Poetry in the Expanded Field in Stetson University’s low-residency MFA of the Americas. To learn more, visit terriwitek.com."
+photo: ""
+bio: ""
 slug: crossed-world
 description: Crossed World
 price: 45.00
@@ -42,11 +52,3 @@ Each kit contains materials to make a 16″x10″ throw pillow, including:
 * Thread to attach the pillowcase backing
 
 Note: Customers are responsible for purchasing their own pillow form. We recommend an 18″x12″ pillow insert, which can be procured inexpensively on Amazon and other retailers.
-
-## About the Author
-
-Terri Witek is the author of 6 books of poems, most recently _The Rape Kit_, winner of the 2017 Slope Editions Prize judged by Dawn Lundy Martin. Her poetry often traces the breakages between words and images and has been included in _American Poetry Review_, _Poetry_, _Slate_, _Poesia Visual_, _Versal_, and many other journals and anthologies.
-
-She has collaborated with Brazilian visual artist Cyriaco Lopes cyriacolopes.com since 2005–their works together include museum and gallery shows, performance and site-specific projects featured internationally in New York, Seoul, Miami, Lisbon, and Rio de Janeiro. Collaborations with digital artist Matt Roberts mattroberts.com use augmented reality technology for smartphones to poetically map cities and have been featured in Matanza (Colombia), Glasgow, Vancouver, Lisbon, Miami, Santa Fe and Orlando.
-
-Witek directs Stetson’s undergraduate creative program and with Lopes teaches Poetry in the Expanded Field in Stetson University’s low-residency MFA of the Americas. To learn more, visit terriwitek.com.

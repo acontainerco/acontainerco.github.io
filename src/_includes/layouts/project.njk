@@ -24,7 +24,7 @@
     </div>
         <div id = "details" class = "featured">
       <h2> {{ title }} </h2>
-      <h3> {{ author }} </h3>
+      <h3> {{ joinArtistNames(artists) }} </h3>
       {%- if sold_out -%}
         <p>Sold out</p>
       {%- else -%}
@@ -45,6 +45,27 @@
   <section>
     <div class = "content" style = "display: block;">
       {{ content | safe }}
+      {% set multiple = isMultipleArtists(artists) %}
+      <h2>About the artist{% if multiple %}s{% endif %}</h2>
+            <div {% if multiple %}class = "content"{%endif%}>
+            {% for artist in artists %}
+              <div class = "project-2-up">
+                {% if not multiple %}
+                  <div class = "single-contributor" {% if not artist.photo %} style = "display: block;" {% endif %}>
+                {% endif %}
+                  {% image
+                      "people",
+                      artist.photo,
+                      image.alt
+                  %}
+                <div>{{ artist.bio | markdown | safe }}</div>
+                {% if not multiple %}
+                  </div>
+                {% endif %}
+                {% if not mulitple  %} <div style = "clear: both"></div> {% endif %}
+              </div>
+            {% endfor %}
+            </div>
     </div>
   </section>
 {%- include "partials/footer.njk" -%}

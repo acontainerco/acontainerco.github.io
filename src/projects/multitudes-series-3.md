@@ -1,7 +1,19 @@
 ---
 title: Multitudes, Series 3
 layout: layouts/project_multiple.njk
-author: Amber Eve Anderson, Erin Dorney, Amy Eisner, Sam Sax, Sam Sheffield, Nikki Wallschlaeger
+artists: 
+    -
+        name: Amber Eve Anderson
+    -
+        name: Erin Dorney
+    -
+        name: Amy Eisner
+    -
+        name: Sam Sax
+    -
+        name: Sam Sheffield
+    -
+        name: Nikki Wallschlaeger
 slug: multitudes-series-3
 description: Multitudes, Series 3
 price:

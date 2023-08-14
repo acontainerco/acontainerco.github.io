@@ -1,7 +1,25 @@
 ---
 title: Multitudes, Series 4
 layout: layouts/project_multiple.njk
-author: Brooke Schifano, Jessamyn Wolff and Jacqueline Rosenbaum, Christie Towers and Krisela Karaja, Danny Elfanbaum and Julia Lattimer, Andria Warren, Amanda Spencer and Drew Bevis, Nicholas Trefonides and Garrett L. Besonson, Shannon L. Kafka, Katie Moran and Megan Waring
+artists: 
+    -
+        name: Brooke Schifano
+    -
+        name: Jessamyn Wolff and Jacqueline Rosenbaum
+    -
+        name: Christie Towers and Krisela Karaja
+    -
+        name: Danny Elfanbaum and Julia Lattimer
+    -
+        name: Andria Warren
+    -
+        name: Amanda Spencer and Drew Bevis
+    -
+        name: Nicholas Trefonides and Garrett L. Besonson
+    -
+        name: Shannon L. Kafka
+    -
+        name: Katie Moran and Megan Waring
 slug: multitudes-series-4
 description: Multitudes, Series 4
 price:

@@ -1,7 +1,17 @@
 ---
 title: Look Book, Series 1
 layout: layouts/project_multiple.njk
-author: Teresa Carmody and Madison Creech, Derek Beaulieu, Sawako Nakayasu and Naomi Reis, Greg Santos, Douglas Kearney
+artists: 
+    - 
+        name: Teresa Carmody and Madison Creech
+    -
+        name: Derek Beaulieu
+    -
+        name: Sawako Nakayasu and Naomi Reis
+    -
+        name:  Greg Santos
+    -
+        name: Douglas Kearney
 slug: look-book-2018
 description: Look Books, Series 1
 price:

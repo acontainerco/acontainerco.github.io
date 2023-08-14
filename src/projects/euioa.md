@@ -1,6 +1,14 @@
 ---
 title: E, UIO, A
-author: Dave Drayton
+artists: 
+    - 
+        name: Dave Drayton
+        photo: dave_drayton.jpg
+        bio: "Dave Drayton was an amateur banjo player, founding member of the Atterton Academy, Kanganoulipian, and the author of _P(oe)Ms_ (Rabbit), _Haiturograms_ (Stale Objects dePress) and _Poetic Pentagons_ (Spacecraft Press).\n
+        \n
+        He works as an educator at the University of Technology Sydney and Western Sydney University."
+photo: ""
+bio: ""
 slug: euioa
 sold_out: true
 description: E, UIO, A

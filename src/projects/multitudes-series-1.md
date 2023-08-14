@@ -1,7 +1,23 @@
 ---
 title: Multitudes, Series 1
 layout: layouts/project_multiple.njk
-author: Barbara Balfour, Lillian-Yvonne Bertram, Evan Kleekamp, Michael Leong, James W. Moore, Collier Nogues, M. NourbeSe Phillip, Ryo Yamaguchi
+artists: 
+    -
+        name: Barbara Balfour
+    -
+        name: Lillian-Yvonne Bertram
+    -
+        name: Evan Kleekamp
+    -
+        name: Michael Leong
+    -
+        name: james (w) moore
+    -
+        name: Collier Nogues
+    -
+        name: M. NourbeSe Phillip
+    -
+        name: Ryo Yamaguchi
 slug: multitudes-series-1
 description: Multitudes, Series 1
 price:

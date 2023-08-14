@@ -1,6 +1,10 @@
 ---
 title: Saw Palmettos
-author: Charles Theonia
+artists:
+    -
+        name: Charles Theonia
+        photo: charles_theonia.jpg
+        bio: "Charles Theonia is a poet and teacher from Brooklyn. They are the author of _Which One Is the Bridge_ (Topside Press, 2015) and coeditor of Femmescapes, a magazine of queer and trans affinities with femmeness. Their work has appeared in publications including _Cosmonauts Avenue_, _Glittermob_, _The Felt_, _The Wanderer_, _Queen Mobs Teahouse_, and the _Brooklyn Poets anthology_, and they have collaborated with visual artists Abigail Lloyd, Aniahs Gnay, and Sarah E. Brook. They teach literacy skills at the Borough of Manhattan Community College and are an MFA candidate in poetry at Brooklyn College."
 slug: saw-palmettos
 price:
 sold_out: true
@@ -27,11 +31,6 @@ Three years ago, I started HRT. From the experiences of friends and the prolifer
 A friend who knows about herbs told me to rub saw palmetto tincture into my roots, so for the 15 oily minutes every application took to set in and try to block my new testosterone from converting to DHT, I made a practice of writing, which I’ve always found difficult to do regularly. As I wrote, inhabiting the inherently-funny, embodied moment of sitting still, dripping wet, and trying not to worry about balding, I noticed that I was focused less on depicting particular stories or scenes in time, and more on questions and uncertainties that lingered unresolved. The poems were tracing anxiety and disconnection not back to their sources, where I could potentially understand and contain them, but through to what comes next.
 
 The shifting “you” addressed in the poems encompasses many different relations from partners to friends to aggravating community acquaintances. It could be that this has helped me dig into feelings of surprise at the self (in its changes and its stubborn holdovers) and the fear that comes from being in the only possible position of the self. In some ways, especially in form, this writing has been a new mode of inquiry for me. In other ways, I am asking familiar questions: How are we implicated in one another?, and, What do we do about it?
-
-
-## About the Author
-
-Charles Theonia is a poet and teacher from Brooklyn. They are the author of _Which One Is the Bridge_ (Topside Press, 2015) and coeditor of Femmescapes, a magazine of queer and trans affinities with femmeness. Their work has appeared in publications including _Cosmonauts Avenue_, _Glittermob_, _The Felt_, _The Wanderer_, _Queen Mobs Teahouse_, and the _Brooklyn Poets anthology_, and they have collaborated with visual artists Abigail Lloyd, Aniahs Gnay, and Sarah E. Brook. They teach literacy skills at the Borough of Manhattan Community College and are an MFA candidate in poetry at Brooklyn College.
 
 ## About the Object
 

@@ -9,7 +9,7 @@
   <div class = "content" style = "display: unset;">
     <div id = "details" class = "featured">
       <h2> {{ title }} </h2>
-      <h3> {{ author }} </h3>
+      <h3> {{ joinArtistNames(artists) }} </h3>
       {%- if sold_out -%}
         <p>Sold out</p>
       {%- else -%}

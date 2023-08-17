@@ -13,11 +13,11 @@ shipping_intl:
 summary: Saw Palmettos is a series of short poems about hormones, community, and the brain-time continuum.
 production_details:  Produced in a closed edition of 25 copies as a wooden display stand holding 30 tincture bottles.
 images: [
-    {"name": "theonia_saw_palmettos_1.png", "alt": "2"},
     {"name": "theonia_saw_palmettos_2.png", "alt": "2"},
     {"name": "theonia_saw_palmettos_3.png", "alt": "2"},
     {"name": "theonia_saw_palmettos_4.png", "alt": "2"},
     {"name": "theonia_saw_palmettos_5.png", "alt": "2"},
+    {"name": "theonia_saw_palmettos_1.png", "alt": "2"},
 ]
 tags: "objects"
 ---

@@ -82,6 +82,7 @@ body {
   font-size: 1.25rem;
   margin: 0;
   overflow-x: hidden;
+  max-width: 1519px;
 }
 
 code {
@@ -203,6 +204,10 @@ h2+p,
 h3+p,
 h4+p {
   grid-column-start: 1;
+}
+
+.masonry {
+  columns: 3;
 }
 
 .masonry>div, .product-masonry > div {

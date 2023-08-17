@@ -14,31 +14,32 @@
   <script src="https://unpkg.com/@glidejs/glide@3.6.0/dist/glide.js"></script>
   <script src="/js/lightbox/lightbox.min.js"></script>
   <script>
-  let grids = Array.from(document.getElementsByClassName("masonry"));
-  FlexMasonry.init(grids, {
-    responsive: false,
-    numCols: 3
-  });
-  let products = Array.from(document.getElementsByClassName("product-masonry"));
-  FlexMasonry.init(products, {
-    responsive: false,
-    numCols: 3
-  });
-  let glider;
-  Array.from(document.getElementsByClassName('glide')).forEach(elem => {
-    glider = new Glide(elem, {
-        type: 'carousel',
-        startAt: 0,
-        perView: 4,
-        gap: "10%",
-        breakpoints: {
-            800: { perView: 3 },
-            600: { perView: 2 },
-            300: { perView: 2 }
-        }
+    let grids = Array.from(document.getElementsByClassName("masonry"));
+    FlexMasonry.init(grids, {
+      responsive: false,
+      numCols: 3
     });
-    glider.mount();
-  });
+    let products = Array.from(document.getElementsByClassName("product-masonry"));
+    FlexMasonry.init(products, {
+      responsive: false,
+      numCols: 3
+    });
+    let glider;
+    Array.from(document.getElementsByClassName('glide')).forEach(elem => {
+      glider = new Glide(elem, {
+          type: 'carousel',
+          startAt: 0,
+          perView: 4,
+          gap: "10%",
+          breakpoints: {
+              800: { perView: 3 },
+              600: { perView: 2 },
+              300: { perView: 2 }
+          }
+      });
+      glider.mount();
+    });
+    FlexMasonry.refreshAll();
   </script>
   </body>
 </html>

@@ -470,6 +470,7 @@ h4+p {
   #menu{
     width: 50%;
     transform: translateY(-50%);
+    font-size: 1.5vw;
   }
 }
 
@@ -582,10 +583,6 @@ h4+p {
     margin-bottom: 2.5vh;
    }
 
-   p {
-
-   }
-
    .single-contributor {
       clear: both;
       max-width: 100%;
@@ -621,5 +618,6 @@ h4+p {
   #menu{
     width: 100%;
     transform: translateY(-55%);
+    font-size: 2em;
   }
 }

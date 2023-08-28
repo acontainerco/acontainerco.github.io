@@ -621,7 +621,7 @@ h4+p {
 @media (min-width: 1519px) {
   #menu{
     width: 100%;
-    transform: translateY(-55%);
+    transform: translateY(-65%);
     font-size: 2em;
   }
   

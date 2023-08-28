@@ -466,6 +466,13 @@ h4+p {
  margin-bottom: 1em;
 }
 
+@media (max-width: 1519px) {
+  #menu{
+    width: 50%;
+    transform: translateY(-50%);
+  }
+}
+
 @media (max-width: 991.98px) {
 
   body {
@@ -613,5 +620,6 @@ h4+p {
 @media (min-width: 1519px) {
   #menu{
     width: 100%;
+    transform: translateY(-55%);
   }
 }

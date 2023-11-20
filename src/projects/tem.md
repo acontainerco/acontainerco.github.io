@@ -10,10 +10,10 @@ artists:
         \n
         Wided also founded a creative non-profit platform, tazuri projects, with a focus on increasing access for traditionally marginalized groups in the creative sector. She has a continuing research interest in the creative participatory process, specifically writing as a tool for gatekeepers."
 slug: tem
-price: 
-sold_out: true
-shipping_us: 
-shipping_intl: 
+price: 250.00
+sold_out: false
+shipping_us: 30.00
+shipping_intl: 30.00
 summary: Tem is part history, part make-believe. Every culture has creation myths that explains how the world emerged. This story is one of the forgotten deities of the pre-Islamic Bedouin of the Arabian Peninsula.
 production_details: Tem is produced in a limited edition run of 25 copies as a mineral collection box featuring text and paper gems stored in plaster trays.
 images: [
@@ -24,6 +24,7 @@ images: [
     {"name": "khadraoui_tem_5.png", "alt": "2"},
 ]
 tags: "objects"
+shop: https://checkout.acontainer.co/b/fZeg2H6fd28N8zCdQU
 ---
 
 ## Artist's Statement

@@ -4,7 +4,7 @@ artists:
     -
         name: Charles Theonia
         photo: charles_theonia.jpg
-        bio: "Charles Theonia is a poet and teacher from Brooklyn. They are the author of _Which One Is the Bridge_ (Topside Press, 2015) and coeditor of Femmescapes, a magazine of queer and trans affinities with femmeness. Their work has appeared in publications including _Cosmonauts Avenue_, _Glittermob_, _The Felt_, _The Wanderer_, _Queen Mobs Teahouse_, and the _Brooklyn Poets anthology_, and they have collaborated with visual artists Abigail Lloyd, Aniahs Gnay, and Sarah E. Brook. They teach literacy skills at the Borough of Manhattan Community College and are an MFA candidate in poetry at Brooklyn College."
+        bio: "[charles theonia](http://www.charlestheonia.com/) is a Brooklyn poet, enthusiast, and transsexual without direction. They are the author of _Gay Heaven Is a Dance Floor but I Can't Relax_ (Archway Editions), chapbooks including _If a Piece Falls off the Poem, Keep It_ (Belladonna*), and other writings on zits, piss, and disco."
 slug: saw-palmettos
 price: 250.00
 sold_out: false
@@ -23,7 +23,7 @@ tags: "objects"
 shop: https://checkout.acontainer.co/b/bIYbMr7jh7t717a9AD
 ---
 
-## Artist's Statement
+## Artist's Statement (2018)
 
 Saw Palmettos is a series of short poems about hormones, community, and the brain-time continuum.
 

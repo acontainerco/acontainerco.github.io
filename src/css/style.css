@@ -608,7 +608,7 @@ h4+p {
     }
 
     .content p {
-      margin: 0 !important;
+      /*margin: 0 !important;*/
       margin-bottom: 1em !important; 
     }
 

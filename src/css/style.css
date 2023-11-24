@@ -501,6 +501,10 @@ stripe-buy-button {
     margin-bottom: 2em;
   }
 
+  .first-para {
+     margin: 0;
+  }
+
   .single-contributor img {
     max-width: 50%;
   }

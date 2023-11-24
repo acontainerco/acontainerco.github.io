@@ -502,7 +502,7 @@ stripe-buy-button {
   }
 
   .first-para {
-     margin: 0;
+     margin: 0 !important;
   }
 
   .single-contributor img {

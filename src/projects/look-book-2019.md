@@ -19,7 +19,7 @@ sold_out: true
 shipping_us: 
 shipping_intl: 
 summary: The Look Books subscription series places old experiences in a new context, presenting five hybrid literary and visual texts that can be read by inserting them into the viewer and advancing the frame forward.
-production_details:  Over the course of the year, subscribers will receive one viewer and five reels, mailed out bimonthly.
+production_details:  Over the course of the year, subscribers will receive one viewer and five reels, mailed out bimonthly starting in March of 2024.
 images: [
     {"name": "miller_1.jpeg", "alt": "2"},
     {"name": "oblinger_kubasta_1.jpg", "alt": "2"},

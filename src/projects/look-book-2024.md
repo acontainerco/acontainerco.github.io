@@ -11,7 +11,7 @@ artists:
     -
         name: Joshua Rothes
     -
-        name: Remi Forte
+        name: Rémi Forte
 slug: look-book-2024
 description: Look Books, Series 3
 price: 45.00 (North America), $65.00 (International), $35.00 (Reels Only)

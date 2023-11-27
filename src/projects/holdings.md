@@ -10,7 +10,7 @@ artists:
 slug: holdings
 description: Holdings
 price: 325.00
-shipping_us: 15.00
+shipping_us: 30.00
 shipping_intl: 30.00
 summary: Holdings features pieces written during the author’s six-months working as a part-time reference librarian at a public library in Roswell, New Mexico.
 production_details:  Produced in a limited edition of 30 copies as a case-bound accordion book with an accompanying slipcase.

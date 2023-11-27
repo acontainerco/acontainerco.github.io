@@ -31,8 +31,8 @@
         <p> ${{ price }}</p>
         <div id = "shipping">
           <ul>
-            <li> Shipping (US): ${{ shipping_us }} </li>
-            <li> Shipping (International): ${{ shipping_intl }} </li>
+            <li> Shipping (North America): ${{ shipping_us | safe }} </li>
+            <li> Shipping (International): ${{ shipping_intl | safe }} </li>
           </ul>
         </div>
       {%- endif -%}

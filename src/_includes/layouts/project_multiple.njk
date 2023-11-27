@@ -16,17 +16,26 @@
         <p> ${{ price }}</p>
         <div id = "shipping">
           <ul>
-            <li> Shipping (US): ${{ shipping_us }} </li>
-            <li> Shipping (International): ${{ shipping_intl }} </li>
+            <li> Shipping (North America): ${{ shipping_us | safe }} </li>
+            <li> Shipping (International): ${{ shipping_intl | safe }} </li>
           </ul>
         </div>
       {%- endif -%}
       <h4>About</h4>
       <p style = "margin-bottom: 1vw;"> {{ summary }} </p>
-      <p> {{ production_details }} </p>
+      <p> {{ production_details | markdown | safe }} </p>
       {%- if not sold_out -%}
-        <p class = "button"><a href = "{{ shop }}" target = "_blank">Purchase ⟶</a></p>
-      {%- endif -%}
+          <h4>Subscribe</h4>
+          <div id = "buy-buttons">
+          {% for entry in shop %}
+            <stripe-buy-button
+              buy-button-id="{{ entry.id }}"
+              publishable-key="{{ entry.key }}"
+            >
+            </stripe-buy-button>
+          {% endfor %}
+          </div>
+        {%- endif -%}
     </div>
    </div>
   </section>

@@ -29,5 +29,5 @@ images: [
 ]
 edition: 2019
 project: _look_books
-tags: ["Look Book", "latest"]
+tags: ["Look Book"]
 ---

@@ -7,7 +7,7 @@ artists:
         bio: "[charles theonia](http://www.charlestheonia.com/) is a Brooklyn poet, enthusiast, and transsexual without direction. They are the author of _Gay Heaven Is a Dance Floor but I Can't Relax_ (Archway Editions), chapbooks including _If a Piece Falls off the Poem, Keep It_ (Belladonna*), and other writings on zits, piss, and disco."
 slug: saw-palmettos
 price: 250.00
-sold_out: false
+sold_out: true
 shipping_us: 30.00
 shipping_intl: 30.00
 summary: Saw Palmettos is a series of short poems about hormones, community, and the brain-time continuum.

@@ -14,7 +14,7 @@ markdown.renderer.rules.image = (tokens, idx, options, env, self) => {
 
 module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("static");
+    eleventyConfig.addPassthroughCopy("src/static");
 
     eleventyConfig.addNunjucksGlobal("randomHash", () => {
         let hash = [...Array(5)];

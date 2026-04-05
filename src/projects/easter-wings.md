@@ -1,5 +1,6 @@
 ---
 title: "Easter Wings"
+layout: layouts/project_multiple.njk
 artists: 
     -
         name: George Herbert

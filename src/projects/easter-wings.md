@@ -47,10 +47,11 @@ The poem consist of two stanzas, traditionally printed vertically to emphasize t
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         position: relative;
+        grid-gap: 2rem;
     }
     .broadsheet-grid img {
         position: relative;
-        width: 50%;
+        width: 100%;
     }
 </style>
 <div class = "broadsheet-grid">

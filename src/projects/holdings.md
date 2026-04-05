@@ -22,7 +22,7 @@ images: [
     {"name": "labouff_holdings_7.jpg", "alt": "2"},
     {"name": "labouff_holdings_9.jpg", "alt": "2"},
 ]
-tags: ["latest", "objects"]
+tags: ["objects"]
 shop: https://checkout.acontainer.co/b/4gwaIn0UT00F5nq144
 ---
 

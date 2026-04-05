@@ -27,7 +27,7 @@ images: [
     {"name": "EW - Stanza 2 Angle.png", "alt": "Picture of full Stanza 2 kit."},
     {"name": "EW - Back.png", "alt": "Picture of back of fully assembled kite, showing frame"}
 ]
-tags: ["objects", "time capsules"]
+tags: ["latest", "objects", "time capsules"]
 shop: 
     -
         name: Stanza 1

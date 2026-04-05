@@ -9,9 +9,9 @@ artists:
 slug: easter-wings
 description: Easter Wings
 price: 25.00 for one stanza; 40.00 for both stanzas
-shipping_us: 7.00
+shipping_us: 7.00 
 shipping_intl: 15.00
-summary: Easter Wings, one of the first concrete (or "shape" poems), published in the form of a do-it-yourself kite kit. Take it from us, this poem wants to _fly_.
+summary: Easter Wings, one of the first concrete (or "shape" poems), published in the form of a do-it-yourself kite kit. Take it from us, this poem wants to <em>fly</em>.
 production_details:  The poem is published in an edition of 25 copies of each stanza.
 images: [
     {"name": "EW - Top Down - Kit.png", "alt": "Picture of kit from top-down view."},

@@ -41,8 +41,19 @@ shop:
 Published as part of his posthumous collection, _The Temple_ (1633), Herbert’s "Easter Wings" is one of the earliest well-known "shape" or "pattern" poems. Using subject matter found in 1 Corinthians, verse 15, Herbert uses the poem to meditate on the the ideas of transgression and ultimate redemption. Though widely disapproved and mocked in the centuries between its publication and the contemporary era, the 20th century Concrete poetry movement placed new emphasis on the relationship between the typography of the poem and its meaning.
 
 The poem consist of two stanzas, traditionally printed vertically to emphasize the shape of the poem and its relationship to content. In this edition, the poems are printed on cuttable broadsheets, as show below. Choose your favorite of the two or _both_!
-
-<div class = "content">
+<style>
+    .broadsheet-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        position: relative;
+    }
+    .broadsheet-grid img {
+        position: relative;
+        width: 50%;
+    }
+</style>
+<div class = "broadsheet-grid">
     <img src = "/img/projects/easter-wings/EW - Stanza 1 - Broadsheet.png" alt = "Stanza 1 Broadsheet with instructions">
     <img src = "/img/projects/easter-wings/EW - Stanza 2 - Broadsheet.png" alt = "Stanza 2 Broadsheet with instructions">
 </div>

@@ -24,15 +24,15 @@ tags: ["latest", "objects", "time-capsules"]
 shop: 
     -
         name: Stanza 1
-        id: buy_btn_1TIgDHGYFU6eH8vpb5FjJsA5
+        id: buy_btn_1TIhI3GYFU6eH8vpdWjgAoGo
         key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
     -
         name: Stanza 2
-        id: buy_btn_1TIgBoGYFU6eH8vpIMCEasVm
+        id: buy_btn_1TIhJ5GYFU6eH8vp0HMuSD91
         key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
     -
         name: Both Stanzas
-        id: buy_btn_1TIgDuGYFU6eH8vpOdOgGIlt
+        id: buy_btn_1TIhKvGYFU6eH8vpLXQu7rmc
         key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
 ---
 

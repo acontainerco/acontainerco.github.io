@@ -11,7 +11,7 @@ description: Easter Wings
 price: 25.00 for one stanza; 40.00 for both stanzas
 shipping_us: 7.00 
 shipping_intl: 15.00
-summary: Easter Wings, one of the first concrete (or "shape" poems), published in the form of a do-it-yourself kite kit. Take it from us, this poem wants to <em>fly</em>.
+summary: Easter Wings, one of the first concrete (or "shape" poems), published in the form of a do-it-yourself kite kit. Take it from us, this poem wants to fly.
 production_details:  The poem is published in an edition of 25 copies of each stanza.
 images: [
     {"name": "EW - Top Down - Kit.png", "alt": "Picture of kit from top-down view."},
@@ -36,7 +36,18 @@ shop:
         key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
 ---
 
-Published as part of his posthumous collection, The Temple (1633), Herbert’s "Easter Wings" is one of the earliest well-known "shape" or "pattern" poems. Using subject matter found in 1 Corinthians, verse 15, Herbert uses the poem to meditate on the the ideas of transgression and ultimate redemption. Though widely disapproved and mocked in the centuries between its publication and the contemporary era, the 20th century Concrete poetry movement placed new emphasis on the relationship between the typography of the poem and its meaning.
+## About the poem
+
+Published as part of his posthumous collection, _The Temple_ (1633), Herbert’s "Easter Wings" is one of the earliest well-known "shape" or "pattern" poems. Using subject matter found in 1 Corinthians, verse 15, Herbert uses the poem to meditate on the the ideas of transgression and ultimate redemption. Though widely disapproved and mocked in the centuries between its publication and the contemporary era, the 20th century Concrete poetry movement placed new emphasis on the relationship between the typography of the poem and its meaning.
+
+The poem consist of two stanzas, traditionally printed vertically to emphasize the shape of the poem and its relationship to content. In this edition, the poems are printed on cuttable broadsheets, as show below. Choose your favorite of the two or _both_!
+
+<div class = "content">
+    ![Stanza 1](/img/img/projects/easter-wings/EW - Stanza 1 - Broadsheet.png)
+    ![Stanza 1](/img/img/projects/easter-wings/EW - Stanza 2 - Broadsheet.png)
+</div>
+
+## About the object
 
 The poem is published in an edition of 25 copies of each stanza. Each box contains:
 
@@ -44,3 +55,5 @@ The poem is published in an edition of 25 copies of each stanza. Each box contai
 * 5 feet of string for the kite frame
 * 1 broadsheet printed with instructions and cut lines
 * 20 feet of diamond-braided cord for kite control
+
+The included broadsheet includes suggested directions for cutting and assembling your kite.

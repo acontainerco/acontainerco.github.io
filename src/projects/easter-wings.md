@@ -1,6 +1,6 @@
 ---
 title: "Easter Wings"
-layout: layouts/project_multiple.njk
+layout: layouts/project_multiple_edition.njk
 artists: 
     -
         name: George Herbert
@@ -24,11 +24,11 @@ tags: ["latest", "objects", "time-capsules"]
 shop: 
     -
         name: Stanza 1
-        id: buy_btn_1TIgBoGYFU6eH8vpIMCEasVm
+        id: buy_btn_1TIgDHGYFU6eH8vpb5FjJsA5
         key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
     -
         name: Stanza 2
-        id: buy_btn_1TIgDHGYFU6eH8vpb5FjJsA5
+        id: buy_btn_1TIgBoGYFU6eH8vpIMCEasVm
         key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
     -
         name: Both Stanzas

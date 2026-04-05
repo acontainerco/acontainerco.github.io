@@ -1,0 +1,79 @@
+{%- include "partials/head.njk" -%}
+  {%- include "partials/menu.njk" -%}
+  <style>
+    section li { 
+    }
+    section li:first-of-type {
+      margin-top: 0;
+    }
+  </style>
+  <section>
+  <div class = "content" style = "display: unset;">
+    <div class = "masonry">
+        {%- for image in images -%}
+          <div>
+            <a href = "/img/projects/{{slug}}/{{image.name}}" data-lightbox="gallery">
+                {% image
+                    "projects/" + slug,
+                    image.name,
+                    "Product photo"
+                %}
+            </a>
+          </div>
+        {%- endfor -%}
+    </div>
+        <div id = "details" class = "featured">
+      <h2> {{ title }} </h2>
+      <h3> {{ joinArtistNames(artists) }} </h3>
+      {%- if sold_out -%}
+        <p>Sold out</p>
+      {%- else -%}
+        <p> ${{ price }}</p>
+        <div id = "shipping">
+          <ul>
+            <li> Shipping (North America): ${{ shipping_us | safe }} </li>
+            <li> Shipping (International): ${{ shipping_intl | safe }} </li>
+          </ul>
+        </div>
+      {%- endif -%}
+      {%- if not sold_out -%}
+          <div id = "buy-buttons">
+          {% for entry in shop %}
+            <stripe-buy-button
+              buy-button-id="{{ entry.id }}"
+              publishable-key="{{ entry.key }}"
+            >
+            </stripe-buy-button>
+          {% endfor %}
+          </div>
+      {%- endif -%}
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class = "content" style = "display: block;">
+      {{ content | safe }}
+      {% set multiple = isMultipleArtists(artists) %}
+      <h2>About the artist{% if multiple %}s{% endif %}</h2>
+            <div {% if multiple %}class = "content"{%endif%}>
+            {% for artist in artists %}
+              <div class = "project-2-up">
+                {% if not multiple %}
+                  <div class = "single-contributor" {% if not artist.photo %} style = "display: block;" {% endif %}>
+                {% endif %}
+                  {% image
+                      "people",
+                      artist.photo,
+                      image.alt
+                  %}
+                <div>{{ artist.bio | markdown | safe }}</div>
+                {% if not multiple %}
+                  </div>
+                {% endif %}
+                {% if not mulitple  %} <div style = "clear: both"></div> {% endif %}
+              </div>
+            {% endfor %}
+            </div>
+    </div>
+  </section>
+{%- include "partials/footer.njk" -%}

@@ -43,8 +43,8 @@ Published as part of his posthumous collection, _The Temple_ (1633), Herbert’s
 The poem consist of two stanzas, traditionally printed vertically to emphasize the shape of the poem and its relationship to content. In this edition, the poems are printed on cuttable broadsheets, as show below. Choose your favorite of the two or _both_!
 
 <div class = "content">
-    ![Stanza 1](/img/img/projects/easter-wings/EW - Stanza 1 - Broadsheet.png)
-    ![Stanza 1](/img/img/projects/easter-wings/EW - Stanza 2 - Broadsheet.png)
+    <img src = "/img/img/projects/easter-wings/EW - Stanza 1 - Broadsheet.png" alt = "Stanza 1 Broadsheet with instructions">
+    <img src = "/img/img/projects/easter-wings/EW - Stanza 2 - Broadsheet.png" alt = "Stanza 2 Broadsheet with instructions">
 </div>
 
 ## About the object

@@ -1,7 +1,5 @@
-# eleventy-site
-Simple eleventy starter site.
-
-Demo: https://bjankord.github.io/eleventy-site/
+# acontainer.co
+Source for the website of Container, a book arts press. Built with [Eleventy](https://www.11ty.dev/).
 
 ## Usage
 You can clone the repo with the following command:

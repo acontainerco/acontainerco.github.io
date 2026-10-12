@@ -2,24 +2,12 @@
 Source for the website of Container, a book arts press. Built with [Eleventy](https://www.11ty.dev/).
 
 ## Usage
-You can clone the repo with the following command:
-```
-git clone https://github.com/bjankord/eleventy-site.git
-```
-
-Alternatively, if you have `npm` >= 6 on your system, you can run
-
+Clone the repo and install dependencies:
 ```sh
-$ npm init @bjankord/eleventy-site my-site
+git clone https://github.com/acontainerco/acontainerco.github.io.git
+cd acontainerco.github.io
+npm install
 ```
-
-or if you have `npm` >= 5 on your system, you can run
-
-```sh
-$ npx @bjankord/create-eleventy-site my-site
-```
-
-And it will generate a site that matches the contents of this repo.
 
 ### Start the dev server
 ```

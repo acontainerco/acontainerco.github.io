@@ -11,7 +11,7 @@ description: Lear's Beard
 price: 50.00
 shipping_us: 7.00 
 shipping_intl: 15.00
-summary: An edition of Edward Lear's limerick "There was an Old Man with a beard," published as a pop-up book in which readers help rescue the birds stuck in a beard!
+summary: An edition of Edward Lear's limerick \"There was an Old Man with a beard,\" published as a pop-up book in which readers help rescue the birds stuck in a beard!
 production_details:  The poem is published in an edition of 10 copies.
 images: [
     {"name": "LB - Envelope.jpg", "alt": "Top-down picture of product envelope with project name and data."},

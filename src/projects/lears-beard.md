@@ -21,11 +21,7 @@ images: [
     {"name": "LB - Wren Feature.jpg", "alt": "Front-facing picture close-up of wren in popped-up position."}
 ]
 tags: ["latest", "objects", "time-capsules"]
-shop: 
-    -
-        name: Lear's Beard
-        id: buy_btn_1UZLGqGYFU6eH8vpdbh2Il3T
-        key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
+shop: https://checkout.acontainer.co/b/6oU8wP1PKb9pbTv5M90co0c
 ---
 
 ## About the poem

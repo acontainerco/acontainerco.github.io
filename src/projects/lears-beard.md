@@ -32,7 +32,7 @@ shop:
 
 This object presents the short poem "There was an Old Man with a beard", published as part of Lear's 1846 collection, _Book of Nonsense_, as a children's pop-up book. The birds included in the edition call North America home, including the Horned Lark (the only Lark indigenous to the region), the Sedge Wren, and the Long-eared Owl.
 
-As what we would today call a multidisciplinary artist, Lear's work often presented poems like this one in total, with original illustrations drawn by the author. Given the playfulness of his visual and writing styles, Lear's nonsense work enjoyed great success during his lifetime. Beyond not using the word "limerick" to describe his work, he also set his short nonsense poems apart by ending them not by rhyming, but repeating the word that would have otherwise have been a rhyme (e.g. beard/.../beard).
+As what we would today call a multidisciplinary artist, Lear's work often presented poems like this one in total, with original illustrations drawn by the author. Given the playfulness of his visual and writing styles, Lear's nonsense work enjoyed great success during his lifetime. Beyond not using the word "limerick" to describe his short nonsense poems, he also set them apart by ending them not by rhyming, but repeating the word that would have otherwise have been a rhyme (e.g. beard/.../beard).
 
 The book contains the entire printed text of the short poem:
 

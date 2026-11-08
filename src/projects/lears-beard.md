@@ -1,6 +1,5 @@
 ---
 title: "Lear's Beard"
-layout: layouts/project_multiple_edition.njk
 artists: 
     -
         name: Edward Lear

@@ -5,7 +5,7 @@ artists:
     -
         name: Edward Lear
         photo: edward_lear_beard.jpg
-        bio: "1812-1888, artist, illustrator, and writer known for work involving nonsense. Lear is perhaps best known for his limericks, though he never used that term to describe his short nonsensical poetry. His work in drawing and illustration ranged from the practical (illustrations of birds and travel) to illustrations accompanying his (and others') poetry. The illustration included as a photo for Lear is the drawing paired with the original publication of \"There was an Old Man with a beard\".
+        bio: "1812-1888, artist, illustrator, and writer known for work involving nonsense. Lear is perhaps best known for his limericks, though he never used that term to describe his short nonsensical poetry. His work in drawing and illustration ranged from the practical (illustrations of birds and travel) to illustrations accompanying his (and others') poetry. The illustration included as a photo for Lear is the drawing paired with the original publication of \"There was an Old Man with a beard\"."
 slug: lears-beard
 description: Lear's Beard
 price: 50.00

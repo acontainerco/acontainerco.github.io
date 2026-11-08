@@ -49,26 +49,57 @@ module.exports = function(eleventyConfig) {
         return title.replace(/ /g, "-").toLowerCase();
     })
 
-    eleventyConfig.addNunjucksAsyncShortcode('image', async (imgDir, src, alt, size) => {
+    eleventyConfig.addShortcode('image', (imgDir, src, alt, size) => {
         if(!src) return "";
-        let filepath = `./src/img/${imgDir}/${src}`;
+        let payload = Buffer.from(JSON.stringify({
+            dir: imgDir,
+            src: src,
+            alt: alt,
+            size: size
+        })).toString("base64");
 
-        let meta = await Image(filepath, {
-            urlPath: "/img/",
-            outputDir: `./dist/img/`,
-            formats: ["jpeg", "webp"],
-            widths: [300, 600, 900]
-        });
+        return `<img data-eleventy-img="${payload}">`;
+    });
 
-        let images = meta.jpeg;
-
-        if(size) {
-            images = images.filter(img => img.width == size);
+    eleventyConfig.addTransform("eleventy-img", async (content, outputPath) => {
+        if(!outputPath || !outputPath.endsWith(".html")) {
+            return content;
         }
 
-        let data = images[images.length - 1];
+        let placeholderRegex = /<img data-eleventy-img="([^"]+)">/g;
+        let matches = [...content.matchAll(placeholderRegex)];
+        if(matches.length === 0) {
+            return content;
+        }
 
-        return `<img src="${data.url}" alt="${alt}">`;
+        let uniquePayloads = new Set(matches.map(match => match[1]));
+        let replacements = new Map();
+
+        await Promise.all([...uniquePayloads].map(async (payload) => {
+            let data = JSON.parse(Buffer.from(payload, "base64").toString("utf8"));
+            let filepath = `./src/img/${data.dir}/${data.src}`;
+
+            let meta = await Image(filepath, {
+                urlPath: "/img/",
+                outputDir: `./dist/img/`,
+                formats: ["jpeg", "webp"],
+                widths: [300, 600, 900]
+            });
+
+            let images = meta.jpeg;
+
+            if(data.size) {
+                images = images.filter(img => img.width == data.size);
+            }
+
+            let imageData = images[images.length - 1];
+
+            replacements.set(payload, `<img src="${imageData.url}" alt="${data.alt || ''}">`);
+        }));
+
+        return content.replace(placeholderRegex, (match, payload) => {
+            return replacements.get(payload) || match;
+        });
     });
 
     eleventyConfig.addDataExtension("yaml", (contents) =>{

@@ -49,32 +49,26 @@ module.exports = function(eleventyConfig) {
         return title.replace(/ /g, "-").toLowerCase();
     })
 
-    eleventyConfig.addNunjucksShortcode('image', (imgDir, src, alt, size) => {
+    eleventyConfig.addNunjucksAsyncShortcode('image', async (imgDir, src, alt, size) => {
         if(!src) return "";
         let filepath = `./src/img/${imgDir}/${src}`;
 
-        Image(filepath, {
+        let meta = await Image(filepath, {
             urlPath: "/img/",
             outputDir: `./dist/img/`,
             formats: ["jpeg", "webp"],
             widths: [300, 600, 900]
         });
 
-        attrs = {
-            alt,
-            sizes: [300, 600, 900],
-            loading: "lazy",
-            decoding: "async"
-        };
+        let images = meta.jpeg;
 
-        let meta = Image.statsSync(filepath, {widths: [300, 600, 900]});
+        if(size) {
+            images = images.filter(img => img.width == size);
+        }
 
-        if(!size) size = meta.jpeg.length - 1;
-        else meta = meta.jpeg.filter(img => img.width == size);
+        let data = images[images.length - 1];
 
-        let data = meta.jpeg[size];
-
-        return `<img src = "${data.url}" alt = "${alt}">`;
+        return `<img src="${data.url}" alt="${alt}">`;
     });
 
     eleventyConfig.addDataExtension("yaml", (contents) =>{

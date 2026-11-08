@@ -12,7 +12,7 @@ price: 50.00
 shipping_us: 7.00 
 shipping_intl: 15.00
 summary: An edition of Edward Lear's limerick "There was an Old Man with a beard," published as a pop-up book in which readers help rescue the birds stuck in a beard! Can you help get them out?
-production_details:  The poem is published in an edition of 10 copies.
+production_details:  The poem is published in a limited edition of 10 copies.
 images: [
     {"name": "LB - Envelope.jpg", "alt": "Top-down picture of product envelope with project name and data."},
     {"name": "LB - Envelope Peek.jpg", "alt": "Top-down picture of product envelope with beard peeking out."},
@@ -21,7 +21,7 @@ images: [
     {"name": "LB - Wren Feature.jpg", "alt": "Front-facing picture close-up of wren in popped-up position."}
 ]
 tags: ["latest", "objects", "time-capsules"]
-shop: https://checkout.acontainer.co/b/6oU8wP1PKb9pbTv5M90co0c
+shop: https://checkout.acontainer.co/b/cNibJ1eCw1yPcXzb6t0co0d
 ---
 
 ## About the poem

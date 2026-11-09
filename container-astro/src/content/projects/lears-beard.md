@@ -10,7 +10,7 @@ description: Lear's Beard
 price: 50
 shipping_us: 7
 shipping_intl: 15
-summary: 'An edition of Edward Lear''s limerick \"There was an Old Man with a beard,\" published as a pop-up book in which readers help rescue the birds stuck in a beard!'
+summary: 'An edition of Edward Lear''s limerick "There was an Old Man with a beard," published as a pop-up book in which readers help rescue the birds stuck in a beard!'
 production_details: The poem is published in an edition of 10 copies.
 images:
   - name: LB - Envelope.jpg
@@ -41,10 +41,10 @@ As what we would today call a multidisciplinary artist, Lear's work often presen
 
 The book contains the entire printed text of the short poem:
 
-> There was an Old Man with a beard,
-> Who said, "It is just as I feared!—
-> Two Owls and a Hen, four Larks and a Wren,
-> Have all built their nests in my beard.
+> There was an Old Man with a beard,<br/>
+> Who said, "It is just as I feared!—<br/>
+> Two Owls and a Hen, four Larks and a Wren,<br/>
+> Have all built their nests in my beard.<br/>
 
 ## About the object
 

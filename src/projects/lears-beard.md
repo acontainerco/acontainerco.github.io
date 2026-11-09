@@ -31,9 +31,9 @@ As what we would today call a multidisciplinary artist, Lear's work often presen
 
 The book contains the entire printed text of the short poem:
 
-> There was an Old Man with a beard,
-> Who said, "It is just as I feared!—
-> Two Owls and a Hen, four Larks and a Wren,
+> There was an Old Man with a beard,<br/>
+> Who said, "It is just as I feared!—<br/>
+> Two Owls and a Hen, four Larks and a Wren,<br/>
 > Have all built their nests in my beard.
 
 ## About the object

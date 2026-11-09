@@ -9,7 +9,7 @@ const markdown = require("markdown-it")(({
   }))
 
 markdown.renderer.rules.image = (tokens, idx, options, env, self) => {
-    return html;
+    return "";
 }
 
 module.exports = function(eleventyConfig) {
@@ -86,10 +86,18 @@ module.exports = function(eleventyConfig) {
                 widths: [300, 600, 900]
             });
 
-            let images = meta.jpeg;
+            let images = meta.jpeg || meta.png || meta.webp || meta.avif;
+
+            if(!images || images.length === 0) {
+                throw new Error(`[eleventy-img] No usable image format found for ${filepath}. Generated keys: ${Object.keys(meta).join(", ")}`);
+            }
 
             if(data.size) {
                 images = images.filter(img => img.width == data.size);
+            }
+
+            if(!images.length) {
+                throw new Error(`[eleventy-img] No image at size ${data.size} for ${filepath}`);
             }
 
             let imageData = images[images.length - 1];

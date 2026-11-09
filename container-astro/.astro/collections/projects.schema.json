@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "artists": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "photo": {
+            "type": "string"
+          },
+          "bio": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "price": {
+      "type": [
+        "number",
+        "string",
+        "null"
+      ]
+    },
+    "sold_out": {
+      "default": false,
+      "type": "boolean"
+    },
+    "shipping_us": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "shipping_intl": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "shipping_included": {
+      "default": false,
+      "type": "boolean"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "production_details": {
+      "type": "string"
+    },
+    "images": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "alt": {
+            "default": "",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "tags": {
+      "anyOf": [
+        {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "type": {
+      "default": "default",
+      "type": "string",
+      "enum": [
+        "default",
+        "multiple",
+        "edition"
+      ]
+    },
+    "shop": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "link"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "type",
+              "name",
+              "url"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "button"
+              },
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string"
+              },
+              "key": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "type",
+              "name",
+              "id",
+              "key"
+            ]
+          }
+        ]
+      }
+    },
+    "edition": {
+      "type": "number"
+    },
+    "project": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "summary"
+  ]
+}

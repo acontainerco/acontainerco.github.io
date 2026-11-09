@@ -1,0 +1,19 @@
+---
+import { Image, getImage } from 'astro:assets';
+import { getProjectImage } from '../utils/images';
+
+interface Props {
+  slug: string;
+  src: string;
+  alt: string;
+  width?: number;
+}
+
+const { slug, src, alt, width = 900 } = Astro.props;
+const image = await getProjectImage(slug, src);
+const fullSize = await getImage({ src: image, width: image.width });
+---
+
+<a href={fullSize.src} data-lightbox="gallery">
+  <Image src={image} alt={alt} width={width} densities={[1, 2]} />
+</a>

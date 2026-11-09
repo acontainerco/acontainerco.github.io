@@ -1,0 +1,26 @@
+---
+import { joinArtistNames } from '../utils/artists';
+import GalleryImage from './GalleryImage.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, artists, summary, slug, images } = project.data;
+---
+
+<div class="masonry" style="grid-column-start: 1;">
+  {images.map((image) => (
+    <div>
+      <GalleryImage slug={slug} src={image.name} alt={image.alt || 'Product photo'} />
+    </div>
+  ))}
+</div>
+<div id="details" class="featured">
+  <h2>{title}</h2>
+  <h3>{joinArtistNames(artists)}</h3>
+  <p>{summary}</p>
+  <p class="button learn"><a href={`/projects/${slug}`}>Learn more ⟶</a></p>
+</div>

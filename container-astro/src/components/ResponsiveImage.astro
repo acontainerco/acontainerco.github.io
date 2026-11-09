@@ -1,0 +1,29 @@
+---
+import { Image } from 'astro:assets';
+import { getProjectImage, getPeopleImage } from '../utils/images';
+
+interface Props {
+  dir: string;
+  src: string;
+  alt: string;
+  width?: number;
+}
+
+const { dir, src, alt, width = 900 } = Astro.props;
+
+let image;
+if (dir === 'people') {
+  image = await getPeopleImage(src);
+} else if (dir.startsWith('projects/')) {
+  const slug = dir.replace('projects/', '');
+  image = await getProjectImage(slug, src);
+} else {
+  throw new Error(`Unsupported image directory: ${dir}`);
+}
+---
+
+{image ? (
+  <Image src={image} alt={alt} width={width} densities={[1, 2]} />
+) : (
+  <span>Missing image: {dir}/{src}</span>
+)}

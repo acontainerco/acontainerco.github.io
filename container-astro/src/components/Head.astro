@@ -1,0 +1,26 @@
+---
+import site from '../data/site.json';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <meta name="description" content="language in novel forms">
+  <title>{title} | {site.name}</title>
+  <link rel="icon" type="image/png" href="/img/logo.png" />
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/lightbox.min.css">
+  <link rel="stylesheet" href="https://use.typekit.net/wlr2pya.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
+  <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.6.0/dist/css/glide.theme.min.css">
+  <script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+</head>

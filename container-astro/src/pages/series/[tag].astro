@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Project2Up from '../../components/Project2Up.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  const tagSet = new Set<string>();
+  for (const project of projects) {
+    for (const tag of project.data.tags) {
+      tagSet.add(tag);
+    }
+  }
+
+  return Array.from(tagSet).map((tag) => ({
+    params: { tag },
+    props: { tag },
+  }));
+}
+
+const { tag } = Astro.props;
+const allProjects = await getCollection('projects');
+const projects = allProjects.filter((p) =>
+  p.data.tags.includes(tag)
+);
+---
+
+<Base title={`Series: ${tag}`}>
+  <section>
+    <div class="content">
+      <h2>{tag}</h2>
+      {projects.map((project) => (
+        <Project2Up project={project} />
+      ))}
+    </div>
+  </section>
+</Base>

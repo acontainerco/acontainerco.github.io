@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import { isMultipleArtists, joinArtistNames, createAnchorTag } from '../utils/artists';
+import { renderMarkdown } from '../utils/markdown';
+import GalleryImage from '../components/GalleryImage.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, artists, price, sold_out, shipping_us, shipping_intl, slug, summary, shop } = project.data;
+
+const allSeries = await getCollection('series');
+const seriesEntries = allSeries.filter((s) => s.data.series === slug);
+
+const shopEntries = Array.isArray(shop) ? shop : [];
+---
+
+<style>
+  .content img {
+    max-width: 100%;
+  }
+</style>
+
+<section>
+  <div class="content" style="display: unset;">
+    <div id="details" class="featured">
+      <h2>{title}</h2>
+      <h3>{joinArtistNames(artists)}</h3>
+      {sold_out ? (
+        <p>Sold out</p>
+      ) : (
+        <>
+          <p>${price}</p>
+          <div id="shipping">
+            <ul>
+              <li set:html={`Shipping (North America): $${shipping_us}`} />
+              <li set:html={`Shipping (International): $${shipping_intl}`} />
+            </ul>
+          </div>
+        </>
+      )}
+      <h4>About</h4>
+      <p style="margin-bottom: 1vw;">{summary}</p>
+      <slot />
+      {!sold_out && shopEntries.length > 0 && (
+        <>
+          <h4>Subscribe</h4>
+          <div id="buy-buttons">
+            {shopEntries.map((entry) => (
+              <stripe-buy-button
+                buy-button-id={entry.id}
+                publishable-key={entry.key}
+              >
+              </stripe-buy-button>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="content" style="display: unset;">
+    {seriesEntries.map((entry) => {
+      const data = entry.data;
+      const multiple = isMultipleArtists(data.artists);
+      return (
+        <>
+          <h2 id={createAnchorTag(data.title)}>{data.title}</h2>
+          <div class="glide" style="margin: 0 auto;">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                {data.images.map((image) => (
+                  <li class="glide__slide">
+                    <GalleryImage slug={slug} src={image} alt={data.title} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div set:html={renderMarkdown(data.description)} />
+          <h3>About the artist{multiple ? 's' : ''}</h3>
+          <div class={multiple ? 'content' : ''}>
+            {data.artists.map((artist) => {
+              const multipleSeries = isMultipleArtists(data.artists);
+              return multipleSeries ? (
+                <div class="project-2-up">
+                  <h4 style="column-span: unset;">{artist.name}</h4>
+                  {artist.image && (
+                    <ResponsiveImage dir="people" src={artist.image} alt={artist.name} />
+                  )}
+                  <div set:html={renderMarkdown(artist.bio)} />
+                </div>
+              ) : (
+                <div class="project-2-up">
+                  <h4 style="column-span: unset;">{artist.name}</h4>
+                  <div class="single-contributor" style={!artist.image ? 'display: block;' : ''}>
+                    {artist.image && (
+                      <ResponsiveImage dir="people" src={artist.image} alt={artist.name} />
+                    )}
+                    <div set:html={renderMarkdown(artist.bio)} />
+                  </div>
+                  <div style="clear: both" />
+                </div>
+              );
+            })}
+          </div>
+        </>
+      );
+    })}
+  </div>
+</section>

@@ -1,0 +1,94 @@
+---
+import { isMultipleArtists, joinArtistNames } from '../utils/artists';
+import { renderMarkdown } from '../utils/markdown';
+import GalleryImage from '../components/GalleryImage.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, artists, price, sold_out, shipping_us, shipping_intl, slug, images, shop } = project.data;
+const multiple = isMultipleArtists(artists);
+
+const shopEntries = Array.isArray(shop) ? shop : [];
+---
+
+<style>
+  section li {
+  }
+  section li:first-of-type {
+    margin-top: 0;
+  }
+</style>
+
+<section>
+  <div class="content" style="display: unset;">
+    <div class="masonry">
+      {images.map((image) => (
+        <div>
+          <GalleryImage slug={slug} src={image.name} alt={image.alt || 'Product photo'} />
+        </div>
+      ))}
+    </div>
+    <div id="details" class="featured">
+      <h2>{title}</h2>
+      <h3>{joinArtistNames(artists)}</h3>
+      {sold_out ? (
+        <p>Sold out</p>
+      ) : (
+        <>
+          <p>${price}</p>
+          <div id="shipping">
+            <ul>
+              <li set:html={`Shipping (North America): $${shipping_us}`} />
+              <li set:html={`Shipping (International): $${shipping_intl}`} />
+            </ul>
+          </div>
+        </>
+      )}
+      {!sold_out && shopEntries.length > 0 && (
+        <div id="buy-buttons">
+          {shopEntries.map((entry) => (
+            <stripe-buy-button
+              buy-button-id={entry.id}
+              publishable-key={entry.key}
+            >
+            </stripe-buy-button>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="content" style="display: block;">
+    <slot />
+    <h2>About the artist{multiple ? 's' : ''}</h2>
+    <div class={multiple ? 'content' : ''}>
+      {artists.map((artist) => (
+        multiple ? (
+          <div class="project-2-up">
+            {artist.photo && (
+              <ResponsiveImage dir="people" src={artist.photo} alt={artist.name} />
+            )}
+            <div set:html={renderMarkdown(artist.bio)} />
+          </div>
+        ) : (
+          <div class="project-2-up">
+            <div class="single-contributor" style={!artist.photo ? 'display: block;' : ''}>
+              {artist.photo && (
+                <ResponsiveImage dir="people" src={artist.photo} alt={artist.name} />
+              )}
+              <div set:html={renderMarkdown(artist.bio)} />
+            </div>
+            <div style="clear: both" />
+          </div>
+        )
+      ))}
+    </div>
+  </div>
+</section>

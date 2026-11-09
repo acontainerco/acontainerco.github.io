@@ -1,36 +1,27 @@
-# eleventy-site
-Simple eleventy starter site.
+# Container
 
-Demo: https://bjankord.github.io/eleventy-site/
+Source for [acontainer.co](https://acontainer.co), migrated from Eleventy to Astro. The Astro site lives in `container-astro/`.
 
-## Usage
-You can clone the repo with the following command:
-```
-git clone https://github.com/bjankord/eleventy-site.git
-```
-
-Alternatively, if you have `npm` >= 6 on your system, you can run
+## Development
 
 ```sh
-$ npm init @bjankord/eleventy-site my-site
+cd container-astro
+npm install
+npm run dev
 ```
 
-or if you have `npm` >= 5 on your system, you can run
+## Build
 
 ```sh
-$ npx @bjankord/create-eleventy-site my-site
-```
-
-And it will generate a site that matches the contents of this repo.
-
-### Start the dev server
-```
-npm run serve
-```
-
-### Build the static site
-```
+cd container-astro
+npm install
 npm run build
 ```
 
-For more information, check out the [eleventy docs](https://www.11ty.dev/).
+The static site is output to `container-astro/dist/`.
+
+## Deployment
+
+GitHub Pages builds and deploys the Astro site from `container-astro/dist` on pushes to `main`.
+
+For more information, check out the [Astro docs](https://docs.astro.build/).

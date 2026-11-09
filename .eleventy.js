@@ -82,7 +82,7 @@ module.exports = function(eleventyConfig) {
             let meta = await Image(filepath, {
                 urlPath: "/img/",
                 outputDir: `./dist/img/`,
-                formats: ["avif", "webp", "png"],
+                formats: ["avif", "jpeg", "jpg", "webp", "png"],
                 widths: [300, 600, 900]
             });
 

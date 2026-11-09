@@ -1,13 +1,12 @@
 ---
 title: 'Look Book, Series 2'
-layout: layouts/project_multiple.njk
+type: multiple
 artists:
   - name: Kristen Renee Miller
   - name: C. Kubasta and Mollie Oblinger
   - name: Chaun Webster
   - name: Bryan Borland and Seth Pennington
   - name: Christian Bök
-slug: look-book-2019
 description: 'Look Books, Series 2'
 price: null
 sold_out: true

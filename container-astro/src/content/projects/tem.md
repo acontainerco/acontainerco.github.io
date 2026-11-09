@@ -9,7 +9,6 @@ artists:
        Born in Algeria and raised in Washington D.C, Wided is currently based in in Melbourne, Australia after spending four years in Saudi Arabia. During her time in Saudi Arabia she came across Najmah Sayuti’s work on the concept of Allah (God) in pre-Islamic Arabia which led her to start researching Arabian polytheism and its relationship with the region’s monotheistic traditions, as well as myths and storytelling techniques in Bedouin culture.
        
        Wided also founded a creative non-profit platform, tazuri projects, with a focus on increasing access for traditionally marginalized groups in the creative sector. She has a continuing research interest in the creative participatory process, specifically writing as a tool for gatekeepers.
-slug: tem
 price: 250
 sold_out: false
 shipping_us: 30
@@ -28,7 +27,10 @@ images:
   - name: khadraoui_tem_5.png
     alt: '2'
 tags: objects
-shop: 'https://checkout.acontainer.co/b/fZeg2H6fd28N8zCdQU'
+shop:
+  - type: link
+    name: Purchase
+    url: 'https://checkout.acontainer.co/b/fZeg2H6fd28N8zCdQU'
 ---
 
 ## Artist's Statement

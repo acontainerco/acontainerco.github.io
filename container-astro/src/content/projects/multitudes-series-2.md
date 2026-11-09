@@ -1,6 +1,6 @@
 ---
 title: 'Multitudes, Series 2'
-layout: layouts/project_multiple.njk
+type: multiple
 artists:
   - name: CA Conrad
   - name: Johnny Damm
@@ -9,7 +9,6 @@ artists:
   - name: Anne Marie Rooney
   - name: Rebecca Siegel
   - name: Patrick Williams
-slug: multitudes-series-2
 description: 'Multitudes, Series 2'
 price: null
 sold_out: true

@@ -1,0 +1,36 @@
+---
+interface Props {
+  us?: number | null;
+  intl?: number | null;
+  included?: boolean;
+}
+
+const { us, intl, included = false } = Astro.props;
+const showUs = included || us != null;
+const showIntl = included || intl != null;
+---
+
+{showUs || showIntl ? (
+  <div id="shipping">
+    <ul>
+      {showUs && (
+        <li>
+          {included ? (
+            <><s>$0.00</s> (price inclusive of shipping)</>
+          ) : (
+            <>Shipping (North America): ${us}</>
+          )}
+        </li>
+      )}
+      {showIntl && (
+        <li>
+          {included ? (
+            <><s>$0.00</s> (price inclusive of shipping)</>
+          ) : (
+            <>Shipping (International): ${intl}</>
+          )}
+        </li>
+      )}
+    </ul>
+  </div>
+) : null}

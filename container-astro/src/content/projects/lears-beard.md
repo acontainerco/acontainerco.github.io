@@ -1,11 +1,10 @@
 ---
 title: Lear's Beard
-layout: layouts/project_multiple_edition.njk
+type: edition
 artists:
   - name: Edward Lear
     photo: edward_lear_beard.png
     bio: '1812-1888, artist, illustrator, and writer known for work involving nonsense. Lear is perhaps best known for his limericks, though he never used that term to describe his short nonsensical poetry. His work in drawing and illustration ranged from the practical (illustrations of birds and travel) to illustrations accompanying his (and others'') poetry. The illustration included as a photo for Lear is the drawing paired with the original publication of "There was an Old Man with a beard".'
-slug: lears-beard
 description: Lear's Beard
 price: 50
 shipping_us: 7
@@ -28,7 +27,8 @@ tags:
   - objects
   - time-capsules
 shop:
-  - name: Lear's Beard
+  - type: button
+    name: Lear's Beard
     id: buy_btn_1UZLGqGYFU6eH8vpdbh2Il3T
     key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
 ---

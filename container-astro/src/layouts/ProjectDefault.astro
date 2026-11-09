@@ -3,6 +3,8 @@ import { isMultipleArtists, joinArtistNames } from '../utils/artists';
 import { renderMarkdown } from '../utils/markdown';
 import GalleryImage from '../components/GalleryImage.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import ShippingInfo from '../components/ShippingInfo.astro';
+import ShopButtons from '../components/ShopButtons.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -10,7 +12,8 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { title, artists, price, sold_out, shipping_us, shipping_intl, slug, images, shop } = project.data;
+const { title, artists, price, sold_out, shipping_us, shipping_intl, shipping_included, images, shop } = project.data;
+const slug = project.id.replace(/\.md$/, '');
 const multiple = isMultipleArtists(artists);
 ---
 
@@ -38,18 +41,11 @@ const multiple = isMultipleArtists(artists);
         <p>Sold out</p>
       ) : (
         <>
-          <p>${price}</p>
-          <div id="shipping">
-            <ul>
-              <li set:html={`Shipping (North America): $${shipping_us}`} />
-              <li set:html={`Shipping (International): $${shipping_intl}`} />
-            </ul>
-          </div>
+          {price != null && <p>${price}</p>}
+          <ShippingInfo us={shipping_us} intl={shipping_intl} included={shipping_included} />
         </>
       )}
-      {!sold_out && typeof shop === 'string' && (
-        <p class="button"><a href={shop} target="_blank">Purchase ⟶</a></p>
-      )}
+      {!sold_out && shop.length > 0 && <ShopButtons entries={shop} />}
     </div>
   </div>
 </section>

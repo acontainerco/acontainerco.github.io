@@ -1,6 +1,6 @@
 ---
 title: 'Multitudes, Series 1'
-layout: layouts/project_multiple.njk
+type: multiple
 artists:
   - name: Barbara Balfour
   - name: Lillian-Yvonne Bertram
@@ -10,7 +10,6 @@ artists:
   - name: Collier Nogues
   - name: M. NourbeSe Phillip
   - name: Ryo Yamaguchi
-slug: multitudes-series-1
 description: 'Multitudes, Series 1'
 price: null
 sold_out: true
@@ -20,7 +19,7 @@ summary: 'In this series, participants transformed a 500-card capacity Rolodex O
 production_details: Objects respond to given materials or a category of item which can vary by series.
 images:
   - name: barbara_balfour_1.jpg
-    alt: '2'
+    alt: ''
   - name: michael_leong_1.jpg
     alt: ''
   - name: chase_berggrun_1.jpg

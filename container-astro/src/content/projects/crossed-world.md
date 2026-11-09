@@ -9,9 +9,6 @@ artists:
       She has collaborated with Brazilian visual artist Cyriaco Lopes cyriacolopes.com since 2005–their works together include museum and gallery shows, performance and site-specific projects featured internationally in New York, Seoul, Miami, Lisbon, and Rio de Janeiro. Collaborations with digital artist Matt Roberts mattroberts.com use augmented reality technology for smartphones to poetically map cities and have been featured in Matanza (Colombia), Glasgow, Vancouver, Lisbon, Miami, Santa Fe and Orlando.
 
       Witek directs Stetson’s undergraduate creative program and with Lopes teaches Poetry in the Expanded Field in Stetson University’s low-residency MFA of the Americas. To learn more, visit terriwitek.com.
-photo: ''
-bio: ''
-slug: crossed-world
 description: Crossed World
 price: 45
 shipping_us: 7
@@ -32,7 +29,10 @@ images:
   - name: siege-then-sing-pillow.png
     alt: '2'
 tags: objects
-shop: 'https://shop.acontainer.co/products'
+shop:
+  - type: link
+    name: Purchase
+    url: 'https://shop.acontainer.co/products'
 ---
 
 ## Artist's Statement

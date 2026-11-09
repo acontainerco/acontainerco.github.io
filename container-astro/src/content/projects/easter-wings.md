@@ -1,11 +1,10 @@
 ---
 title: Easter Wings
-layout: layouts/project_multiple_edition.njk
+type: edition
 artists:
   - name: George Herbert
     photo: george_herbert.jpg
     bio: '1593 - 1633, metaphysical poet and priest of the Church of England. He took his holy orders late in life, and died roughly 10 years after doing so. During his time as a priest, parishoners recognized him for his deep and dedicated care. The poem presented here, "Easter Wings" appeared after his death as part of a collection titled _The Temple_ in 1633.'
-slug: easter-wings
 description: Easter Wings
 price: 25.00 for one stanza; 40.00 for both stanzas
 shipping_us: 7
@@ -27,13 +26,16 @@ tags:
   - objects
   - time-capsules
 shop:
-  - name: Stanza 1
+  - type: button
+    name: Stanza 1
     id: buy_btn_1TIhI3GYFU6eH8vpdWjgAoGo
     key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
-  - name: Stanza 2
+  - type: button
+    name: Stanza 2
     id: buy_btn_1TIhJ5GYFU6eH8vp0HMuSD91
     key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
-  - name: Both Stanzas
+  - type: button
+    name: Both Stanzas
     id: buy_btn_1TIhKvGYFU6eH8vpLXQu7rmc
     key: pk_live_Upzu9ufU2GRNf6q73HMghtSA
 ---

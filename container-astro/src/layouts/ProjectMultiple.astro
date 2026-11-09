@@ -4,6 +4,8 @@ import { isMultipleArtists, joinArtistNames, createAnchorTag } from '../utils/ar
 import { renderMarkdown } from '../utils/markdown';
 import GalleryImage from '../components/GalleryImage.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import ShippingInfo from '../components/ShippingInfo.astro';
+import ShopButtons from '../components/ShopButtons.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -11,12 +13,11 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { title, artists, price, sold_out, shipping_us, shipping_intl, slug, summary, shop } = project.data;
+const { title, artists, price, sold_out, shipping_us, shipping_intl, shipping_included, summary, shop } = project.data;
+const slug = project.id.replace(/\.md$/, '');
 
 const allSeries = await getCollection('series');
 const seriesEntries = allSeries.filter((s) => s.data.series === slug);
-
-const shopEntries = Array.isArray(shop) ? shop : [];
 ---
 
 <style>
@@ -34,29 +35,18 @@ const shopEntries = Array.isArray(shop) ? shop : [];
         <p>Sold out</p>
       ) : (
         <>
-          <p>${price}</p>
-          <div id="shipping">
-            <ul>
-              <li set:html={`Shipping (North America): $${shipping_us}`} />
-              <li set:html={`Shipping (International): $${shipping_intl}`} />
-            </ul>
-          </div>
+          {price != null && <p>${price}</p>}
+          <ShippingInfo us={shipping_us} intl={shipping_intl} included={shipping_included} />
         </>
       )}
       <h4>About</h4>
       <p style="margin-bottom: 1vw;">{summary}</p>
       <slot />
-      {!sold_out && shopEntries.length > 0 && (
+      {!sold_out && shop.length > 0 && (
         <>
           <h4>Subscribe</h4>
           <div id="buy-buttons">
-            {shopEntries.map((entry) => (
-              <stripe-buy-button
-                buy-button-id={entry.id}
-                publishable-key={entry.key}
-              >
-              </stripe-buy-button>
-            ))}
+            <ShopButtons entries={shop} />
           </div>
         </>
       )}

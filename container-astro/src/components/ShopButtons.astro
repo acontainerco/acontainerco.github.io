@@ -1,0 +1,23 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type ShopEntry = CollectionEntry<'projects'>['data']['shop'][number];
+
+interface Props {
+  entries: ShopEntry[];
+}
+
+const { entries } = Astro.props;
+---
+
+{entries.map((entry) =>
+  entry.type === 'link' ? (
+    <p class="button"><a href={entry.url} target="_blank">{entry.name} ⟶</a></p>
+  ) : (
+    <stripe-buy-button
+      buy-button-id={entry.id}
+      publishable-key={entry.key}
+    >
+    </stripe-buy-button>
+  )
+)}

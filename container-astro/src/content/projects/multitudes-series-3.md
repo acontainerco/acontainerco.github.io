@@ -1,6 +1,6 @@
 ---
 title: 'Multitudes, Series 3'
-layout: layouts/project_multiple.njk
+type: multiple
 artists:
   - name: Amber Eve Anderson
   - name: Erin Dorney
@@ -8,7 +8,6 @@ artists:
   - name: Sam Sax
   - name: Sam Sheffield
   - name: Nikki Wallschlaeger
-slug: multitudes-series-3
 description: 'Multitudes, Series 3'
 price: null
 sold_out: true

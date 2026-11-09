@@ -9,7 +9,8 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { title, artists, summary, production_details, slug, images } = project.data;
+const { title, artists, summary, production_details, images } = project.data;
+const slug = project.id.replace(/\.md$/, '');
 ---
 
 <div class="project-2-up">

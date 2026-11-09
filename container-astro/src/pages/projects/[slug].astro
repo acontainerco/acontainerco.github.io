@@ -8,22 +8,22 @@ import ProjectMultipleEdition from '../../layouts/ProjectMultipleEdition.astro';
 export async function getStaticPaths() {
   const projects = await getCollection('projects');
   return projects.map((project) => ({
-    params: { slug: project.data.slug },
+    params: { slug: project.id.replace(/\.md$/, '') },
     props: { project },
   }));
 }
 
 const { project } = Astro.props;
 const { Content } = await render(project);
-const layout = project.data.layout || 'layouts/project.njk';
+const type = project.data.type;
 ---
 
 <Base title={project.data.title}>
-  {layout.includes('project_multiple_edition') ? (
+  {type === 'edition' ? (
     <ProjectMultipleEdition project={project}>
       <Content />
     </ProjectMultipleEdition>
-  ) : layout.includes('project_multiple') ? (
+  ) : type === 'multiple' ? (
     <ProjectMultiple project={project}>
       <Content />
     </ProjectMultiple>

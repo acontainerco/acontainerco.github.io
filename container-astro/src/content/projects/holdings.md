@@ -7,7 +7,6 @@ artists:
       Colette LaBouff writes essays and poems. Her writing has recently appeared in _At Length_ and _The Tenderness Project_. In 2016, she was a contributor and curator for _Documentum_ and its second issue focusing on Instagram, Pictures and Words. She is the author of one book of prose poems, _Mean_, published by University of Chicago Press in 2008.
        
        Originally from California, she earned an MFA in poetry and Ph.D. in English at University of California, Irvine. She curates the poetry and image feature at _Zocalo Public Square_ and she is the Executive Director of the Taos Center for the Arts in Taos, New Mexico.
-slug: holdings
 description: Holdings
 price: 325
 shipping_us: 30
@@ -29,7 +28,10 @@ images:
     alt: '2'
 tags:
   - objects
-shop: 'https://checkout.acontainer.co/b/4gwaIn0UT00F5nq144'
+shop:
+  - type: link
+    name: Purchase
+    url: 'https://checkout.acontainer.co/b/4gwaIn0UT00F5nq144'
 ---
 
 ## Artist's statement

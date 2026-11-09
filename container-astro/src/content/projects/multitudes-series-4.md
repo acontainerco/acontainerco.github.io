@@ -1,6 +1,6 @@
 ---
 title: 'Multitudes, Series 4'
-layout: layouts/project_multiple.njk
+type: multiple
 artists:
   - name: Brooke Schifano
   - name: Jessamyn Wolff and Jacqueline Rosenbaum
@@ -11,7 +11,6 @@ artists:
   - name: Nicholas Trefonides and Garrett L. Besonson
   - name: Shannon L. Kafka
   - name: Katie Moran and Megan Waring
-slug: multitudes-series-4
 description: 'Multitudes, Series 4'
 price: null
 sold_out: true

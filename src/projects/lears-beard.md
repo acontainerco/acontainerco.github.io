@@ -38,4 +38,4 @@ The book contains the entire printed text of the short poem:
 
 ## About the object
 
-"Lear's Beard" is published in an edition of 10 copies and distrbuted in a printed envelope. This edition uses papers by Canson and Pacon. The letters of the poem are hand-inked and laser-engraved. All of the parts that comprisde "Lear's Beard" were cut using a Rabbit RL-80-1290 at [Contemporary Craft](https://contemporarycraft.org/) in Pittsburgh, Pennsylvania.
+"Lear's Beard" is published in an edition of 10 copies and distributed in a printed envelope. This edition uses papers by Canson and Pacon. The letters of the poem are hand-inked and laser-engraved. All of the parts that comprise "Lear's Beard" were cut using a Rabbit RL-80-1290 at [Contemporary Craft](https://contemporarycraft.org/) in Pittsburgh, Pennsylvania.
